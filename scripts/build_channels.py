@@ -73,12 +73,34 @@ def write_channels(path, entries):
         f.write("</channels>\n")
 
 
+def write_ids_txt(path, entries, channels):
+    names = defaultdict(list)
+    for site, attrs, name in entries:
+        if name and name not in names[attrs["xmltv_id"]]:
+            names[attrs["xmltv_id"]].append(name)
+    rows = []
+    for xid, site_names in names.items():
+        ch = channels.get(xid.split("@", 1)[0], {})
+        alt = [a for a in ch.get("alt_names", "").split(";") if a]
+        arabic = next((n for n in alt + site_names
+                       if any("\u0600" <= c <= "\u06ff" for c in n)), "")
+        rows.append((ch.get("country", "") or "--", xid,
+                     ch.get("name") or site_names[0], arabic))
+    rows.sort(key=lambda r: (r[0], r[1].lower()))
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"# Arabic EPG - {len(rows)} channels\n")
+        f.write("# tvg-id | name | arabic name | country\n")
+        for country, xid, name, arabic in rows:
+            f.write(f"{xid} | {name} | {arabic} | {country}\n")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--epg", required=True)
     ap.add_argument("--db", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--report")
+    ap.add_argument("--ids-txt", help="write a plain text list of every tvg-id")
     ap.add_argument("--shards", type=int, default=0,
                     help="also split the list into N files (by site) for parallel grabbing")
     ap.add_argument("--shard-dir", default="shards")
@@ -140,6 +162,9 @@ def main():
             print(f"shard{i}: {load[i]} entries, sites: {', '.join(sorted(sites))}")
 
     print(f"{len(entries)} entries, {len(ids)} unique channels, {len(per_site)} sites")
+
+    if args.ids_txt:
+        write_ids_txt(args.ids_txt, entries, channels)
 
     if args.report:
         with open(args.report, "w", encoding="utf-8") as f:

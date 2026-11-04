@@ -9,6 +9,7 @@
 |---|---|
 | الدليل (XML) | `https://raw.githubusercontent.com/iimnm/arabic-epg/output/guide.xml` |
 | الدليل مضغوط (GZ) | `https://raw.githubusercontent.com/iimnm/arabic-epg/output/guide.xml.gz` |
+| قائمة tvg-id لكل القنوات | [channels.txt](channels.txt) |
 | إحصائيات القنوات والمصادر | [STATS.md](https://github.com/iimnm/arabic-epg/blob/output/STATS.md) |
 
 ضع أحد الروابط في خانة EPG / XMLTV في تطبيقك (TiviMate، IPTV Smarters، Kodi، OTT Navigator…).

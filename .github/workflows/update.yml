@@ -38,6 +38,7 @@ jobs:
             --epg epg --db database \
             --out arabic.channels.xml \
             --report SOURCES.md \
+            --ids-txt channels.txt \
             --shards "$SHARDS" --shard-dir shards \
             --exclude-sites "$(grep -v '^#' excluded_sites.txt | xargs | tr ' ' ',')"
       - id: m
@@ -48,6 +49,7 @@ jobs:
           path: |
             arabic.channels.xml
             SOURCES.md
+            channels.txt
             shards/
 
   grab:
@@ -109,7 +111,7 @@ jobs:
           ls guides | head -200
           mkdir -p out
           python3 scripts/merge_guides.py --out out/guide.xml --gzip --report out/STATS.md guides/*.xml
-          cp channels/arabic.channels.xml channels/SOURCES.md out/
+          cp channels/arabic.channels.xml channels/SOURCES.md channels/channels.txt out/
           test -s out/guide.xml
       - name: Publish to the "output" branch
         run: |
