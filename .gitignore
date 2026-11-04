@@ -1,0 +1,8 @@
+epg/
+database/
+guides/
+shards/
+out/
+__pycache__/
+*.channels.xml
+guide.xml*

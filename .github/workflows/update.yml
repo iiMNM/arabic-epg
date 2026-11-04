@@ -1,0 +1,122 @@
+name: Update Arabic EPG
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily at 02:17 UTC
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Number of days to grab (empty = each site's default)"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-epg
+  cancel-in-progress: false
+
+env:
+  SHARDS: 12
+  DAYS: ${{ github.event.inputs.days || '3' }}
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clone iptv-org/epg and iptv-org/database
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg
+          git clone --depth 1 https://github.com/iptv-org/database.git database
+      - name: Build Arabic channel list
+        run: |
+          python3 scripts/build_channels.py \
+            --epg epg --db database \
+            --out arabic.channels.xml \
+            --report SOURCES.md \
+            --shards "$SHARDS" --shard-dir shards \
+            --exclude-sites "$(grep -v '^#' excluded_sites.txt | xargs | tr ' ' ',')"
+      - id: m
+        run: echo "matrix=$(python3 -c "import json;print(json.dumps(list(range($SHARDS))))")" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: channels
+          path: |
+            arabic.channels.xml
+            SOURCES.md
+            shards/
+
+  grab:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJson(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install iptv-org/epg
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg
+          cd epg && npm ci --no-audit --no-fund
+      - uses: actions/download-artifact@v4
+        with:
+          name: channels
+          path: channels
+      - name: Grab shard ${{ matrix.shard }}
+        working-directory: epg
+        continue-on-error: true
+        run: |
+          DAYS_ARG=""
+          if [ -n "$DAYS" ]; then DAYS_ARG="--days=$DAYS"; fi
+          # a hard limit below the job timeout so the merge still gets partial results
+          timeout 280m npm run grab --- \
+            --channels=../channels/shards/shard${{ matrix.shard }}.channels.xml \
+            --output=../guides/{site}.xml \
+            --maxConnections=5 --timeout=20000 $DAYS_ARG
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: guides-${{ matrix.shard }}
+          path: guides/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  publish:
+    needs: grab
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: guides-*
+          path: guides
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: channels
+          path: channels
+      - name: Merge guides
+        run: |
+          ls guides | head -200
+          mkdir -p out
+          python3 scripts/merge_guides.py --out out/guide.xml --gzip --report out/STATS.md guides/*.xml
+          cp channels/arabic.channels.xml channels/SOURCES.md out/
+          test -s out/guide.xml
+      - name: Publish to the "output" branch
+        run: |
+          cd out
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Update EPG $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" output

@@ -1,0 +1,1 @@
+# Sites to skip (one per line), e.g. sites that are broken or too slow.
