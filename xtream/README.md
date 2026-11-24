@@ -12,9 +12,9 @@
 3. Permissions ← Repository ← **Contents: Read-only**
 4. انسخ التوكن (يبدأ بـ `github_pat_`)
 
-رابط القائمة يكون بهالشكل (غيّر اسم الفرع والملف حسب مستودعك):
+رابط القائمة يكون بهالشكل (قائمة MNM):
 ```
-https://raw.githubusercontent.com/iiMNM/MNM/main/اسم_الملف.m3u
+https://raw.githubusercontent.com/iiMNM/MNM/main/MNM.m3u
 ```
 
 ## 2) النشر على Vercel (الأسهل)
