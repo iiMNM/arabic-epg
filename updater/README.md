@@ -1,11 +1,10 @@
-# addons-updater — تحديث يومي تلقائي لإضافات Stremio على Vercel
+# addons-updater — تحديث يومي تلقائي لـ AIOMetadata على Vercel
 
 مشروع Vercel صغير فيه دالة وحدة (`api/update.mjs`) يشغّلها **Vercel Cron** كل يوم الساعة 03:41 UTC:
 
 | الإضافة | مصدر آخر إصدار | طريقة النشر |
 |---|---|---|
 | AIOMetadata (`aiometadata-mnm`) | آخر tag مستقر للصورة على `ghcr.io/cedya77/aiometadata` | Dockerfile صغير يبني من الصورة |
-| AIOLiveTV (`aiolivetv-mnm`) | آخر tag `vX.Y.Z` في `mrcanelas/aiolivetv` | يحمّل كود الإصدار ويرفعه لـ Vercel |
 
 الإصدار المنشور يتسجّل في `meta.upstreamVersion` حق الـ deployment، فما يحتاج يعدّل المستودع.
 لو الإصدار الجديد ما انبنى، Vercel يخلي النسخة القديمة شغّالة.

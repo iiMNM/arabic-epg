@@ -1,11 +1,8 @@
-// addons-updater: يشيك كل يوم على آخر إصدار رسمي لإضافات Stremio المنشورة على Vercel
+// addons-updater: يشيك كل يوم على آخر إصدار رسمي لـ AIOMetadata المنشورة على Vercel
 // ولو نزل إصدار جديد ينشره عن طريق Vercel API. يشتغل من Vercel Cron.
 //   GET /api/update            (Authorization: Bearer $CRON_SECRET)
 //   ?dry=1                     يشيك بس بدون نشر
-//   ?force=aiometadata|aiolivetv  ينشر حتى لو ما فيه تحديث
-import { gunzipSync } from 'node:zlib';
-import { createHash } from 'node:crypto';
-
+//   ?force=aiometadata         ينشر حتى لو ما فيه تحديث
 const API = 'https://api.vercel.com';
 const TEAM = process.env.VERCEL_TEAM_ID || 'team_T2xc2y0dggmF8PtqYSI4NdB7';
 const TOKEN = process.env.VERCEL_TOKEN;
@@ -27,51 +24,6 @@ async function vercel(path, init = {}) {
   const body = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(`${path}: ${res.status} ${JSON.stringify(body.error || body).slice(0, 300)}`);
   return body;
-}
-
-// ---------- tar.gz → files ----------
-function untar(buf) {
-  const out = [];
-  let off = 0, longName = null, paxPath = null;
-  const str = (b, s, l) => b.subarray(s, s + l).toString('utf8').replace(/\0.*$/s, '');
-  while (off + 512 <= buf.length) {
-    const h = buf.subarray(off, off + 512);
-    if (h.every((c) => c === 0)) break;
-    const size = parseInt(str(h, 124, 12).trim() || '0', 8);
-    const type = String.fromCharCode(h[156] || 48);
-    const mode = parseInt(str(h, 100, 8).trim() || '644', 8);
-    const prefix = str(h, 345, 155);
-    let name = longName || paxPath || (prefix ? `${prefix}/${str(h, 0, 100)}` : str(h, 0, 100));
-    const data = buf.subarray(off + 512, off + 512 + size);
-    off += 512 + Math.ceil(size / 512) * 512;
-    if (type === 'L') { longName = data.toString('utf8').replace(/\0.*$/s, ''); continue; }
-    if (type === 'x') { const m = data.toString('utf8').match(/\d+ path=([^\n]*)\n/); paxPath = m ? m[1] : null; continue; }
-    if (type === 'g') continue;
-    longName = paxPath = null;
-    if (type !== '0') continue; // ملفات عادية بس
-    name = name.split('/').slice(1).join('/'); // نشيل مجلد الـ tarball الأعلى
-    if (name) out.push({ file: name, data: Buffer.from(data), mode });
-  }
-  return out;
-}
-
-async function uploadFiles(files) {
-  const list = [];
-  let i = 0;
-  const worker = async () => {
-    while (i < files.length) {
-      const f = files[i++];
-      const sha = createHash('sha1').update(f.data).digest('hex');
-      await vercel('/v2/files', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/octet-stream', 'x-vercel-digest': sha, 'Content-Length': String(f.data.length) },
-        body: f.data,
-      });
-      list.push({ file: f.file, sha, size: f.data.length, mode: f.mode | 0o100000 });
-    }
-  };
-  await Promise.all(Array.from({ length: 16 }, worker));
-  return list;
 }
 
 // ---------- الإضافات ----------
@@ -105,28 +57,10 @@ const ADDONS = {
         services: { addon: { root: '.', entrypoint: 'Dockerfile.vercel', runtime: 'container' } },
         rewrites: [{ source: '/(.*)', destination: { service: 'addon' } }],
       }, null, 2);
-      return uploadFiles([
-        { file: 'Dockerfile.vercel', data: Buffer.from(dockerfile), mode: 0o644 },
-        { file: 'vercel.json', data: Buffer.from(vercelJson), mode: 0o644 },
-      ]);
-    },
-  },
-  aiolivetv: {
-    project: 'prj_fcsswgCKy2kf8VCOpp4Wivo18Zxe',
-    name: 'aiolivetv-mnm',
-    async latest() {
-      const r = await fetch('https://api.github.com/repos/mrcanelas/aiolivetv/tags?per_page=100', {
-        headers: { 'User-Agent': 'addons-updater', Accept: 'application/vnd.github+json' },
-      });
-      return newest((await r.json()).map((t) => t.name));
-    },
-    async fallbackCurrent(dep) {
-      return dep?.meta?.githubCommitMessage?.match(/release (\d+\.\d+\.\d+)/)?.[1];
-    },
-    async files(v) {
-      const r = await fetch(`https://codeload.github.com/mrcanelas/aiolivetv/tar.gz/refs/tags/v${v}`);
-      if (!r.ok) throw new Error(`tarball ${r.status}`);
-      return uploadFiles(untar(gunzipSync(Buffer.from(await r.arrayBuffer()))));
+      return [
+        { file: 'Dockerfile.vercel', data: dockerfile, encoding: 'utf-8' },
+        { file: 'vercel.json', data: vercelJson, encoding: 'utf-8' },
+      ];
     },
   },
 };
@@ -157,7 +91,7 @@ async function check(key, { dry, force }) {
       meta: { upstreamVersion: latest, deployedBy: 'addons-updater' },
     }),
   });
-  return { ...res, action: 'deploying', deployment: dep.id, url: dep.url, files: files.length };
+  return { ...res, action: 'deploying', deployment: dep.id, url: dep.url };
 }
 
 export default async function handler(req, res) {
