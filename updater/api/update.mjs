@@ -42,23 +42,18 @@ const ADDONS = {
       return (await (await fetch(`${this.url}/health`)).json()).version;
     },
     async files(v) {
-      const dockerfile = [
-        '# AIOMetadata على Vercel (Container) — منشور من addons-updater',
-        `FROM ghcr.io/cedya77/aiometadata:${v}`,
-        'ENV NODE_ENV=production \\',
-        '    TZ=Asia/Riyadh \\',
-        '    PORT=80',
-        'EXPOSE 80',
-        'ENTRYPOINT ["/bin/sh", "-c", "export DATABASE_URI=\\"${DATABASE_URI:-$DATABASE_URL}\\"; exec node dist/server/server.js"]',
-        '',
-      ].join('\n');
-      const vercelJson = JSON.stringify({
-        git: { deploymentEnabled: false },
-        services: { addon: { root: '.', entrypoint: 'Dockerfile.vercel', runtime: 'container' } },
-        rewrites: [{ source: '/(.*)', destination: { service: 'addon' } }],
-      }, null, 2);
+      // نفس ملفات aiometadata/vercel/ في المستودع (Dockerfile + بوابة الجاهزية)، مع تغيير الإصدار بس
+      const RAW = 'https://raw.githubusercontent.com/iimnm/arabic-epg/main/aiometadata/vercel/';
+      const get = async (f) => {
+        const r = await fetch(RAW + f);
+        if (!r.ok) throw new Error(`${f}: ${r.status}`);
+        return r.text();
+      };
+      const [dockerfile, gate, vercelJson] = await Promise.all(['Dockerfile.vercel', 'gate.mjs', 'vercel.json'].map(get));
+      if (!/^FROM ghcr\.io\/cedya77\/aiometadata:/m.test(dockerfile)) throw new Error('unexpected Dockerfile.vercel');
       return [
-        { file: 'Dockerfile.vercel', data: dockerfile, encoding: 'utf-8' },
+        { file: 'Dockerfile.vercel', data: dockerfile.replace(/^FROM ghcr\.io\/cedya77\/aiometadata:.*$/m, `FROM ghcr.io/cedya77/aiometadata:${v}`), encoding: 'utf-8' },
+        { file: 'gate.mjs', data: gate, encoding: 'utf-8' },
         { file: 'vercel.json', data: vercelJson, encoding: 'utf-8' },
       ];
     },
