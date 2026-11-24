@@ -1,0 +1,8 @@
+# AIOMetadata على Vercel (Container) — يبني من الصورة الرسمية
+FROM ghcr.io/cedya77/aiometadata:latest
+ENV NODE_ENV=production \
+    TZ=Asia/Riyadh \
+    PORT=80
+EXPOSE 80
+# Neon يعطي DATABASE_URL، والإضافة تقرأ DATABASE_URI
+ENTRYPOINT ["/bin/sh", "-c", "export DATABASE_URI=\"${DATABASE_URI:-$DATABASE_URL}\"; exec node dist/server/server.js"]

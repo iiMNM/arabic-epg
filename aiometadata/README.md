@@ -57,6 +57,20 @@ docker compose up -d
 عندك دومين خاص؟ أضف سجل `A` يأشّر على IP السيرفر وحطه في `DOMAIN` و `HOST_NAME`.
 عندك Nginx/Traefik جاهز؟ احذف خدمة `caddy` من `compose.yaml` ووجّه الدومين على `127.0.0.1:3232`.
 
+## الطريقة 3: Vercel (بدون سيرفر)
+
+الملفات في مجلد [`vercel/`](vercel): `Dockerfile.vercel` يبني من الصورة الرسمية ويشتغل كـ Container على Vercel.
+
+1. سوّ مشروع جديد في Vercel، واربط فيه من **Storage** قاعدة **Neon** (Postgres) و **Upstash Redis**
+   (لازم Redis يدعم `HSETEX`، و Upstash يدعمه).
+2. أضف المتغيّرات: `HOST_NAME=https://<مشروعك>.vercel.app` و `ADMIN_KEY` و `BUILT_IN_TMDB_API_KEY`،
+   و `REDIS_AUTOTUNE=false`. ولو Redis مجاني (500 ألف أمر بالشهر) أطفِ التسخين:
+   `ENABLE_CACHE_WARMING=false` و `CACHE_WARMUP_ON_STARTUP=false` و `TMDB_POPULAR_WARMING_ENABLED=false`
+   و `MAL_WARMUP_ENABLED=false` و `CATALOG_REFRESH_AHEAD_ENABLED=false`.
+3. من مجلد `vercel/`:  `npx vercel link`  ثم  `npx vercel deploy --prod`
+
+> `DATABASE_URI` يتعبّى تلقائياً من `DATABASE_URL` اللي يعطيك Neon.
+
 ## التركيب في Stremio
 
 1. افتح `https://<دومينك>/configure`.
