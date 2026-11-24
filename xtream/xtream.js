@@ -78,7 +78,18 @@ async function loadPlaylist() {
   const ttl = Number(env("CACHE_SECONDS", "600")) * 1000;
   if (cache.data && Date.now() - cache.at < ttl) return cache.data;
   const url = env("M3U_URL");
-  if (!url) throw new Error("M3U_URL is not set");
+  if (!url) {
+    // No URL: use a playlist file bundled with the deployment (api/_playlist.m3u, never served statically).
+    const fs = await import("node:fs");
+    const candidates = [new URL("./api/_playlist.m3u", import.meta.url), `${process.cwd()}/api/_playlist.m3u`];
+    for (const f of candidates) {
+      try {
+        cache = { at: Date.now(), data: parseM3U(fs.readFileSync(f, "utf8")) };
+        return cache.data;
+      } catch {}
+    }
+    throw new Error("M3U_URL is not set and no api/_playlist.m3u is bundled");
+  }
   const headers = { "User-Agent": "xtream-bridge" };
   const token = env("GITHUB_TOKEN");
   if (token) headers.Authorization = `token ${token}`;

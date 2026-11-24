@@ -1,3 +1,5 @@
 {
+  "outputDirectory": "public",
+  "functions": { "api/index.js": { "includeFiles": "api/_playlist.m3u" } },
   "rewrites": [{ "source": "/(.*)", "destination": "/api?__path=/$1" }]
 }
