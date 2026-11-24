@@ -1,0 +1,145 @@
+name: Update Stremio addons (Vercel)
+
+# كل يوم: يشيك على آخر إصدار رسمي لـ AIOMetadata و AIOLiveTV،
+# ولو نزل إصدار جديد يعيد النشر على Vercel ويسجّل الإصدار في المستودع.
+# يحتاج سر VERCEL_TOKEN في Settings → Secrets and variables → Actions.
+
+on:
+  schedule:
+    - cron: "41 3 * * *"   # daily at 03:41 UTC (06:41 Riyadh)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Redeploy even if already up to date"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-addons
+  cancel-in-progress: false
+
+env:
+  VERCEL_ORG_ID: team_T2xc2y0dggmF8PtqYSI4NdB7
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  FORCE: ${{ github.event.inputs.force || 'false' }}
+
+jobs:
+  aiometadata:
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_PROJECT_ID: prj_Uiv3DkX5QiK0hZzXk0vswTBob3mE
+      URL: https://aiometadata-mnm.vercel.app
+      DOCKERFILE: aiometadata/vercel/Dockerfile.vercel
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check versions
+        id: v
+        run: |
+          # آخر إصدار مستقر منشور كصورة (مو كل tag في git له صورة)
+          token=$(curl -fsS "https://ghcr.io/token?scope=repository:cedya77/aiometadata:pull" | jq -r .token)
+          latest=$(curl -fsS -H "Authorization: Bearer $token" \
+            "https://ghcr.io/v2/cedya77/aiometadata/tags/list?n=10000" \
+            | jq -r '.tags[]' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -1)
+          current=$(sed -n 's#^FROM ghcr.io/cedya77/aiometadata:\(.*\)$#\1#p' "$DOCKERFILE")
+          echo "current=$current latest=$latest"
+          [ -n "$latest" ] || { echo "::error::could not read latest version"; exit 1; }
+          echo "latest=$latest" >> "$GITHUB_OUTPUT"
+          if [ "$latest" != "$current" ] || [ "$FORCE" = "true" ]; then
+            echo "update=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "AIOMetadata is up to date ($current)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Deploy to Vercel
+        if: steps.v.outputs.update == 'true'
+        working-directory: aiometadata/vercel
+        run: |
+          [ -n "$VERCEL_TOKEN" ] || { echo "::error::VERCEL_TOKEN secret is missing"; exit 1; }
+          sed -i "s#^FROM ghcr.io/cedya77/aiometadata:.*#FROM ghcr.io/cedya77/aiometadata:${{ steps.v.outputs.latest }}#" Dockerfile.vercel
+          npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+
+      - name: Verify (rollback on failure)
+        if: steps.v.outputs.update == 'true'
+        run: |
+          want=${{ steps.v.outputs.latest }}
+          for i in $(seq 1 20); do
+            got=$(curl -fsS -m 60 "$URL/health/ready" >/dev/null && curl -fsS -m 30 "$URL/health" | jq -r .version) || got=""
+            echo "try $i: $got"
+            [ "$got" = "$want" ] && exit 0
+            sleep 15
+          done
+          echo "::error::$want did not become healthy, rolling back"
+          npx -y vercel@latest rollback --yes --token "$VERCEL_TOKEN" || true
+          exit 1
+
+      - name: Record version
+        if: steps.v.outputs.update == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DOCKERFILE"
+          git diff --cached --quiet || git commit -m "aiometadata: deploy ${{ steps.v.outputs.latest }}"
+          git pull --rebase -q && git push
+          echo "AIOMetadata updated to ${{ steps.v.outputs.latest }}" >> "$GITHUB_STEP_SUMMARY"
+
+  aiolivetv:
+    needs: aiometadata
+    if: always()
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_PROJECT_ID: prj_fcsswgCKy2kf8VCOpp4Wivo18Zxe
+      URL: https://aiolivetv-mnm.vercel.app
+      VERSION_FILE: aiolivetv/vercel/VERSION
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check versions
+        id: v
+        run: |
+          latest=$(git ls-remote --tags --refs https://github.com/mrcanelas/aiolivetv \
+            | sed 's#.*refs/tags/v\{0,1\}##' | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -1)
+          current=$(cat "$VERSION_FILE")
+          echo "current=$current latest=$latest"
+          [ -n "$latest" ] || { echo "::error::could not read latest version"; exit 1; }
+          echo "latest=$latest" >> "$GITHUB_OUTPUT"
+          if [ "$latest" != "$current" ] || [ "$FORCE" = "true" ]; then
+            echo "update=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "AIOLiveTV is up to date ($current)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Deploy to Vercel
+        if: steps.v.outputs.update == 'true'
+        run: |
+          [ -n "$VERCEL_TOKEN" ] || { echo "::error::VERCEL_TOKEN secret is missing"; exit 1; }
+          git clone --depth 1 --branch "v${{ steps.v.outputs.latest }}" https://github.com/mrcanelas/aiolivetv.git src
+          cd src
+          npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+
+      - name: Verify (rollback on failure)
+        if: steps.v.outputs.update == 'true'
+        run: |
+          for i in $(seq 1 20); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -m 60 "$URL/api/v1/status")
+            echo "try $i: HTTP $code"
+            [ "$code" = "200" ] && exit 0
+            sleep 15
+          done
+          echo "::error::AIOLiveTV did not become healthy, rolling back"
+          npx -y vercel@latest rollback --yes --token "$VERCEL_TOKEN" || true
+          exit 1
+
+      - name: Record version
+        if: steps.v.outputs.update == 'true'
+        run: |
+          echo "${{ steps.v.outputs.latest }}" > "$VERSION_FILE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$VERSION_FILE"
+          git diff --cached --quiet || git commit -m "aiolivetv: deploy ${{ steps.v.outputs.latest }}"
+          git pull --rebase -q && git push
+          echo "AIOLiveTV updated to ${{ steps.v.outputs.latest }}" >> "$GITHUB_STEP_SUMMARY"
