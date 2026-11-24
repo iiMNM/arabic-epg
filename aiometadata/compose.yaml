@@ -1,0 +1,53 @@
+# AIOMetadata — self-hosted (نسخة خاصة فيك بدل aiometadata.viren070.me)
+# التشغيل:  cp .env.sample .env  ثم عدّل .env  ثم:  docker compose up -d
+services:
+  aiometadata:
+    # صورة جاهزة من المطوّر (مصدر مفتوح AGPL-3.0: github.com/cedya77/aiometadata)
+    image: ghcr.io/cedya77/aiometadata:latest
+    container_name: aiometadata
+    restart: unless-stopped
+    init: true
+    tty: true
+    env_file: .env
+    volumes:
+      - ./data:/app/addon/data
+    # مفتوح على 127.0.0.1 فقط؛ Caddy هو اللي يطلعه للإنترنت بـ HTTPS
+    ports:
+      - "127.0.0.1:3232:3232"
+    depends_on:
+      aiometadata_redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3232/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # كاش (إجباري)
+  aiometadata_redis:
+    image: redis:7
+    container_name: aiometadata_redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --save 3600 1
+    volumes:
+      - ./cache:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # HTTPS تلقائي (Stremio ما يقبل إضافة بعيدة بدون https)
+  caddy:
+    image: caddy:2
+    container_name: aiometadata-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    command: caddy reverse-proxy --from ${DOMAIN} --to aiometadata:3232
+    volumes:
+      - ./caddy:/data
+    depends_on:
+      - aiometadata
