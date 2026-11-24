@@ -1,4 +1,4 @@
-# AIOMetadata على Vercel (Container) — يبني من الصورة الرسمية (الإصدار يحدّثه workflow update-addons تلقائياً)
+# AIOMetadata على Vercel (Container) — يبني من الصورة الرسمية (التحديث اليومي يسويه updater/ تلقائياً)
 FROM ghcr.io/cedya77/aiometadata:4.1.0
 ENV NODE_ENV=production \
     TZ=Asia/Riyadh \

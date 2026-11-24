@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": { "deploymentEnabled": false },
+  "functions": { "api/update.mjs": { "maxDuration": 300 } },
+  "crons": [{ "path": "/api/update", "schedule": "41 3 * * *" }]
+}
