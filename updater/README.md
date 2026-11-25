@@ -1,10 +1,11 @@
-# addons-updater — تحديث يومي تلقائي لـ AIOMetadata على Vercel
+# addons-updater — تحديث يومي تلقائي لإضافات Stremio على Vercel
 
 مشروع Vercel صغير فيه دالة وحدة (`api/update.mjs`) يشغّلها **Vercel Cron** كل يوم الساعة 03:41 UTC:
 
 | الإضافة | مصدر آخر إصدار | طريقة النشر |
 |---|---|---|
-| AIOMetadata (`aiometadata-mnm`) | آخر tag مستقر للصورة على `ghcr.io/cedya77/aiometadata` | Dockerfile صغير يبني من الصورة |
+| AIOMetadata (`aiometadata-mnm`) | آخر tag مستقر للصورة على `ghcr.io/cedya77/aiometadata` | ملفات `aiometadata/vercel/` مع رقم الإصدار الجديد |
+| AIOStreams (`aiostreams-mnm`) | آخر tag مستقر للصورة على `ghcr.io/viren070/aiostreams` | ملفات `aiostreams/vercel/` مع رقم الإصدار الجديد |
 
 الإصدار المنشور يتسجّل في `meta.upstreamVersion` حق الـ deployment، فما يحتاج يعدّل المستودع.
 لو الإصدار الجديد ما انبنى، Vercel يخلي النسخة القديمة شغّالة.
@@ -20,7 +21,7 @@
 
 ```sh
 curl -H "Authorization: Bearer $CRON_SECRET" "https://addons-updater.vercel.app/api/update?dry=1"   # يشيك بس
-curl -H "Authorization: Bearer $CRON_SECRET" "https://addons-updater.vercel.app/api/update?force=aiometadata"
+curl -H "Authorization: Bearer $CRON_SECRET" "https://addons-updater.vercel.app/api/update?force=aiometadata"   # أو aiostreams
 ```
 
 النتائج تطلع في **Logs** حق المشروع في Vercel.

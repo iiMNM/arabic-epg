@@ -1,0 +1,9 @@
+# AIOStreams على Vercel (Container) — يبني من الصورة الرسمية (التحديث اليومي يسويه updater/ تلقائياً)
+FROM ghcr.io/viren070/aiostreams:v2.38.1
+ENV NODE_ENV=production \
+    TZ=Asia/Riyadh \
+    PORT=80
+EXPOSE 80
+# Neon يعطي DATABASE_URL (postgresql://...)، و AIOStreams تقرأ DATABASE_URI (postgres://...).
+# الصورة distroless وفيها busybox sh بس.
+ENTRYPOINT ["/bin/sh", "-c", "u=\"${DATABASE_URI:-$DATABASE_URL}\"; case \"$u\" in postgresql://*) u=\"postgres://${u#postgresql://}\";; esac; export DATABASE_URI=\"$u\"; exec /nodejs/bin/node /app/packages/server/dist/server.js"]
