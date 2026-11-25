@@ -1,11 +1,14 @@
-// addons-updater: يشيك كل يوم على آخر إصدار رسمي لـ AIOMetadata المنشورة على Vercel
-// ولو نزل إصدار جديد ينشره عن طريق Vercel API. يشتغل من Vercel Cron.
-//   GET /api/update            (Authorization: Bearer $CRON_SECRET)
-//   ?dry=1                     يشيك بس بدون نشر
-//   ?force=aiometadata         ينشر حتى لو ما فيه تحديث
+// addons-updater: يشيك كل يوم على آخر إصدار رسمي للإضافات المنشورة على Vercel
+// (AIOMetadata و AIOStreams)، ولو نزل إصدار جديد ينشره عن طريق Vercel API. يشتغل من Vercel Cron.
+//   GET /api/update                      (Authorization: Bearer $CRON_SECRET)
+//   ?dry=1                               يشيك بس بدون نشر
+//   ?force=aiometadata|aiostreams        ينشر حتى لو ما فيه تحديث
+// ملفات النشر تنقرى من المستودع (<dir>/Dockerfile.vercel ...) ويتغيّر فيها رقم الإصدار بس.
+
 const API = 'https://api.vercel.com';
 const TEAM = process.env.VERCEL_TEAM_ID || 'team_T2xc2y0dggmF8PtqYSI4NdB7';
 const TOKEN = process.env.VERCEL_TOKEN;
+const RAW = 'https://raw.githubusercontent.com/iimnm/arabic-epg/main/';
 const SEMVER = /^v?(\d+)\.(\d+)\.(\d+)$/;
 
 const cmp = (a, b) => {
@@ -13,7 +16,6 @@ const cmp = (a, b) => {
   for (let i = 0; i < 3; i++) if (x[i] !== y[i]) return x[i] - y[i];
   return 0;
 };
-const newest = (tags) => tags.filter((t) => SEMVER.test(t)).sort(cmp).pop()?.replace(/^v/, '');
 
 async function vercel(path, init = {}) {
   const sep = path.includes('?') ? '&' : '?';
@@ -26,55 +28,71 @@ async function vercel(path, init = {}) {
   return body;
 }
 
-// ---------- الإضافات ----------
+// آخر tag مستقر (X.Y.Z أو vX.Y.Z) منشور كصورة على GHCR — مع التنقل بين الصفحات
+async function latestImageTag(image) {
+  const { token } = await (await fetch(`https://ghcr.io/token?scope=repository:${image}:pull`)).json();
+  let url = `https://ghcr.io/v2/${image}/tags/list?n=1000`;
+  const tags = [];
+  for (let page = 0; url && page < 50; page++) {
+    const r = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+    if (!r.ok) throw new Error(`ghcr ${image}: ${r.status}`);
+    tags.push(...((await r.json()).tags || []));
+    const next = r.headers.get('link')?.match(/<([^>]+)>/)?.[1];
+    url = next ? new URL(next, 'https://ghcr.io').toString() : null;
+  }
+  return tags.filter((t) => SEMVER.test(t)).sort(cmp).pop();
+}
+
 const ADDONS = {
   aiometadata: {
     project: 'prj_Uiv3DkX5QiK0hZzXk0vswTBob3mE',
     name: 'aiometadata-mnm',
-    url: 'https://aiometadata-mnm.vercel.app',
-    async latest() {
-      // آخر إصدار مستقر منشور كصورة على GHCR (مو كل tag في git له صورة)
-      const { token } = await (await fetch('https://ghcr.io/token?scope=repository:cedya77/aiometadata:pull')).json();
-      const r = await fetch('https://ghcr.io/v2/cedya77/aiometadata/tags/list?n=10000', { headers: { Authorization: `Bearer ${token}` } });
-      return newest((await r.json()).tags || []);
-    },
+    image: 'cedya77/aiometadata',
+    dir: 'aiometadata/vercel/',
+    files: ['Dockerfile.vercel', 'gate.mjs', 'vercel.json'],
     async fallbackCurrent() {
-      return (await (await fetch(`${this.url}/health`)).json()).version;
+      return (await (await fetch('https://aiometadata-mnm.vercel.app/health')).json()).version;
     },
-    async files(v) {
-      // نفس ملفات aiometadata/vercel/ في المستودع (Dockerfile + بوابة الجاهزية)، مع تغيير الإصدار بس
-      const RAW = 'https://raw.githubusercontent.com/iimnm/arabic-epg/main/aiometadata/vercel/';
-      const get = async (f) => {
-        const r = await fetch(RAW + f);
-        if (!r.ok) throw new Error(`${f}: ${r.status}`);
-        return r.text();
-      };
-      const [dockerfile, gate, vercelJson] = await Promise.all(['Dockerfile.vercel', 'gate.mjs', 'vercel.json'].map(get));
-      if (!/^FROM ghcr\.io\/cedya77\/aiometadata:/m.test(dockerfile)) throw new Error('unexpected Dockerfile.vercel');
-      return [
-        { file: 'Dockerfile.vercel', data: dockerfile.replace(/^FROM ghcr\.io\/cedya77\/aiometadata:.*$/m, `FROM ghcr.io/cedya77/aiometadata:${v}`), encoding: 'utf-8' },
-        { file: 'gate.mjs', data: gate, encoding: 'utf-8' },
-        { file: 'vercel.json', data: vercelJson, encoding: 'utf-8' },
-      ];
+  },
+  aiostreams: {
+    project: 'prj_8LjP7ByrZy4nMhOVHpwVw48y1etj',
+    name: 'aiostreams-mnm',
+    image: 'viren070/aiostreams',
+    dir: 'aiostreams/vercel/',
+    files: ['Dockerfile.vercel', 'vercel.json'],
+    async fallbackCurrent() {
+      return (await (await fetch('https://aiostreams-mnm.vercel.app/api/v1/status')).json()).data?.tag;
     },
   },
 };
 
 async function current(addon) {
   const { deployments } = await vercel(`/v6/deployments?projectId=${addon.project}&target=production&state=READY&limit=1`);
-  const dep = deployments?.[0];
-  return dep?.meta?.upstreamVersion || (await addon.fallbackCurrent(dep));
+  return deployments?.[0]?.meta?.upstreamVersion || (await addon.fallbackCurrent());
+}
+
+async function buildFiles(addon, tag) {
+  const from = new RegExp(`^FROM ghcr\\.io/${addon.image.replace('/', '\\/')}:.*$`, 'm');
+  return Promise.all(addon.files.map(async (f) => {
+    const r = await fetch(RAW + addon.dir + f);
+    if (!r.ok) throw new Error(`${addon.dir}${f}: ${r.status}`);
+    let data = await r.text();
+    if (f === 'Dockerfile.vercel') {
+      if (!from.test(data)) throw new Error(`unexpected ${addon.dir}${f}`);
+      data = data.replace(from, `FROM ghcr.io/${addon.image}:${tag}`);
+    }
+    return { file: f, data, encoding: 'utf-8' };
+  }));
 }
 
 async function check(key, { dry, force }) {
   const addon = ADDONS[key];
-  const [now, latest] = await Promise.all([current(addon), addon.latest()]);
+  const [now, latest] = await Promise.all([current(addon), latestImageTag(addon.image)]);
   const res = { addon: key, current: now, latest };
   if (!latest) throw new Error('could not read latest version');
   const outdated = !now || !SEMVER.test(now) || cmp(latest, now) > 0;
   if (!outdated && force !== key) return { ...res, action: 'up-to-date' };
   if (dry) return { ...res, action: 'would-deploy' };
-  const files = await addon.files(latest);
   const dep = await vercel('/v13/deployments?forceNew=1&skipAutoDetectionConfirmation=1', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -82,7 +100,7 @@ async function check(key, { dry, force }) {
       name: addon.name,
       project: addon.project,
       target: 'production',
-      files,
+      files: await buildFiles(addon, latest),
       meta: { upstreamVersion: latest, deployedBy: 'addons-updater' },
     }),
   });
@@ -95,11 +113,8 @@ export default async function handler(req, res) {
   }
   if (!TOKEN) return res.status(500).json({ error: 'VERCEL_TOKEN is not set' });
   const opts = { dry: req.query.dry === '1', force: req.query.force };
-  const results = [];
-  for (const key of Object.keys(ADDONS)) {
-    try { results.push(await check(key, opts)); }
-    catch (e) { results.push({ addon: key, error: String(e.message || e) }); }
-  }
+  const results = await Promise.all(Object.keys(ADDONS).map((key) =>
+    check(key, opts).catch((e) => ({ addon: key, error: String(e.message || e) }))));
   console.log(JSON.stringify(results));
   res.status(results.some((r) => r.error) ? 500 : 200).json(results);
 }
