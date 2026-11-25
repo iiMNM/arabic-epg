@@ -1,4 +1,5 @@
 // بوابة صغيرة قدّام AIOMetadata على Vercel.
+// تشغّل Redis محلي (بدل Redis خارجي ينقطع أو يخلص حده المجاني)، بعدين الإضافة.
 // السيرفر ينام لما ما أحد يستخدمه، وأول ما يصحى يرد 503 "still initializing" لين يجهز،
 // و Stremio يعتبرها فشل ويعلق. البوابة تمسك الطلبات وتنتظر لين الإضافة تجهز، بعدين تمررها.
 import http from 'node:http';
@@ -8,12 +9,25 @@ const PUBLIC_PORT = Number(process.env.PORT || 80);
 const APP_PORT = 3232;
 const MAX_WAIT_MS = 45000;
 
+const redis = spawn('redis-server', [
+  '--bind', '127.0.0.1', '--port', '6379', '--save', '', '--appendonly', 'no',
+  '--maxmemory', process.env.LOCAL_REDIS_MAXMEMORY || '384mb', '--maxmemory-policy', 'allkeys-lfu',
+], { stdio: 'inherit' });
+redis.on('exit', (code) => { console.error(`[gate] redis exited (${code})`); process.exit(1); });
+
 const app = spawn('node', ['dist/server/server.js'], {
   stdio: 'inherit',
-  env: { ...process.env, PORT: String(APP_PORT) },
+  env: {
+    ...process.env,
+    PORT: String(APP_PORT),
+    REDIS_URL: 'redis://127.0.0.1:6379',
+    REDIS_AUTOTUNE: 'false',
+    // كل نسخة لها كاش؛ الإعدادات تتحدّث من Postgres خلال دقيقة
+    CONFIG_CACHE_TTL_SEC: process.env.CONFIG_CACHE_TTL_SEC || '60',
+  },
 });
-app.on('exit', (code, sig) => process.exit(code ?? (sig ? 1 : 0)));
-for (const s of ['SIGTERM', 'SIGINT']) process.on(s, () => app.kill(s));
+app.on('exit', (code, sig) => { redis.kill('SIGTERM'); process.exit(code ?? (sig ? 1 : 0)); });
+for (const s of ['SIGTERM', 'SIGINT']) process.on(s, () => { app.kill(s); redis.kill(s); });
 
 let ready = false;
 let waiting = null;

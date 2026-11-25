@@ -1,9 +1,12 @@
 # AIOMetadata على Vercel (Container) — يبني من الصورة الرسمية (التحديث اليومي يسويه updater/ تلقائياً)
 FROM ghcr.io/cedya77/aiometadata:4.1.0
+# Redis 8 محلي داخل الحاوية (الإضافة تحتاج HSETEX/HTTL). كل نسخة لها كاشها، والإعدادات في Postgres.
+COPY --from=redis:8-alpine /usr/local/bin/redis-server /usr/local/bin/redis-server
+RUN apk add --no-cache libssl3 libcrypto3 zstd-libs lz4-libs && redis-server --version
 ENV NODE_ENV=production \
     TZ=Asia/Riyadh \
     PORT=80
 COPY gate.mjs /app/gate.mjs
 EXPOSE 80
-# Neon يعطي DATABASE_URL، والإضافة تقرأ DATABASE_URI. gate.mjs يمسك الطلبات لين الإضافة تجهز.
+# Neon يعطي DATABASE_URL، والإضافة تقرأ DATABASE_URI. gate.mjs يشغّل Redis ويمسك الطلبات لين الإضافة تجهز.
 ENTRYPOINT ["/bin/sh", "-c", "export DATABASE_URI=\"${DATABASE_URI:-$DATABASE_URL}\"; exec node /app/gate.mjs"]
