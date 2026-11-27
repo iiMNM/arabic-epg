@@ -63,8 +63,8 @@ export const CONFIGURE_HTML = `<!doctype html>
 
     <details>
       <summary>إعدادات إضافية</summary>
-      <label for="format">صيغة البث المباشر المفضّلة</label>
-      <select id="format"><option value="m3u8">HLS (m3u8) — الأفضل لأغلب الأجهزة</option><option value="ts">MPEG-TS (ts)</option></select>
+      <label for="format">صيغة البث المباشر</label>
+      <select id="format"><option value="m3u8">HLS بس — لازم لأجهزة Apple و Odin (الافتراضي)</option><option value="ts">MPEG-TS أول + HLS — لـ VLC و Stremio بالكمبيوتر</option></select>
       <label for="name">اسم الإضافة في Stremio</label>
       <input id="name" type="text" placeholder="Xtream IPTV" maxlength="60">
       <p class="hint">مفيد لو بتركّب أكثر من اشتراك.</p>

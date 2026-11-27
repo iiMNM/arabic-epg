@@ -15,7 +15,7 @@
 
 import { getGuide, programmesFor, probeEpg } from "./epg.js";
 
-const VERSION = "1.2.0";
+const VERSION = "1.3.0";
 const PAGE = 100;
 
 const env = (k, d = "") =>
@@ -543,33 +543,19 @@ function isoDate(s) {
 
 // ---------- streams ----------
 
-// The live formats the account may use (user_info.allowed_output_formats); offering a format
-// the panel refuses makes players fail instead of falling back.
-async function liveFormats(cfg) {
-  try {
-    const info = await xtream(cfg, "", {}, 3600);
-    const f = asArray(info && info.user_info && info.user_info.allowed_output_formats).map((x) => String(x).toLowerCase());
-    const ok = ["m3u8", "ts"].filter((x) => f.includes(x));
-    // Apple players (Odin, Infuse, AVPlayer) only play HLS, and many panels serve it without listing it
-    if (ok.length && !ok.includes("m3u8")) ok.push("m3u8");
-    if (ok.length) return ok;
-  } catch {}
-  return ["m3u8", "ts"];
-}
-
 async function streams(cfg, id) {
   const [, kind, xid, e] = id.split(":");
   const u = encodeURIComponent(cfg.u), p = encodeURIComponent(cfg.p);
   const hints = { notWebReady: true, bingeGroup: `xtream-${kind}` };
   if (kind === "live") {
-    const pref = cfg.f === "ts" ? "ts" : "m3u8";
-    const formats = (await liveFormats(cfg)).sort((a, b) => (b === pref) - (a === pref));
-    return {
-      streams: formats.map((f) => {
-        const label = f === "m3u8" ? "HLS (m3u8)" : "MPEG-TS";
-        return { name: "Xtream", title: `📡 Live · ${label}`, description: label, url: `${cfg.s}/live/${u}/${p}/${xid}.${f}`, behaviorHints: hints };
-      }),
-    };
+    // One HLS link by default. Apple players (Odin, Infuse, AVPlayer) can't play MPEG-TS, and
+    // AIOStreams re-sorts an addon's links by stream type (HLS counts as "live", .ts as "http"),
+    // so offering both can put the .ts first and Odin plays only the first one.
+    // MPEG-TS is added only when chosen on the configure page (players such as VLC/Stremio desktop).
+    const hls = { name: "Xtream", description: "HLS", url: `${cfg.s}/live/${u}/${p}/${xid}.m3u8`, behaviorHints: { bingeGroup: "xtream-live" } };
+    if (cfg.f !== "ts") return { streams: [hls] };
+    const ts = { name: "Xtream", description: "MPEG-TS", url: `${cfg.s}/live/${u}/${p}/${xid}.ts`, behaviorHints: { notWebReady: true, bingeGroup: "xtream-live" } };
+    return { streams: [ts, hls] };
   }
   if (kind === "vod") {
     return { streams: [{ name: "Xtream", title: `🎬 ${(e || "mp4").toUpperCase()}`, url: `${cfg.s}/movie/${u}/${p}/${xid}.${ext(e, "mp4")}`, behaviorHints: hints }] };
@@ -781,7 +767,10 @@ export async function handle(request, configurePage) {
     }
     if (!id.startsWith("xt:")) return json(resource === "meta" ? { meta: null } : { streams: [] }, 3600);
     if (resource === "meta") return json({ ...(await meta(cfg, type, id)), cacheMaxAge: id.startsWith("xt:live") ? 300 : 3600 }, 300);
-    if (resource === "stream") return json({ ...(await streams(cfg, id)), cacheMaxAge: 3600 }, 3600);
+    if (resource === "stream") {
+      const live = id.startsWith("xt:live:");
+      return json({ ...(await streams(cfg, id)), cacheMaxAge: live ? 300 : 3600 }, live ? 300 : 3600);
+    }
   } catch (e) {
     console.error(e);
     return json({ error: e.message }, 0, 500);
