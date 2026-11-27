@@ -44,3 +44,11 @@ cd epg && npm ci
 npm run grab --- --channels=../arabic.channels.xml --output=../guides/{site}.xml --maxConnections=5 --days=3
 cd .. && python3 scripts/merge_guides.py --out guide.xml --gzip guides/*.xml
 ```
+
+## مشاريع ثانية في المستودع
+
+| المجلد | الوصف |
+|---|---|
+| [`stremio-xtream/`](stremio-xtream) | إضافة Stremio لأي اشتراك Xtream (قنوات + أفلام + مسلسلات) |
+| [`xtream/`](xtream) | تحويل قائمة M3U + EPG إلى سيرفر Xtream |
+| [`aiostreams/`](aiostreams) · [`aiometadata/`](aiometadata) · [`updater/`](updater) | استضافة إضافات Stremio على Vercel وتحديثها يومياً |
