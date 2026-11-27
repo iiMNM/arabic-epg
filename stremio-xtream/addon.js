@@ -11,8 +11,11 @@
 //   XT_UA          User-Agent sent to the Xtream API (default "IPTVSmartersPro")
 //   DISPLAY_TZ     time zone for the "now playing" guide (default Asia/Riyadh)
 //   CACHE_SECONDS  how long Xtream lists stay in memory (default 900)
+//   EPG_CACHE_SECONDS  how long an external XMLTV guide stays in memory (default 10800)
 
-const VERSION = "1.0.0";
+import { getGuide, programmesFor, probeEpg } from "./epg.js";
+
+const VERSION = "1.1.0";
 const PAGE = 100;
 
 const env = (k, d = "") =>
@@ -280,7 +283,19 @@ async function catalog(cfg, catalogId, extra) {
     list = [...list].sort((a, b) => Number(b.added || b.last_modified || 0) - Number(a.added || a.last_modified || 0));
   }
   const skip = Math.max(0, parseInt(extra.skip || "0", 10) || 0);
-  return { metas: list.slice(skip, skip + PAGE).map((x) => toMeta(kind, x)) };
+  const page = list.slice(skip, skip + PAGE);
+  if (kind === "live" && cfg.e) {
+    // "now playing" under each channel, only when the guide is already in memory (never blocks the list)
+    const guide = await getGuide(cfg.e, false);
+    const now = Date.now() / 1000;
+    return {
+      metas: page.map((x) => {
+        const cur = (programmesFor(guide, x) || []).find((p) => p.start <= now);
+        return { ...toMeta(kind, x), description: cur ? `▶ ${cur.title}` : undefined };
+      }),
+    };
+  }
+  return { metas: page.map((x) => toMeta(kind, x)) };
 }
 
 // ---------- meta ----------
@@ -297,18 +312,40 @@ function fmtTime(ts) {
   }
 }
 
-async function liveGuide(cfg, streamId) {
+// Upcoming programmes for a live stream: external XMLTV first (if set), then the Xtream short EPG.
+async function upcoming(cfg, stream, wait = true) {
+  if (cfg.e) {
+    const progs = programmesFor(await getGuide(cfg.e, wait), stream);
+    if (progs && progs.length) return progs;
+    if (!wait) return [];
+  }
+  if (!wait) return [];
   try {
-    const r = await xtream(cfg, "get_short_epg", { stream_id: streamId, limit: "6" }, 300);
+    const r = await xtream(cfg, "get_short_epg", { stream_id: stream.stream_id, limit: "6" }, 300);
     const now = Date.now() / 1000;
     return asArray(r && r.epg_listings)
-      .filter((e) => Number(e.stop_timestamp || 0) > now)
-      .slice(0, 5)
-      .map((e) => `${fmtTime(e.start_timestamp)}  ${decodeB64Text(e.title)}`.trim())
-      .filter(Boolean);
+      .map((e) => ({
+        start: Number(e.start_timestamp),
+        stop: Number(e.stop_timestamp),
+        title: decodeB64Text(e.title),
+        desc: decodeB64Text(e.description),
+      }))
+      .filter((e) => e.stop > now && e.title);
   } catch {
     return [];
   }
+}
+
+function guideText(progs) {
+  if (!progs.length) return undefined;
+  const now = Date.now() / 1000;
+  const lines = progs.slice(0, 6).map((p) => {
+    const on = p.start <= now && p.stop > now;
+    return `${on ? "▶ " : ""}${fmtTime(p.start)}–${fmtTime(p.stop)}  ${p.title}`;
+  });
+  const cur = progs[0].start <= now ? progs[0] : null;
+  if (cur && cur.desc) lines.splice(1, 0, cur.desc.slice(0, 300), "");
+  return lines.join("\n");
 }
 
 async function meta(cfg, type, id) {
@@ -318,14 +355,14 @@ async function meta(cfg, type, id) {
     const [list, cats] = await Promise.all([items(cfg, "live"), categories(cfg, "live").catch(() => [])]);
     const x = list.find((s) => String(s.stream_id) === xid);
     if (!x) return { meta: null };
-    const guide = await liveGuide(cfg, xid);
+    const progs = await upcoming(cfg, x);
     const cat = cats.find((c) => String(c.category_id) === String(x.category_id));
     return {
       meta: {
         ...toMeta("live", x),
         background: img(x.stream_icon),
         genres: cat ? [cat.category_name] : undefined,
-        description: guide.length ? guide.join("\n") : undefined,
+        description: guideText(progs),
         behaviorHints: { defaultVideoId: id },
       },
     };
@@ -477,6 +514,11 @@ async function makeLink(request, base) {
   for (const k of ["live", "vod", "series"]) if (body[k] === false) cfg[k] = 0;
   if (body.format === "ts") cfg.f = "ts";
   if (body.name) cfg.n = String(body.name).trim().slice(0, 60);
+  const epg = String(body.epg || "").trim();
+  if (epg) {
+    if (!/^https?:\/\/\S+$/i.test(epg)) return json({ error: "epg-url" }, 0, 400);
+    cfg.e = epg;
+  }
 
   let info;
   try {
@@ -486,6 +528,10 @@ async function makeLink(request, base) {
   }
   const ui = info && info.user_info;
   if (!ui || Number(ui.auth) !== 1) return json({ error: "auth" }, 0, 401);
+
+  const epgProblem = cfg.e ? await probeEpg(cfg.e) : null;
+  if (epgProblem) return json({ error: "epg", detail: epgProblem }, 0, 400);
+  if (cfg.e) getGuide(cfg.e).catch(() => {}); // warm the cache
 
   const token = await encodeConfig(cfg);
   const manifestUrl = `${base}/${token}/manifest.json`;

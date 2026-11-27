@@ -49,6 +49,11 @@ export const CONFIGURE_HTML = `<!doctype html>
     <label for="password">الباسورد</label>
     <input id="password" class="ltr" type="password" required autocomplete="current-password">
 
+    <label for="epg">رابط EPG <span style="font-weight:400;color:var(--muted)">(اختياري)</span></label>
+    <input id="epg" class="ltr" type="url" placeholder="https://…/guide.xml.gz" inputmode="url" autocapitalize="off" spellcheck="false">
+    <p class="hint">أي رابط XMLTV (‎.xml أو ‎.xml.gz). يعرض "وش يعرض الحين" والبرامج الجاية لكل قناة. لو تركته فاضي يستخدم EPG السيرفر.
+      <a href="#" id="arepg" style="color:var(--accent)">استخدم دليل القنوات العربية</a></p>
+
     <label>المحتوى</label>
     <div class="checks">
       <label><input type="checkbox" id="live" checked> قنوات مباشرة</label>
@@ -85,6 +90,8 @@ const ERR = {
   auth: "اليوزر أو الباسورد غلط، أو الاشتراك منتهي.",
   connect: "ما قدرت أتصل بالسيرفر. تأكد من الرابط والبورت (بعض السيرفرات تحجب سيرفرات الاستضافة).",
   missing: "عبّ كل الخانات.",
+  "epg-url": "رابط الـ EPG لازم يبدأ بـ http:// أو https://",
+  epg: "رابط الـ EPG ما اشتغل أو مو ملف XMLTV. تأكد منه أو خلّه فاضي.",
 };
 $("f").addEventListener("submit", async (ev) => {
   ev.preventDefault();
@@ -96,11 +103,11 @@ $("f").addEventListener("submit", async (ev) => {
       body: JSON.stringify({
         server: $("server").value, username: $("username").value, password: $("password").value,
         live: $("live").checked, vod: $("vod").checked, series: $("series").checked,
-        format: $("format").value, name: $("name").value,
+        format: $("format").value, name: $("name").value, epg: $("epg").value,
       }),
     });
     const d = await r.json();
-    if (!r.ok) { msg(ERR[d.error] || ("خطأ: " + (d.detail || d.error || r.status)), "bad"); return; }
+    if (!r.ok) { msg((ERR[d.error] || "خطأ:") + (d.detail && d.error !== "auth" ? " (" + d.detail + ")" : ""), "bad"); return; }
     let t = "تم ✓ الحساب " + (d.account.status || "Active");
     if (d.account.exp) t += " — ينتهي " + new Date(d.account.exp * 1000).toLocaleDateString("ar");
     msg(t, "good");
@@ -113,6 +120,7 @@ $("f").addEventListener("submit", async (ev) => {
     msg("صار خطأ بالاتصال: " + e.message, "bad");
   } finally { $("go").disabled = false; }
 });
+$("arepg").addEventListener("click", (e) => { e.preventDefault(); $("epg").value = "https://raw.githubusercontent.com/iimnm/arabic-epg/output/guide.xml.gz"; });
 $("copy").addEventListener("click", async () => {
   try { await navigator.clipboard.writeText($("url").value); $("copy").textContent = "تم النسخ ✓"; }
   catch { $("url").select(); }
