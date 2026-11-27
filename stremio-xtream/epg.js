@@ -1,5 +1,5 @@
 // External XMLTV guide (plain .xml or .xml.gz), streamed and kept in memory per URL.
-// Only programmes from the last hour to the next 24 hours are stored, so even big guides stay small.
+// Only programmes from the start of today (UTC) to EPG_DAYS ahead (default 2) are stored, so even big guides stay small.
 
 const EPG_TTL = () => Number(globalThis.process?.env?.EPG_CACHE_SECONDS || 3 * 3600) * 1000;
 const guides = new Map(); // url -> { at, data, promise }
@@ -73,7 +73,8 @@ async function openStream(url) {
 
 async function loadGuide(url) {
   const now = Date.now() / 1000;
-  const from = now - 3600, to = now + 24 * 3600;
+  const days = Number(globalThis.process?.env?.EPG_DAYS || 2);
+  const from = Math.min(now - 3600, Math.floor(now / 86400) * 86400), to = now + days * 86400;
   const progs = new Map(); // channel id -> [{start, stop, title, desc}]
   const byId = new Map(); // idKey -> channel id
   const names = new Map(); // nameKey -> Set of channel ids
@@ -146,14 +147,13 @@ export async function getGuide(url, wait = true) {
 }
 
 // Programmes for an Xtream live stream, matched by epg_channel_id then by name.
-export function programmesFor(guide, stream) {
+export function programmesFor(guide, stream, from = Date.now() / 1000, to = Infinity) {
   if (!guide) return null;
   const eid = String(stream.epg_channel_id || "").trim();
   let ch = eid && (guide.progs.has(eid) ? eid : guide.byId.get(idKey(eid)));
   if (!ch || !guide.progs.has(ch)) ch = guide.byName.get(nameKey(stream.name)) || null;
   if (!ch) return null;
-  const now = Date.now() / 1000;
-  return (guide.progs.get(ch) || []).filter((p) => p.stop > now);
+  return (guide.progs.get(ch) || []).filter((p) => p.stop > from && p.start < to);
 }
 
 // Quick check that a URL answers and looks like XMLTV (reads only the first bytes).

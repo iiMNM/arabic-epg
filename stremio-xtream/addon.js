@@ -15,7 +15,7 @@
 
 import { getGuide, programmesFor, probeEpg } from "./epg.js";
 
-const VERSION = "1.1.0";
+const VERSION = "1.2.0";
 const PAGE = 100;
 
 const env = (k, d = "") =>
@@ -229,10 +229,13 @@ export async function manifest(cfg, base) {
         { name: "genre", options, isRequired: false },
         { name: "search", isRequired: false },
         { name: "skip", isRequired: false },
+        // programme guide (Stremio's Live TV guide, AIOStreams / Jellyfin apps such as Odin)
+        ...(kind === "live" ? [{ name: "date", isRequired: false }, { name: "ids", isRequired: false }] : []),
       ],
       genres: options,
     });
   }
+  if (cfg.live !== 0) m.behaviorHints.epgProvider = true;
   return m;
 }
 
@@ -261,6 +264,7 @@ const norm = (s) =>
 async function catalog(cfg, catalogId, extra) {
   const kind = catalogId.replace(/^xt-/, "");
   if (!KINDS[kind]) return { metas: [] };
+  if (kind === "live") return liveCatalog(cfg, extra);
   let list = await items(cfg, kind);
 
   if (extra.genre) {
@@ -283,19 +287,127 @@ async function catalog(cfg, catalogId, extra) {
     list = [...list].sort((a, b) => Number(b.added || b.last_modified || 0) - Number(a.added || a.last_modified || 0));
   }
   const skip = Math.max(0, parseInt(extra.skip || "0", 10) || 0);
-  const page = list.slice(skip, skip + PAGE);
-  if (kind === "live" && cfg.e) {
-    // "now playing" under each channel, only when the guide is already in memory (never blocks the list)
-    const guide = await getGuide(cfg.e, false);
-    const now = Date.now() / 1000;
-    return {
-      metas: page.map((x) => {
-        const cur = (programmesFor(guide, x) || []).find((p) => p.start <= now);
-        return { ...toMeta(kind, x), description: cur ? `▶ ${cur.title}` : undefined };
-      }),
-    };
+  return { metas: list.slice(skip, skip + PAGE).map((x) => toMeta(kind, x)) };
+}
+
+// ---------- live TV: channel numbers, groups and the programme guide ----------
+
+const liveIndex = new WeakMap(); // stream list -> { number, byId }
+function indexOf(list) {
+  let ix = liveIndex.get(list);
+  if (!ix) {
+    ix = { number: new Map(), byId: new Map() };
+    list.forEach((x, i) => {
+      ix.number.set(String(x.stream_id), String(Number(x.num) || i + 1));
+      ix.byId.set(String(x.stream_id), x);
+    });
+    liveIndex.set(list, ix);
   }
-  return { metas: page.map((x) => toMeta(kind, x)) };
+  return ix;
+}
+
+async function liveContext(cfg) {
+  const [list, cats] = await Promise.all([items(cfg, "live"), categories(cfg, "live").catch(() => [])]);
+  const catName = new Map(cats.map((c) => [String(c.category_id), String(c.category_name).trim()]));
+  return { list, cats, catName, ix: indexOf(list) };
+}
+
+function channelMeta(ctx, x) {
+  const group = ctx.catName.get(String(x.category_id));
+  return { ...toMeta("live", x), channelNumber: ctx.ix.number.get(String(x.stream_id)), genres: group ? [group] : undefined };
+}
+
+const iso = (t) => new Date(t * 1000).toISOString();
+function videosOf(x, progs) {
+  return progs.map((p) => ({
+    id: `xt:live:${x.stream_id}:${p.start}`,
+    title: p.title,
+    startTime: iso(p.start),
+    endTime: iso(p.stop),
+    released: iso(p.start),
+    overview: p.desc || undefined,
+  }));
+}
+
+const withTimeout = (promise, ms) => Promise.race([promise, new Promise((r) => setTimeout(r, ms))]);
+async function pool(list, n, fn) {
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.min(n, list.length) }, async () => {
+    while (i < list.length) await fn(list[i++]).catch(() => {});
+  }));
+}
+
+async function shortEpg(cfg, x, limit = 10) {
+  const r = await xtream(cfg, "get_short_epg", { stream_id: x.stream_id, limit: String(limit) }, 900);
+  return asArray(r && r.epg_listings)
+    .map((e) => ({
+      start: Number(e.start_timestamp),
+      stop: Number(e.stop_timestamp),
+      title: decodeB64Text(e.title),
+      desc: decodeB64Text(e.description),
+    }))
+    .filter((e) => e.stop > e.start && e.title);
+}
+
+// Programmes in [from, to) per stream id: the external XMLTV first, the Xtream EPG for the rest.
+async function schedules(cfg, chans, from, to, waitMs = 8000) {
+  const out = new Map();
+  const guide = cfg.e ? await withTimeout(getGuide(cfg.e, true), waitMs) : null;
+  const missing = [];
+  for (const x of chans) {
+    const p = guide ? programmesFor(guide, x, from, to) : null;
+    if (p && p.length) out.set(String(x.stream_id), p);
+    else if (x.epg_channel_id) missing.push(x); // the server has no guide for channels without an EPG id
+  }
+  const now = Date.now() / 1000;
+  if (missing.length && to > now && from < now + 86400) {
+    await withTimeout(
+      pool(missing, 6, async (x) => {
+        const p = (await shortEpg(cfg, x)).filter((e) => e.stop > from && e.start < to);
+        if (p.length) out.set(String(x.stream_id), p);
+      }),
+      waitMs
+    );
+  }
+  return out;
+}
+
+async function liveCatalog(cfg, extra) {
+  const ctx = await liveContext(cfg);
+  let list = ctx.list;
+  if (extra.ids) {
+    list = extra.ids
+      .split(",")
+      .map((id) => ctx.ix.byId.get(id.trim().replace(/^xt:live:/, "")))
+      .filter(Boolean)
+      .slice(0, 200);
+  } else {
+    if (extra.genre) {
+      const ids = new Set(ctx.cats.filter((c) => String(c.category_name).trim() === extra.genre).map((c) => String(c.category_id)));
+      list = list.filter((x) => ids.has(String(x.category_id)) || asArray(x.category_ids).some((id) => ids.has(String(id))));
+    }
+    if (extra.search) {
+      const words = norm(extra.search).split(" ").filter(Boolean);
+      list = list.filter((x) => words.every((w) => norm(x.name).includes(w)));
+    }
+    const skip = Math.max(0, parseInt(extra.skip || "0", 10) || 0);
+    list = list.slice(skip, skip + PAGE);
+  }
+
+  const day = /^\d{4}-\d{2}-\d{2}$/.test(extra.date || "") ? Date.parse(`${extra.date}T00:00:00Z`) / 1000 : NaN;
+  if (!Number.isNaN(day)) {
+    const sched = await schedules(cfg, list, day, day + 86400);
+    return { metasDetailed: list.map((x) => ({ ...channelMeta(ctx, x), videos: videosOf(x, sched.get(String(x.stream_id)) || []) })) };
+  }
+
+  // plain list: "now playing" under each channel when the external guide is already in memory (never blocks)
+  const guide = cfg.e ? await getGuide(cfg.e, false) : null;
+  const now = Date.now() / 1000;
+  const metas = list.map((x) => {
+    const cur = guide && (programmesFor(guide, x, now, now + 1) || [])[0];
+    return { ...channelMeta(ctx, x), description: cur ? `▶ ${cur.title}` : undefined };
+  });
+  return extra.ids ? { metasDetailed: metas } : { metas };
 }
 
 // ---------- meta ----------
@@ -309,30 +421,6 @@ function fmtTime(ts) {
     }).format(new Date(Number(ts) * 1000));
   } catch {
     return "";
-  }
-}
-
-// Upcoming programmes for a live stream: external XMLTV first (if set), then the Xtream short EPG.
-async function upcoming(cfg, stream, wait = true) {
-  if (cfg.e) {
-    const progs = programmesFor(await getGuide(cfg.e, wait), stream);
-    if (progs && progs.length) return progs;
-    if (!wait) return [];
-  }
-  if (!wait) return [];
-  try {
-    const r = await xtream(cfg, "get_short_epg", { stream_id: stream.stream_id, limit: "6" }, 300);
-    const now = Date.now() / 1000;
-    return asArray(r && r.epg_listings)
-      .map((e) => ({
-        start: Number(e.start_timestamp),
-        stop: Number(e.stop_timestamp),
-        title: decodeB64Text(e.title),
-        desc: decodeB64Text(e.description),
-      }))
-      .filter((e) => e.stop > now && e.title);
-  } catch {
-    return [];
   }
 }
 
@@ -352,18 +440,20 @@ async function meta(cfg, type, id) {
   const [, kind, xid] = id.split(":");
 
   if (kind === "live") {
-    const [list, cats] = await Promise.all([items(cfg, "live"), categories(cfg, "live").catch(() => [])]);
-    const x = list.find((s) => String(s.stream_id) === xid);
+    const ctx = await liveContext(cfg);
+    const x = ctx.ix.byId.get(xid);
     if (!x) return { meta: null };
-    const progs = await upcoming(cfg, x);
-    const cat = cats.find((c) => String(c.category_id) === String(x.category_id));
+    const now = Date.now() / 1000;
+    const progs = (await schedules(cfg, [x], now - 3 * 3600, now + 2 * 86400)).get(xid) || [];
+    const id0 = `xt:live:${xid}`;
     return {
       meta: {
-        ...toMeta("live", x),
+        ...channelMeta(ctx, x),
+        id: id0,
         background: img(x.stream_icon),
-        genres: cat ? [cat.category_name] : undefined,
-        description: guideText(progs),
-        behaviorHints: { defaultVideoId: id },
+        description: guideText(progs.filter((p) => p.stop > now)),
+        videos: videosOf(x, progs),
+        behaviorHints: { defaultVideoId: id0, isLive: true },
       },
     };
   }
@@ -453,14 +543,31 @@ function isoDate(s) {
 
 // ---------- streams ----------
 
-function streams(cfg, id) {
+// The live formats the account may use (user_info.allowed_output_formats); offering a format
+// the panel refuses makes players fail instead of falling back.
+async function liveFormats(cfg) {
+  try {
+    const info = await xtream(cfg, "", {}, 3600);
+    const f = asArray(info && info.user_info && info.user_info.allowed_output_formats).map((x) => String(x).toLowerCase());
+    const ok = ["m3u8", "ts"].filter((x) => f.includes(x));
+    if (ok.length) return ok;
+  } catch {}
+  return ["m3u8", "ts"];
+}
+
+async function streams(cfg, id) {
   const [, kind, xid, e] = id.split(":");
   const u = encodeURIComponent(cfg.u), p = encodeURIComponent(cfg.p);
   const hints = { notWebReady: true, bingeGroup: `xtream-${kind}` };
   if (kind === "live") {
-    const hls = { name: "Xtream", title: "📡 Live · HLS (m3u8)", url: `${cfg.s}/live/${u}/${p}/${xid}.m3u8`, behaviorHints: hints };
-    const ts = { name: "Xtream", title: "📡 Live · MPEG-TS", url: `${cfg.s}/live/${u}/${p}/${xid}.ts`, behaviorHints: hints };
-    return { streams: cfg.f === "ts" ? [ts, hls] : [hls, ts] };
+    const pref = cfg.f === "ts" ? "ts" : "m3u8";
+    const formats = (await liveFormats(cfg)).sort((a, b) => (b === pref) - (a === pref));
+    return {
+      streams: formats.map((f) => {
+        const label = f === "m3u8" ? "HLS (m3u8)" : "MPEG-TS";
+        return { name: "Xtream", title: `📡 Live · ${label}`, description: label, url: `${cfg.s}/live/${u}/${p}/${xid}.${f}`, behaviorHints: hints };
+      }),
+    };
   }
   if (kind === "vod") {
     return { streams: [{ name: "Xtream", title: `🎬 ${(e || "mp4").toUpperCase()}`, url: `${cfg.s}/movie/${u}/${p}/${xid}.${ext(e, "mp4")}`, behaviorHints: hints }] };
@@ -578,7 +685,8 @@ export async function handle(request, configurePage) {
     if (resource === "catalog") {
       const extra = parseExtra(rawExtra && decodeURIComponent(rawExtra));
       try {
-        return json({ ...(await catalog(cfg, id, extra)), cacheMaxAge: 600 }, 600);
+        const guideAsked = !!extra.date || !!extra.ids;
+        return json({ ...(await catalog(cfg, id, extra)), cacheMaxAge: guideAsked ? 900 : 600 }, guideAsked ? 900 : 600);
       } catch (e) {
         console.error("catalog", e.message);
         return json({ metas: [], cacheMaxAge: 30 }, 30);
@@ -586,7 +694,7 @@ export async function handle(request, configurePage) {
     }
     if (!id.startsWith("xt:")) return json(resource === "meta" ? { meta: null } : { streams: [] }, 3600);
     if (resource === "meta") return json({ ...(await meta(cfg, type, id)), cacheMaxAge: id.startsWith("xt:live") ? 300 : 3600 }, 300);
-    if (resource === "stream") return json({ ...streams(cfg, id), cacheMaxAge: 3600 }, 3600);
+    if (resource === "stream") return json({ ...(await streams(cfg, id)), cacheMaxAge: 3600 }, 3600);
   } catch (e) {
     console.error(e);
     return json({ error: e.message }, 0, 500);
