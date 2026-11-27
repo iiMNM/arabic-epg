@@ -59,7 +59,7 @@ const ADDONS = {
     name: 'aiostreams-mnm',
     image: 'viren070/aiostreams',
     dir: 'aiostreams/vercel/',
-    files: ['Dockerfile.vercel', 'vercel.json'],
+    files: ['Dockerfile.vercel', 'gate.mjs', 'vercel.json'],
     async fallbackCurrent() {
       return (await (await fetch('https://aiostreams-mnm.vercel.app/api/v1/status')).json()).data?.tag;
     },

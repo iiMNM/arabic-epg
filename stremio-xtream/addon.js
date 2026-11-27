@@ -337,9 +337,18 @@ async function pool(list, n, fn) {
   }));
 }
 
+// Servers whose short EPG keeps coming back empty (e.g. an M3U-to-Xtream bridge): stop asking for a while,
+// instead of one request per channel on every guide page.
+const noShortEpg = new Map(); // server -> { empties, until }
 async function shortEpg(cfg, x, limit = 10) {
-  const r = await xtream(cfg, "get_short_epg", { stream_id: x.stream_id, limit: String(limit) }, 900);
-  return asArray(r && r.epg_listings)
+  const st = noShortEpg.get(cfg.s) || { empties: 0, until: 0 };
+  if (st.until > Date.now()) return [];
+  const r = await xtream(cfg, "get_short_epg", { stream_id: x.stream_id, limit: String(limit) }, 3600);
+  const list = asArray(r && r.epg_listings);
+  if (list.length) st.empties = 0;
+  else if (++st.empties >= 8) { st.until = Date.now() + 6 * 3600 * 1000; st.empties = 0; }
+  noShortEpg.set(cfg.s, st);
+  return list
     .map((e) => ({
       start: Number(e.start_timestamp),
       stop: Number(e.stop_timestamp),
@@ -660,6 +669,8 @@ const json = (obj, maxAge = 0, status = 200) =>
       ...CORS,
       "content-type": "application/json; charset=utf-8",
       "cache-control": maxAge ? `public, max-age=${maxAge}` : "no-store",
+      // Vercel's CDN keeps the answer and serves repeats from the edge without running the function
+      ...(maxAge ? { "vercel-cdn-cache-control": `max-age=${maxAge}, stale-while-revalidate=${maxAge * 6}, stale-if-error=86400` } : {}),
     },
   });
 
