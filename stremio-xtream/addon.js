@@ -550,6 +550,8 @@ async function liveFormats(cfg) {
     const info = await xtream(cfg, "", {}, 3600);
     const f = asArray(info && info.user_info && info.user_info.allowed_output_formats).map((x) => String(x).toLowerCase());
     const ok = ["m3u8", "ts"].filter((x) => f.includes(x));
+    // Apple players (Odin, Infuse, AVPlayer) only play HLS, and many panels serve it without listing it
+    if (ok.length && !ok.includes("m3u8")) ok.push("m3u8");
     if (ok.length) return ok;
   } catch {}
   return ["m3u8", "ts"];
@@ -576,6 +578,83 @@ async function streams(cfg, id) {
     return { streams: [{ name: "Xtream", title: `📺 ${(e || "mp4").toUpperCase()}`, url: `${cfg.s}/series/${u}/${p}/${xid}.${ext(e, "mp4")}`, behaviorHints: hints }] };
   }
   return { streams: [] };
+}
+
+// ---------- diagnostics (/<token>/diag) ----------
+// Probes one live channel from the server side and reports what each format returns,
+// with the username and password masked, so playback problems can be pinned down.
+
+async function probeUrl(url, mask) {
+  const out = { hops: [] };
+  let cur = url;
+  try {
+    for (let i = 0; i < 6; i++) {
+      const r = await fetch(cur, {
+        redirect: "manual",
+        headers: { "User-Agent": env("XT_UA", "IPTVSmartersPro") },
+        signal: AbortSignal.timeout(10000),
+      });
+      out.hops.push({ status: r.status, url: mask(cur) });
+      const loc = r.headers.get("location");
+      if (r.status >= 300 && r.status < 400 && loc) {
+        r.body?.cancel().catch(() => {});
+        cur = new URL(loc, cur).href;
+        continue;
+      }
+      out.status = r.status;
+      out.contentType = r.headers.get("content-type");
+      const reader = r.body?.getReader();
+      let bytes = new Uint8Array();
+      while (reader && bytes.length < 4096) {
+        const { value, done } = await reader.read();
+        if (value) { const b = new Uint8Array(bytes.length + value.length); b.set(bytes); b.set(value, bytes.length); bytes = b; }
+        if (done) break;
+      }
+      reader?.cancel().catch(() => {});
+      const text = dec.decode(bytes.slice(0, 4096));
+      if (text.startsWith("#EXTM3U")) {
+        out.kind = "HLS playlist";
+        const lines = text.split(/\r?\n/).filter((l) => l && !l.startsWith("#"));
+        out.playlistEntries = lines.slice(0, 3).map((l) => mask(new URL(l, cur).href));
+        out.hasVariants = /#EXT-X-STREAM-INF/.test(text);
+      } else if (bytes[0] === 0x47 && bytes[188] === 0x47) out.kind = "MPEG-TS video";
+      else out.kind = bytes.length ? `other (${JSON.stringify(text.slice(0, 80))})` : "empty";
+      break;
+    }
+  } catch (e) {
+    out.error = e.message;
+  }
+  out.finalScheme = cur.split(":")[0];
+  return out;
+}
+
+async function diag(cfg, url) {
+  const secrets = [cfg.u, cfg.p, encodeURIComponent(cfg.u), encodeURIComponent(cfg.p)].filter((x) => x && x.length > 1);
+  const mask = (s) => secrets.reduce((acc, x) => acc.split(x).join("***"), String(s));
+  const info = await xtream(cfg, "", {}, 0).catch((e) => ({ error: e.message }));
+  const list = await items(cfg, "live").catch(() => []);
+  const id = url.searchParams.get("id");
+  const ch = (id && list.find((x) => String(x.stream_id) === id)) || list[0];
+  const result = {
+    server: mask(cfg.s),
+    account: info && info.user_info ? {
+      auth: info.user_info.auth,
+      status: info.user_info.status,
+      allowed_output_formats: info.user_info.allowed_output_formats,
+      max_connections: info.user_info.max_connections,
+      active_cons: info.user_info.active_cons,
+    } : info,
+    server_info: info && info.server_info ? { url: info.server_info.url, port: info.server_info.port, https_port: info.server_info.https_port, protocol: info.server_info.server_protocol } : undefined,
+    channels: list.length,
+    tested: ch ? { stream_id: ch.stream_id, name: ch.name, direct_source: ch.direct_source ? mask(ch.direct_source) : "" } : null,
+    offered: ch ? (await streams(cfg, `xt:live:${ch.stream_id}`)).streams.map((s) => mask(s.url)) : [],
+    probes: {},
+  };
+  if (ch) {
+    const u = encodeURIComponent(cfg.u), p = encodeURIComponent(cfg.p);
+    for (const f of ["m3u8", "ts"]) result.probes[f] = await probeUrl(`${cfg.s}/live/${u}/${p}/${ch.stream_id}.${f}`, mask);
+  }
+  return result;
 }
 
 // ---------- HTTP ----------
@@ -673,6 +752,14 @@ export async function handle(request, configurePage) {
       return new Response(LOGO, { headers: { ...CORS, "content-type": "image/svg+xml", "cache-control": "public, max-age=86400" } });
     }
 
+    const dm = path.match(/^\/([^/]+)\/diag$/);
+    if (dm) {
+      const dcfg = await decodeConfig(dm[1]);
+      if (!dcfg) return json({ error: "invalid config" }, 0, 400);
+      return new Response(JSON.stringify(await diag(dcfg, url), null, 2), {
+        headers: { ...CORS, "content-type": "application/json; charset=utf-8", "cache-control": "no-store" },
+      });
+    }
     const m = path.match(/^\/([^/]+)\/(manifest\.json|(catalog|meta|stream)\/([^/]+)\/([^/]+?)(?:\/([^/]+))?\.json)$/);
     if (!m) return new Response("Not found", { status: 404, headers: CORS });
     const [, token, file, resource, type, rawId, rawExtra] = m;
