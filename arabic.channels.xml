@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="sat.tv" lang="ar" xmltv_id="2M.ma@SD" site_id="1#38#2M وطني">2M وطني</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="2MMonde.ma@SD" site_id="340" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_2mmonde%2F20241112_175857%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">2M MONDE</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="2MMonde.ma@SD" site_id="1353">المغربية الثانية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="2MMonde.ma@SD" site_id="1353">2M TV</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="2MMonde.ma@SD" site_id="UID2045">2M Monde</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="2MMonde.ma@SD" site_id="1#33#2M Monde">2M Monde</channel>
+  <channel site="telenet.tv" lang="en" xmltv_id="2MMonde.ma@SD" site_id="2mmonde">2M Monde</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="2MMonde.ma@SD" site_id="340">2M Monde</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="2MMonde.ma@SD" site_id="3">2M Monde</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="2MMonde.ma@SD" site_id="340">2M Maroc</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="2MMonde.ma@SD" site_id="2m/2M">2M</channel>
+  <channel site="ziggogo.tv" lang="en" xmltv_id="2MMonde.ma@SD" site_id="NL_000051_019047">2M</channel>
+  <channel site="artonline.tv" lang="ar" xmltv_id="ARTAflam1.sa@SD" site_id="#">افلام 1</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ARTAflam1.sa@SD" site_id="3541">ART AFLAM 1</channel>
+  <channel site="artonline.tv" lang="ar" xmltv_id="ARTAflam2.sa@SD" site_id="#Aflam2">افلام 2</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ARTAflam2.sa@SD" site_id="579">ART AFLAM 2</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="ARTAmerica.sa@SD" site_id="art/ART">Art America</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="ARTAmerica.sa@SD" site_id="19979">ART America</channel>
+  <channel site="artonline.tv" lang="ar" xmltv_id="ARTCinema.sa@SD" site_id="#Cinema">سينما</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ARTCinema.sa@SD" site_id="625">ART CINEMA</channel>
+  <channel site="artonline.tv" lang="ar" xmltv_id="ARTHekayat.sa@SD" site_id="#Hekayat">حكايات</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ARTHekayat.sa@SD" site_id="3542">AL HEKAYAT 1</channel>
+  <channel site="artonline.tv" lang="ar" xmltv_id="ARTHekayat2.sa@SD" site_id="#Hekayat2">حكايات 2</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ARTHekayat2.sa@SD" site_id="3543">AL HEKAYAT 2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ATV.kw@SD" site_id="1380">إيه تي في</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ATV.kw@SD" site_id="1380">atv</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AbdulmajeedAbdullah.sa@SD" site_id="986014">عبدالمجيد عبدالله</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AbdulmajeedAbdullah.sa@SD" site_id="986014">Abdul Majeed Abdullah</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AbdulmajeedAbdullah.sa@SD" site_id="986014">Abdul Majeed Abdullah</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AbuDhabiEmirates.ae@SD" site_id="1#38#الامارات">الامارات</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AbuDhabiSports1.ae@SD" site_id="9069">AD Sports 1 HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AbuDhabiSports1.ae@SD" site_id="9069">AD Sports 1 HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AbuDhabiSports1.ae@SD" site_id="1#38#أبو ظبي الرياضية 1">أبو ظبي الرياضية 1</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AbuDhabiSports2.ae@SD" site_id="1#38#أبو ظبي الرياضية 2">أبو ظبي الرياضية 2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AbuDhabiTV.ae@SD" site_id="1136">أبو ظبي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AbuDhabiTV.ae@SD" site_id="1136">Abu Dhabi TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AbuDhabiTV.ae@SD" site_id="9939">Abu Dhabi TV HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AbuDhabiTV.ae@SD" site_id="9939">Abu Dhabi TV HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AbuDhabiTV.ae@SD" site_id="1#38#أبو ظبي تي في">أبو ظبي تي في</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AbuDhabiTV.ae@SD" site_id="IT#5160">Abu Dhabi TV HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AdenTV.ye@SD" site_id="1#38#عدن">عدن</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AdenTV.ye@SD" site_id="1#33#Aden TV">Aden TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AfaqTV.iq@SD" site_id="1#33#Afaq TV">Afaq TV</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="Aflam.sa@SD" site_id="989622">أفلام</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="Aflam.sa@SD" site_id="989622">Aflam</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="Aflam.sa@SD" site_id="989622">Aflam</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AghapyTV.eg@SD" site_id="1#33#Aghapy TV">Aghapy TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlAanTV.ae@SD" site_id="1#38#الآن">الآن</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlAanTV.ae@SD" site_id="1#33#Al Aan TV">Al Aan TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlAhvazTV.ir@SD" site_id="1#33#Al Ahvaz TV">Al Ahvaz TV</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlAlam.ir@SD" site_id="IT#5165">Al Alam TV HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlAnwarTV.kw@SD" site_id="1#33#Al Anwar TV">Al Anwar TV</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="AlAoula.ma@HD" site_id="UID2474">Al Aoula HD</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlAoula.ma@MiddleEast" site_id="1312">الأولى المغربية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlAoula.ma@MiddleEast" site_id="1312">Al Aoula Morocco</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AlAoula.ma@SD" site_id="90504" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_alaoula%2F20220331_114124%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL AOULA</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="AlAoula.ma@SD" site_id="UID50141">Al Aoula</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlAoula.ma@SD" site_id="1#38#الاولى">الاولى</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="AlAoula.ma@SD" site_id="1208">Al Aoula</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlAoula.ma@SD" site_id="769">Al Aoula</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlArabiyaBusiness.ae@SD" site_id="1003218">العربية Business</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlArabiyaBusiness.ae@SD" site_id="1003218">Al Arabiya Business</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlArabiyaBusiness.ae@SD" site_id="1003218">Al Arabiya Business</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlArabiyaEnglish.sa@SD" site_id="49923569816895">AL Arabiya English</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlArabiyaEnglish.sa@SD" site_id="49923569816895">AL Arabiya English</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlArabiyaEnglish.sa@SD" site_id="49923569816895">AL Arabiya English</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlArabiyaPrograms.ae" site_id="49923733029294">العربية برامج</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlArabiyaPrograms.ae" site_id="49923733029294">Al Arabiya Program</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlArabiyaPrograms.ae" site_id="49923733029294">Al Arabiya Program</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AlArabyTV.qa@SD" site_id="90503" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_alaraby2%2F20200102_141654%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ALARABY TELEVISION</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="AlArabyTV.qa@SD" site_id="64257#16270">Alaraby Network</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AlArabyTV.qa@SD" site_id="3800">Al Araby TV</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AlArabyTV.qa@SD" site_id="3800">Al Araby TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlArabyTV.qa@SD" site_id="4093">Alaraby 1</channel>
+  <channel site="watch.whaletvplus.com" lang="ar" xmltv_id="AlArabyTV.qa@SD" site_id="858543008411952436">Alaraby News</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlArabyTV2.qa@SD" site_id="1382">التلفزيون العربي 2</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlArabyTV2.qa@SD" site_id="1382">Alaraby TV 2</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AlArabyTV2.qa@SD" site_id="9844">Al Araby 2</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AlArabyTV2.qa@SD" site_id="9844">Al Araby 2</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlArabyTV2.qa@SD" site_id="3020">Alaraby 2</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlAyyamTV.iq@SD" site_id="1#33#Al Ayyam TV">Al Ayyam TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlDafrahTV.ae@SD" site_id="1264">الظفرة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlDafrahTV.ae@SD" site_id="1264">Al Dafrah</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlEkhbariya.sa@SD" site_id="1#38#السعودية الإخبارية">السعودية الإخبارية</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlEkhbariya.sa@SD" site_id="946948">الإخبارية</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlEkhbariya.sa@SD" site_id="946948">Alikhbariya</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlEkhbariya.sa@SD" site_id="946948">Alikhbariya</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlEshraqTV.iq@SD" site_id="1#33#Al Eshraq TV">Al Eshraq TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlFallujahTV.iq@SD" site_id="1#33#Al Fallujah TV">Al Fallujah TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlForatTV.iq@SD" site_id="1#33#Al Forat">Al Forat</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlGhadTV.eg@SD" site_id="1#33#Al Ghad">Al Ghad</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AlHadath.sa@SD" site_id="9910">Al Hadath</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AlHadath.sa@SD" site_id="9910">Al Hadath</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlHadath.sa@SD" site_id="387288">الحدث</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlHadath.sa@SD" site_id="387288">Al Hadath</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlHadath.sa@SD" site_id="387288">Al Hadath</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlHadathAlyoum.eg@SD" site_id="1#33#AlHadath Alyoum">AlHadath Alyoum</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlHawyah.ye@SD" site_id="1#33#Al Hawyah">Al Hawyah</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlHorreyaTV.us@SD" site_id="1#33#Al Horreya TV">Al Horreya TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlIraqia.iq@SD" site_id="1349">العراقية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlIraqia.iq@SD" site_id="1349">Iraqia TV</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlIraqiaNews.iq@SD" site_id="IT#5171">Iraqia News HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlIttihadTV.lb@SD" site_id="1#33#Al Ittihad TV">Al Ittihad TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlJadeed.lb@SD" site_id="1216">الجديد</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlJadeed.lb@SD" site_id="1216">Al Jadeed TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlJadeed.lb@SD" site_id="1283">Al Jadeed</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlJanoubiyaTV.tn@SD" site_id="1#50#الجنوبية">الجنوبية</channel>
+  <channel site="aljazeera.com" lang="ar" xmltv_id="AlJazeera.qa@Arabic" site_id="aja#">Al Jazeera Arabic</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AlJazeera.qa@Arabic" site_id="3818" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_al_jazeera%2F20151026_092415%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL JAZEERA Arabic</channel>
+  <channel site="cubmu.com" lang="id" xmltv_id="AlJazeera.qa@Arabic" site_id="197">Al Jazeera</channel>
+  <channel site="dens.tv" lang="id" xmltv_id="AlJazeera.qa@Arabic" site_id="27">Al Jazeera Arabic</channel>
+  <channel site="digiturk.com.tr" lang="tr" xmltv_id="AlJazeera.qa@Arabic" site_id="182">AL JAZEERA CHANNEL</channel>
+  <channel site="epgshare01.online" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="DISTROTV1#Al.Jazeera.distro">Al Jazeera</channel>
+  <channel site="foxtel.com.au" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="Al-Jazeera/AJE">Al Jazeera</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="64257#16284">Al Jazeera Arabic</channel>
+  <channel site="m.tv.sms.cz" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="Aljazeera+%28Arabic%29">Aljazeera (Arabic)</channel>
+  <channel site="maxstream.tv" lang="id" xmltv_id="AlJazeera.qa@Arabic" site_id="0_ss6ehuur">Al Jazeera</channel>
+  <channel site="melita.com" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="786fa95a-4988-4c02-8daa-6d352cc31073">Al Jazeera Arabic</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="AlJazeera.qa@Arabic" site_id="ALJAZHD">Aljazeera</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="AlJazeera.qa@Arabic" site_id="ALJAZE" logo="https://estatico.emisiondof6.com/recorte/m-DP/wpmos/ALJAZE">Al Jazeera English</channel>
+  <channel site="nostv.pt" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="108">Al Jazeera</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="14">Al Jazeera</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlJazeera.qa@Arabic" site_id="345">Al Jazeera</channel>
+  <channel site="tv24.se" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="al-jazeera-arabic">Al Jazeera Arabic</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="AlJazeera.qa@Arabic" site_id="140" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250528/58/0819428388165eb88428_op_0_XL.webp">AL JAZEERA ARABIC</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="AlJazeera.qa@Arabic" site_id="6410">Aljazeera</channel>
+  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="AlJazeera.qa@Arabic" site_id="1674">Al Jazeera Arabic</channel>
+  <channel site="zap.co.ao" lang="pt" xmltv_id="AlJazeera.qa@Arabic" site_id="2340">Aljazeera Arabic</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlJazeera.qa@ArabicHD" site_id="IT#5114">Al Jazeera HD</channel>
+  <channel site="aljazeera.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="aje#">Al Jazeera English</channel>
+  <channel site="canalplus.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="#675">AL JAZEERA ENG</channel>
+  <channel site="chaines-tv.orange.fr" lang="en" xmltv_id="AlJazeera.qa@English" site_id="525" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_al_jazeera_anglais%2F20151026_092415%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL JAZEERA Anglais</channel>
+  <channel site="content.astro.com.my" lang="en" xmltv_id="AlJazeera.qa@English" site_id="374">Al Jazeera English HD</channel>
+  <channel site="dens.tv" lang="id" xmltv_id="AlJazeera.qa@English" site_id="56">Al Jazeera English</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AlJazeera.qa@English" site_id="159135">Al Jazeera English</channel>
+  <channel site="dstv.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="nga#406">Al Jazeera</channel>
+  <channel site="epgshare01.online" lang="en" xmltv_id="AlJazeera.qa@English" site_id="DISTROTV1#Al.Jazeera.English.distro">Al Jazeera English</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="AlJazeera.qa@English" site_id="64257#16278">Al Jazeera English</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="au/Adelaide/epg#mjh-al-jazeera">Al Jazeera</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="au/Brisbane/epg#mjh-al-jazeera">Al Jazeera</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="Flash/epg#al-jazeera">Al Jazeera</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="Foxtel/epg#AJE">Al Jazeera</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="SkyGo/epg#sky.90">Al Jazeera</channel>
+  <channel site="ipko.tv" lang="en" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera">Al Jazeera</channel>
+  <channel site="m.tv.sms.cz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="Al+Jazeera">Al Jazeera</channel>
+  <channel site="melita.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="6981b50c-5b06-4a9e-891e-1c1e979be554">Al Jazeera English</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="AlJazeera.qa@English" site_id="331">Al Jazeera English</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="AlJazeera.qa@English" site_id="331">Al Jazeera English</channel>
+  <channel site="mujtvprogram.cz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="217">Al Jazeera English</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="AlJazeera.qa@English" site_id="1349/al-jazeera-english">Al Jazeera English</channel>
+  <channel site="mytvsuper.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="CJAZ">Al Jazeera English</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="325">Al Jazeera English</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="AlJazeera.qa@English" site_id="325">Al Jazeera English</channel>
+  <channel site="nzxmltv.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="xmltv/guide#20">Al Jazeera</channel>
+  <channel site="nzxmltv.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="sky/guide#90">Al Jazeera</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="AlJazeera.qa@English" site_id="11025">Al Jazeera</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="AlJazeera.qa@English" site_id="UID50162">Al Jazeera</channel>
+  <channel site="playtv.unifi.com.my" lang="en" xmltv_id="AlJazeera.qa@English" site_id="20000067">Al Jazeera</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="AlJazeera.qa@English" site_id="539">Al Jazeera English</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera">Al Jazeera</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera-english-196">Al Jazeera English</channel>
+  <channel site="programtv.onet.pl" lang="en" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera-hd-609">Al Jazeera HD</channel>
+  <channel site="sky.co.nz" lang="en" xmltv_id="AlJazeera.qa@English" site_id="90">Al Jazeera</channel>
+  <channel site="sky.com" lang="de" xmltv_id="AlJazeera.qa@English" site_id="DE#4440">Al Jazeera English</channel>
+  <channel site="sky.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="GB#1023">Al Jazeera HD</channel>
+  <channel site="startimestv.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="217">AL JAZEERA</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="190">Al Jazeera</channel>
+  <channel site="teleboy.ch" lang="en" xmltv_id="AlJazeera.qa@English" site_id="148">Al Jazeera en</channel>
+  <channel site="telenet.tv" lang="en" xmltv_id="AlJazeera.qa@English" site_id="aljazeeraeng">Al Jazeera Eng.</channel>
+  <channel site="teliatv.ee" lang="en" xmltv_id="AlJazeera.qa@English" site_id="en#89">Al Jazeera</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="AlJazeera.qa@English" site_id="525">Al Jazeera English</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="AlJazeera.qa@English" site_id="15">Al Jazeera English</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera">Al Jazeera</channel>
+  <channel site="tv.magenta.at" lang="de" xmltv_id="AlJazeera.qa@English" site_id="207381032418">Al Jazeera</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="AlJazeera.qa@English" site_id="2693">Al JaZeera</channel>
+  <channel site="tv.nu" lang="en" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera-english">Al Jazeera English</channel>
+  <channel site="tv.post.lu" lang="en" xmltv_id="AlJazeera.qa@English" site_id="e06e94e0-700d-11e9-a762-3be38d7f533c">Aljazeera</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlJazeera.qa@English" site_id="525">Al Jazeera English</channel>
+  <channel site="tv24.co.uk" lang="en" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera-english">Al Jazeera English</channel>
+  <channel site="tv24.se" lang="en" xmltv_id="AlJazeera.qa@English" site_id="al-jazeera">Al Jazeera</channel>
+  <channel site="tvgids.nl" lang="en" xmltv_id="AlJazeera.qa@English" site_id="aljazeera">Al Jazeera Engels</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="AlJazeera.qa@English" site_id="ajaz/ALJAZ">ALJAZEERA</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="AlJazeera.qa@English" site_id="6" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250528/71/0820434232935eb7f426_op_0_XL.webp">AL JAZEERA ENGLISH</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="AlJazeera.qa@English" site_id="al/programacioni#al-jazeera">Al Jazeera</channel>
+  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="AlJazeera.qa@English" site_id="1673">Al Jazeera English</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="AlJazeera.qa@English" site_id="00000000000000000149">Aljazeera</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="AlJazeera.qa@English" site_id="00000000000000000149">Aljazeera</channel>
+  <channel site="webtv.delta.nl" lang="en" xmltv_id="AlJazeera.qa@English" site_id="3076">Al Jazeera International</channel>
+  <channel site="zap.co.ao" lang="pt" xmltv_id="AlJazeera.qa@English" site_id="2108">Al Jazeera English</channel>
+  <channel site="ziggogo.tv" lang="en" xmltv_id="AlJazeera.qa@English" site_id="NL_000118_019350">Aljazeera English</channel>
+  <channel site="guidatv.sky.it" lang="en" xmltv_id="AlJazeera.qa@EnglishHD" site_id="DTH#5113">Al Jazeera Intl. HD</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="AlJazeera.qa@EnglishHD" site_id="1855/al-jazeera-english-hd">Al Jazeera English HD</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="AlJazeera.qa@EnglishHD" site_id="UID2475">Al Jazeera HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlJazeera.qa@EnglishHD" site_id="1#33#Al Jazeera English HD">Al Jazeera English HD</channel>
+  <channel site="sky.com" lang="de" xmltv_id="AlJazeera.qa@EnglishHD" site_id="DE#5031">Al Jazeera English HD</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlJazeera.qa@EnglishHD" site_id="IT#5113">Al Jazeera Intl. HD</channel>
+  <channel site="tvireland.ie" lang="en" xmltv_id="AlJazeera.qa@EnglishHD" site_id="1855/al-jazeera-english-hd">Al Jazeera English HD</channel>
+  <channel site="aljazeera.com" lang="ar" xmltv_id="AlJazeera2.qa@HD" site_id="aja#aj2">Al Jazeera 2</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlJazeeraDocumentary.qa@SD" site_id="entertainment#26">26</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlJazeeraMubasher.qa@SD" site_id="IT#5161">Aljazeera Mubasher</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlKaheraWalNas.eg@SD" site_id="1174">القاهرة والناس</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlKaheraWalNas.eg@SD" site_id="1174">Al Kahera Wal N...</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlKaheraWalNas.eg@SD" site_id="1#33#Al Kahera Wal Nas">Al Kahera Wal Nas</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlKaheraWalNas2.eg@SD" site_id="1252">القاهرة والناس 2</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlKaheraWalNas2.eg@SD" site_id="1252">Al Kahera Wal N...</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlKaheraWalNas2.eg@SD" site_id="1#33#Al Kahera Wal Nas 2">Al Kahera Wal Nas 2</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlKawtharTV.ir@SD" site_id="1#33#Al Kawthar TV">Al Kawthar TV</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AlMaghribia.ma@SD" site_id="90496" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_al_maghribia%2F20240524_191440%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL MAGHRIBIA</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlMaghribia.ma@SD" site_id="1#49#المغربية">المغربية</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlMaghribia.ma@SD" site_id="IT#5173">ALMAGHRIBIA</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="AlMaghribia.ma@SD" site_id="4072">Almaghribia</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlMaghribia.ma@SD" site_id="957">Al Maghribia</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlMajdHolyQuran.sa@SD" site_id="1#33#Al Majd Holy Quran">Al Majd Holy Quran</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlMajdHolyQuran.sa@SD" site_id="1698">Al Majd Holy Quran</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlMamlakaTV.jo@SD" site_id="1#38#المملكة تي في">المملكة تي في</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlManar.lb@SD" site_id="1321">المنار</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlManar.lb@SD" site_id="1321">Al-Manar</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlMasriyah.eg@SD" site_id="1119">المصرية</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlMasriyah.eg@SD" site_id="1#38#المصرية">المصرية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlMasriyah.eg@SD" site_id="1#33#Al Masriyah">Al Masriyah</channel>
+  <channel site="sky.com" lang="it" xmltv_id="AlMasriyah.eg@SD" site_id="IT#5196">ESC - Al Masriyah</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="AlMasriyah.eg@SD" site_id="154">Al Masriya</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlMasriyah.eg@SD" site_id="356">Al Masriya</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlMayadeenTV.lb@SD" site_id="1#38#الميادين">الميادين</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlMayadeenTV.lb@SD" site_id="1#33#Al Mayadeen TV">Al Mayadeen TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlMustakillah.uk@SD" site_id="1#33#Almustakillah TV">Almustakillah TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlNadaTV.eg@SD" site_id="1#33#Al Nada TV">Al Nada TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlNaeemTV.iq@SD" site_id="1#33#Al Naeem TV">Al Naeem TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlNahar.eg@SD" site_id="1193">النهار</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlNahar.eg@SD" site_id="1193">Al Nahar TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlNaharDrama.eg@SD" site_id="1223">النهار دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlNaharDrama.eg@SD" site_id="1223">Al Nahar Drama</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlNaharDrama.eg@SD" site_id="1#38#النهار دراما">النهار دراما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlNaharDrama.eg@SD" site_id="1#33#Al Nahar Drama">Al Nahar Drama</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlNujabaTV.iq@SD" site_id="1#33#Al Nujaba TV">Al Nujaba TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlOnsTV.ma@SD" site_id="1#33#Al Ons TV">Al Ons TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlQaheraNews.eg@SD" site_id="1#33#Al Qahera News">Al Qahera News</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlQamarTV.ae@SD" site_id="1#33#Al Qamar TV">Al Qamar TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlQanat9.tr@SD" site_id="1#33#Al Qanat 9">Al Qanat 9</channel>
+  <channel site="cubmu.com" lang="id" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="204">Al Quran Al Kareem</channel>
+  <channel site="dens.tv" lang="id" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="82">Quran TV</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="93">Al Quran Al Kareem</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="93">Al Quran Al Kareem</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="9963">Al Quran Al Kareem TV HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="9963">Al Quran Al Kareem TV HD</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="946946">القرآن الكريم</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="946946">Al Quraan al Kareem</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="946946">Al Quraan al Kareem</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="00000000000000000153">Al Quran Al Kareem</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="AlQuranAlKareemTV.sa@SD" site_id="00000000000000000153">Al Quran Al Kareem</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlRasheedTV.iq@SD" site_id="1306">الرشيد</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlRasheedTV.iq@SD" site_id="1306">Alrasheed</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AlRawda.fr@SD" site_id="90531" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_al_rawda%2F20200929_084606%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL RAWDA</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlRayyanTV.qa@SD" site_id="1#38#الريان">الريان</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AlResalah.sa@SD" site_id="90514" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_al_resalah%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL RESALAH</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="AlResalah.sa@SD" site_id="446">الرساله</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="AlResalah.sa@SD" site_id="446">Al Resalah</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlResalah.sa@SD" site_id="1022">Al Resalah</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="AlResalah.sa@SD" site_id="31969">Al Resalah</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlRiyadhRadio.sa@SD" site_id="1#33#Riyad Radio">Riyad Radio</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlSabah.kw@SD" site_id="1#33#Al Sabah">Al Sabah</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlSaeedah.eg@SD" site_id="1339">السعيدة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlSaeedah.eg@SD" site_id="1339">AlSaeedah</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlSaeedah.eg@SD" site_id="1#33#Al Saeedah">Al Saeedah</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlSahatTV.ye@SD" site_id="1#33#Al Sahat TV">Al Sahat TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlSahraaTV.sa@SD" site_id="1#33#Al Sahraa TV">Al Sahraa TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlSalamTV.iq@SD" site_id="1#33#Al Salam TV">Al Salam TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlSaudiya.sa@SD" site_id="1352">السعودية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlSaudiya.sa@SD" site_id="1352">Saudiya TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlSaudiya.sa@SD" site_id="1#38#السعودية">السعودية</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlSaudiya.sa@SD" site_id="946938">السعودية</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlSaudiya.sa@SD" site_id="946938">AlSaudia</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlSaudiya.sa@SD" site_id="946938">AlSaudia</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AlSaudiya.sa@SD" site_id="1733">Saudi Channel 1</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlSaudiyaAlaan.sa@SD" site_id="999927">السعودية الآن</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlSaudiyaAlaan.sa@SD" site_id="999927">KSA Now</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlSaudiyaAlaan.sa@SD" site_id="999927">KSA Now</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlShamsTV.eg@SD" site_id="1388">Al Shams</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlShamsTV.eg@SD" site_id="1#33#Al Shams TV">Al Shams TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlSharqiya.iq@SD" site_id="1#38#الشرقية">الشرقية</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlSharqiyaMinKabla.ae@SD" site_id="1269">الشرقية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlSharqiyaMinKabla.ae@SD" site_id="1269">AlSharqiya</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlSharqiyaNews.iq@SD" site_id="1#38#الشرقية للأخبار">الشرقية للأخبار</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlSouriyaTV.sy@HD" site_id="49923775805582">السورية</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlSouriyaTV.sy@HD" site_id="49923775805582">Al Souriya TV</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlSouriyaTV.sy@HD" site_id="49923775805582">Al Souriya TV</channel>
+  <channel site="dens.tv" lang="id" xmltv_id="AlSunnahAlNabawiyahTV.sa@SD" site_id="88">Sunna TV</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlSunnahAlNabawiyahTV.sa@SD" site_id="946942">السنة النبوية</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlSunnahAlNabawiyahTV.sa@SD" site_id="946942">Al Sunnah al Nabawiyah</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlSunnahAlNabawiyahTV.sa@SD" site_id="946942">Al Sunnah al Nabawiyah</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Alarabiya.ae@SD" site_id="90501" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_alarabiya%2F20230515_122020%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">AL ARABIYA</channel>
+  <channel site="epgshare01.online" lang="en" xmltv_id="Alarabiya.ae@SD" site_id="DISTROTV1#Al.Arabiya.distro">Al Arabiya</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="Alarabiya.ae@SD" site_id="64257#34240">AL ARABIYA</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="Alarabiya.ae@SD" site_id="387286">العربية</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="Alarabiya.ae@SD" site_id="387286">Al Arabiya</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="Alarabiya.ae@SD" site_id="387286">Al Arabiya</channel>
+  <channel site="sky.com" lang="it" xmltv_id="Alarabiya.ae@SD" site_id="IT#5157">Al Arabiya</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="Alarabiya.ae@SD" site_id="13">Al Arabiya</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="Alarabiya.ae@SD" site_id="1540">Al Arabiya</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AlarabiyaPortrait.ae@SD" site_id="9970">Al Arabiya</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AlarabiyaPortrait.ae@SD" site_id="9970">Al Arabiya</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlerthAlnabawiChannel.jo@SD" site_id="1#33#Alerth Alnabawi">Alerth Alnabawi</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlfathTV.eg@SD" site_id="1#33#Alfath TV">Alfath TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlghadeerTV.iq@SD" site_id="1#33#Alghadeer TV">Alghadeer TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlhayatDrama.eg@SD" site_id="1#38#الحياة مسلسلات">الحياة مسلسلات</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlhayatDrama.eg@SD" site_id="1#33#Al Hayah Mosalsalat">Al Hayah Mosalsalat</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlhayatTV.eg@SD" site_id="1137">الحياة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AlhayatTV.eg@SD" site_id="1137">Alhayat TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlhayatTV.eg@SD" site_id="1#38#الحياة">الحياة</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlhayatTV.eg@SD" site_id="1#33#Al Hayat">Al Hayat</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlistiqamaTV.om@SD" site_id="1#33#Alistiqama TV">Alistiqama TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlkarmaTVPraise.us@SD" site_id="1#33#Alkarma Praise">Alkarma Praise</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassEight.qa@SD" site_id="sports#40">40</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassEight.qa@SD" site_id="sports#40">40</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassFive.qa@SD" site_id="sports#37">37</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassFive.qa@SD" site_id="sports#37">37</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassFour.qa@SD" site_id="sports#36">36</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassFour.qa@SD" site_id="sports#36">36</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlkassOne.qa@HD" site_id="1#33#Alkass One HD">Alkass One HD</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassOne.qa@SD" site_id="sports#33">33</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassOne.qa@SD" site_id="sports#33">33</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassSeven.qa@SD" site_id="sports#39">39</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassSeven.qa@SD" site_id="sports#39">39</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassSix.qa@SD" site_id="sports#38">38</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassSix.qa@SD" site_id="sports#38">38</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassThree.qa@SD" site_id="sports#35">35</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassThree.qa@SD" site_id="sports#35">35</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlkassTwo.qa@HD" site_id="1#33#Alkass Two HD">Alkass Two HD</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlkassTwo.qa@SD" site_id="sports#34">34</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassTwo.qa@SD" site_id="sports#34">34</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AlkhuzamaRadio.sa@SD" site_id="1029746">إذاعة خزامى</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AlkhuzamaRadio.sa@SD" site_id="1029746">Alkhuzama Radio</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AlkhuzamaRadio.sa@SD" site_id="1029746">Alkhuzama Radio</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AllahdhahTV.ye@SD" site_id="1#33#Allahdhah TV">Allahdhah TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlmagdTV.us@SD" site_id="1#33#Almagd TV">Almagd TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AlraiTV.kw@SD" site_id="9043">Al Rai TV</channel>
+  <channel site="osn.com" lang="en" xmltv_id="AlraiTV.kw@SD" site_id="9043">Al Rai TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlshaaerTV.iq@SD" site_id="1#33#Alshaaer TV">Alshaaer TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="Alsumaria.iq@SD" site_id="1301">السومرية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="Alsumaria.iq@SD" site_id="1301">Alsumaria</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="Alsumaria.iq@SD" site_id="1#38#السومرية">السومرية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AltaleaaTV.iq@SD" site_id="1#33#Altaleaa TV">Altaleaa TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="Althania.sy@SD" site_id="1398">الثانية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="Althania.sy@SD" site_id="1398">Althania</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AmmanTV.jo@SD" site_id="1298">عَمان</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="AmmanTV.jo@SD" site_id="1298">Amman</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AmmanTV.jo@SD" site_id="1#38#عمان تي في">عمان تي في</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AmozhgaryTV.iq@SD" site_id="1#33#Amozhgary TV">Amozhgary TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="AnimalPlanetEurope.uk@SD" site_id="4505">Animal Planet HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AnwarTV2.iq@SD" site_id="1#33#Al Anwar TV 2">Al Anwar TV 2</channel>
+  <channel site="arirang.com" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="CH_W">WORLD</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="ArirangWorld.kr@SD" site_id="#252">ARIRANG TV</channel>
+  <channel site="m.tv.sms.cz" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="Arirang">Arirang</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="351">Arirang</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="ArirangWorld.kr@SD" site_id="351">Arirang</channel>
+  <channel site="programtv.onet.pl" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="arirang-tv-30">Arirang TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="1#33#Arirang World">Arirang World</channel>
+  <channel site="sky.com" lang="de" xmltv_id="ArirangWorld.kr@SD" site_id="DE#7012">Arirang HD</channel>
+  <channel site="sky.com" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="GB#1066">Arirang TV HD</channel>
+  <channel site="teleboy.ch" lang="kr" xmltv_id="ArirangWorld.kr@SD" site_id="589">Arirang TV</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="1503">Arirang</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="ArirangWorld.kr@SD" site_id="10575">Arirang World</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Arryadia.ma@HD" site_id="90498" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_arryadia%2F20240524_191639%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ARRYADIA</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="Arryadia.ma@HD" site_id="1#49#الرياضية">الرياضية</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="Arryadia.ma@HD" site_id="4070">Arryadia</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="Arryadia.ma@HD" site_id="956">Arryadia</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AsharqDiscovery.sa@SD" site_id="1001845">الشرق ديسكفري</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AsharqDiscovery.sa@SD" site_id="1001845">Asharq Discovery</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AsharqDiscovery.sa@SD" site_id="1001845">Asharq Discovery</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AsharqDocumentary.sa@SD" site_id="997605">Asharq Documentary</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AsharqDocumentary.sa@SD" site_id="997605">Asharq Documentary</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AsharqDocumentary.sa@SD" site_id="997605">Asharq Documentary</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="AsharqNews.sa@SD" site_id="3726" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_asharq_news%2F20240524_193056%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ASHARQ NEWS</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="AsharqNews.sa@SD" site_id="64257#34304">ASHARQ NEWS</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="AsharqNews.sa@SD" site_id="862837">الشرق</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="AsharqNews.sa@SD" site_id="862837">Asharq</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="AsharqNews.sa@SD" site_id="862837">Asharq</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="AsharqNews.sa@SD" site_id="3726">Asharq News</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AsilTV.ir@SD" site_id="1#33#Asil TV">Asil TV</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="Assadissa.ma@SD" site_id="4073">Assadissa</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="Assadissa.ma@SD" site_id="959">Assadissa</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Athaqafia.ma@SD" site_id="90497" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_athaqafia%2F20240524_191925%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ATHAQAFIA</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="Athaqafia.ma@SD" site_id="1#49#الثقافية">الثقافية</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="Athaqafia.ma@SD" site_id="4071">Athaqafia</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="Athaqafia.ma@SD" site_id="958">Arrabiâ</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AttessiaTV.tn@SD" site_id="1#38#القناة 9">القناة 9</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AzhariTV.jo@SD" site_id="1#33#Azhari TV">Azhari TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="BBCArabic.uk@SD" site_id="9099">BBC World</channel>
+  <channel site="osn.com" lang="en" xmltv_id="BBCArabic.uk@SD" site_id="9099">BBC World</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="BBCArabic.uk@SD" site_id="1#33#BBC Arabic">BBC Arabic</channel>
+  <channel site="sky.com" lang="it" xmltv_id="BBCArabic.uk@SD" site_id="IT#5193">BBC Arabic</channel>
+  <channel site="teleboy.ch" lang="ar" xmltv_id="BBCArabic.uk@SD" site_id="398">BBC Arabic</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="BabAlHara.sa@SD" site_id="975435">قناة باب الحارة</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="BabAlHara.sa@SD" site_id="975435">Bab Al Hara Channel</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="BabAlHara.sa@SD" site_id="975435">Bab Al Hara Channel</channel>
+  <channel site="i.mjh.nz" lang="pt" xmltv_id="BabyFirst.us@Brazil" site_id="PlutoTV/br#5f4fb4cf605ddf000748e16f">Babyfirst</channel>
+  <channel site="pluto.tv" lang="pt" xmltv_id="BabyFirst.us@Brazil" site_id="5f4fb4cf605ddf000748e16f">Babyfirst</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="BabyFirst.us@US" site_id="babyfirst_tv">Canal BabyFirst TV</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="BabyFirst.us@US" site_id="50338">BabyFirst TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="BahiaTV.dz@SD" site_id="1#38#باهية">باهية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="BahiaTV.dz@SD" site_id="1#33#Bahia TV">Bahia TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="BahiaTV.dz@SD" site_id="3727">Bahia</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="BahrainInternational.bh@SD" site_id="1#33#Bahrain International">Bahrain International</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="BahrainTV.bh@SD" site_id="1368">البحرين</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="BahrainTV.bh@SD" site_id="1368">Bahrain TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="BahrainTV.bh@SD" site_id="9013">Bahrain TV</channel>
+  <channel site="osn.com" lang="en" xmltv_id="BahrainTV.bh@SD" site_id="9013">Bahrain TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="BangawazTV.iq@SD" site_id="1#33#Bangawaz TV">Bangawaz TV</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="Baraem.qa@SD" site_id="entertainment#25">BaraemTV</channel>
+  <channel site="bein.com" lang="en" xmltv_id="Baraem.qa@SD" site_id="entertainment#25">BaraemTV</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="BeJunior.qa@SD" site_id="entertainment#21">21</channel>
+  <channel site="bein.com" lang="en" xmltv_id="BeJunior.qa@SD" site_id="entertainment#29">29</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="BerbereJeunesse.fr@SD" site_id="1113">Berbère Jeunesse</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="BerbereMusic.fr@SD" site_id="1112">Berbère Musique</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="BerbereTV.fr@SD" site_id="1#33#Berbère TV">Berbère TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="BerbereTV.fr@SD" site_id="574">Berbère TV</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="BigTimePlus.sa@SD" site_id="49922904934759">Big Time Plus</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="BigTimePlus.sa@SD" site_id="49922904934759">Big Time Plus</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="BigTimePlus.sa@SD" site_id="49922904934759">Big Time Plus</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="BinOthaimeen.sa@SD" site_id="1#33#Bin Othaimeen">Bin Othaimeen</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="BloombergOriginals.us@SD" site_id="4512">Bloomberg Originals</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="BloombergTV.us@MiddleEast" site_id="entertainment#22">22</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="BloombergTV.us@MiddleEast" site_id="201">Bloomberg</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="CBC.eg@SD" site_id="1198">سي بي سي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="CBC.eg@SD" site_id="1198">CBC</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CBC.eg@SD" site_id="cbc-az">CBC</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="CBC.eg@SD" site_id="1#38#سي بي سي">سي بي سي</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="CBCDrama.eg@SD" site_id="1199">سي بي سي دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="CBCDrama.eg@SD" site_id="1199">CBC Drama</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="CBCDrama.eg@SD" site_id="1#38#سي بي سي دراما">سي بي سي دراما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="CBCDrama.eg@SD" site_id="1#33#CBC Drama">CBC Drama</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="CBCSofra.eg@SD" site_id="1260">سي بي سي سفرة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="CBCSofra.eg@SD" site_id="1260">CBC sofra</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="CBCSofra.eg@SD" site_id="1#38#سي بي سي سفرة">سي بي سي سفرة</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="CBCSofra.eg@SD" site_id="1#33#CBC Sofra">CBC Sofra</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="CBeebiesMiddleEast.uk@SD" site_id="entertainment#31">31</channel>
+  <channel site="melita.com" lang="en" xmltv_id="CBeebiesMiddleEast.uk@SD" site_id="8a2323cc-73de-4824-b6a7-98aaee0cfdc5">CBeeBies HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="CGTNArabic.cn@SD" site_id="1#33#CGTN Arabic">CGTN Arabic</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="CNBCArabiya.ae@SD" site_id="1#33#CNBC Arabiya">CNBC Arabiya</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="CNNArabic.ae@SD" site_id="entertainment#27">27</channel>
+  <channel site="bein.com" lang="en" xmltv_id="CNNArabic.ae@SD" site_id="entertainment#26">26</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="CNNInternational.us@MENA" site_id="4504">CNN HD</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="CarthagePlus.tn@SD" site_id="3376">Carthage+</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="CartoonNetworkArabic.ae@SD" site_id="1242">نتورك بالعربية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="CartoonNetworkArabic.ae@SD" site_id="1242">Network Arabic</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="CartoonNetworkArabic.ae@SD" site_id="9987">CN Arabia</channel>
+  <channel site="osn.com" lang="en" xmltv_id="CartoonNetworkArabic.ae@SD" site_id="9987">CN Arabia</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="CartoonNetworkMENA.uk@SD" site_id="4507">Cartoon Network HD</channel>
+  <channel site="mujtvprogram.cz" lang="de" xmltv_id="CartoonitoMENA.uk@SD" site_id="303">SUPER RTL</channel>
+  <channel site="chada.ma" lang="fr" xmltv_id="ChadaTV.ma@SD" site_id="1">Chada TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ChadaTV.ma@SD" site_id="1#33#Chada TV">Chada TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ChadaTV.ma@SD" site_id="3774">CHADA TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ChinaArabTV.ae@SD" site_id="1#33#China Arab TV">China Arab TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="Cima.eg@SD" site_id="1176">سيما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="Cima.eg@SD" site_id="1176">Cima</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Cima.eg@SD" site_id="1#33#Cima">Cima</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="ClubMTVEurope.uk@SD" site_id="entertainment#20">20</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="CrimePlusInvestigation.us@SD" site_id="212">C &amp; I</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DMC.eg@SD" site_id="1290">دي إم سي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="DMC.eg@SD" site_id="1290">DMC</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="DMC.eg@SD" site_id="9085">DMC HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="DMC.eg@SD" site_id="9085">DMC HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DMC.eg@SD" site_id="1#38#دي ام سي">دي ام سي</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="DMC.eg@SD" site_id="1#33#DMC">DMC</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="DMC.eg@SD" site_id="3537">DMC</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DMCDrama.eg@SD" site_id="1292">دي إم سي دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="DMCDrama.eg@SD" site_id="1292">DMC DRAMA</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DMCDrama.eg@SD" site_id="1#38#دي ام سي دراما">دي ام سي دراما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="DMCDrama.eg@SD" site_id="1#33#DMC Drama">DMC Drama</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="DMCDrama.eg@SD" site_id="3544">DMC Drama</channel>
+  <channel site="teleboy.ch" lang="ar" xmltv_id="DW.de@Arabic" site_id="427">Deutsche Welle ar</channel>
+  <channel site="m.tv.sms.cz" lang="en" xmltv_id="DW.de@Deutsch" site_id="Deutsche+Welle">Deutsche Welle</channel>
+  <channel site="meuguia.tv" lang="pt" xmltv_id="DW.de@Deutsch" site_id="DWL">Deutsche Welle</channel>
+  <channel site="mi.tv" lang="de" xmltv_id="DW.de@Deutsch" site_id="br#deutsche-welle">DW (Deutsch+)</channel>
+  <channel site="programtv.onet.pl" lang="en" xmltv_id="DW.de@Deutsch" site_id="dw-364">DW</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="DW.de@Deutsch" site_id="1447">DW Deutsch</channel>
+  <channel site="tv.dir.bg" lang="bg" xmltv_id="DW.de@Deutsch" site_id="7">DW TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="DW.de@Deutsch" site_id="61">DW-TV</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="DW.de@DeutschPlus" site_id="pe#deutsche-welle-amerika">DW (Español)</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="DW.de@DeutschPlus" site_id="74479">DW Deutsch+</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="DW.de@English" site_id="61" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_deutschewelle%2F20220615_153218%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">DEUTSCHE WELLE</channel>
+  <channel site="content.astro.com.my" lang="en" xmltv_id="DW.de@English" site_id="287">DW English</channel>
+  <channel site="dens.tv" lang="id" xmltv_id="DW.de@English" site_id="81">DW-TV</channel>
+  <channel site="horizon.tv" lang="en" xmltv_id="DW.de@English" site_id="10109">Deutsche Welle HD</channel>
+  <channel site="maxstream.tv" lang="id" xmltv_id="DW.de@English" site_id="0_urjthrku">DW English</channel>
+  <channel site="melita.com" lang="en" xmltv_id="DW.de@English" site_id="8a1ea95b-49fb-4fe8-9fc9-06d0f7567f76">Deutsche Welle HD</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="DW.de@English" site_id="357">DW English</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="DW.de@English" site_id="357">DW English</channel>
+  <channel site="mujtvprogram.cz" lang="en" xmltv_id="DW.de@English" site_id="162">Deutsche Welle</channel>
+  <channel site="mytvsuper.com" lang="en" xmltv_id="DW.de@English" site_id="CDW1">DW</channel>
+  <channel site="nostv.pt" lang="en" xmltv_id="DW.de@English" site_id="115">DW</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="DW.de@English" site_id="324">DW (English)</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="DW.de@English" site_id="324">DW (English)</channel>
+  <channel site="playtv.unifi.com.my" lang="en" xmltv_id="DW.de@English" site_id="20000087">DW</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="DW.de@English" site_id="deutsche-welle">Deutsche Welle</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="DW.de@English" site_id="5161">Deutsche Welle (English)</channel>
+  <channel site="sky.com" lang="it" xmltv_id="DW.de@English" site_id="IT#5203">Deutsche Welle HD</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="DW.de@English" site_id="37494f1f-0748-4150-bfbc-eb24b0bf1a34">DW English HD</channel>
+  <channel site="starhubtvplus.com" lang="zh" xmltv_id="DW.de@English" site_id="37494f1f-0748-4150-bfbc-eb24b0bf1a34">DW (Deutsch)</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="DW.de@English" site_id="60">DW</channel>
+  <channel site="teleboy.ch" lang="en" xmltv_id="DW.de@English" site_id="426">Deutsche Welle en</channel>
+  <channel site="teliatv.ee" lang="en" xmltv_id="DW.de@English" site_id="en#73">Deutsche Welle</channel>
+  <channel site="teliatv.ee" lang="et" xmltv_id="DW.de@English" site_id="et#73">Deutsche Welle</channel>
+  <channel site="teliatv.ee" lang="ru" xmltv_id="DW.de@English" site_id="ru#73">Deutsche Welle</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="en" xmltv_id="DW.de@English" site_id="61">DW (English)</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="DW.de@English" site_id="142">DW Englisch</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="DW.de@English" site_id="dw/DWTV">Deutsche Welle</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="DW.de@English" site_id="dw-english/426">DW English</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="DW.de@English" site_id="94" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250528/98/1056125708555eb78424_op_0_XL.webp">DEUTSCHE WELLE ENGLISH</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="DW.de@English" site_id="al/programacioni#deutchewelle">Deutsche Welle English</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="DW.de@English" site_id="43771">DW English OTA</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="DW.de@English" site_id="5075">DW English</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="DW.de@English" site_id="00000000000000000146">DW</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="DW.de@English" site_id="00000000000000000146">DW</channel>
+  <channel site="anteltv.com.uy" lang="es" xmltv_id="DW.de@Espanol" site_id="2s689">DW (Español)</channel>
+  <channel site="cableplus.com.uy" lang="es" xmltv_id="DW.de@Espanol" site_id="16">DW ESPAÑOL</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="DW.de@Espanol" site_id="770#DW" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/UY/770.png">Deutsche Welle</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="DW.de@Espanol" site_id="11024">Deutsche W</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="DW.de@Espanol" site_id="206">Deutsche Welle</channel>
+  <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="DW.de@Espanol" site_id="444">Deutsche Welle Español HD</channel>
+  <channel site="reportv.com.ar" lang="es" xmltv_id="DW.de@Espanol" site_id="16">DW ESPAÑOL</channel>
+  <channel site="teleboy.ch" lang="es" xmltv_id="DW.de@Espanol" site_id="428">Deutsche Welle es</channel>
+  <channel site="tv.blue.ch" lang="sq" xmltv_id="DiasporaTVSwitzerland.ch@SD" site_id="1930">Diaspora TV Switzerland</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DijlahTV.iq@SD" site_id="1385">دجلة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="DijlahTV.iq@SD" site_id="1385">Dijlah TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DijlahTV.iq@SD" site_id="1#38#دجلة">دجلة</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DiscoveryChannelMiddleEastAfrica.us@SD" site_id="1272">ديسكفري</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="DiscoveryChannelMiddleEastAfrica.us@SD" site_id="5665">Discovery Channel HD</channel>
+  <channel site="melita.com" lang="en" xmltv_id="DisneyChannelEMEA.uk@SD" site_id="3e2db904-efad-4904-ab64-7d1ddabb251f">Disney Channel</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DubaiOne.ae@SD" site_id="1173">دبي وان</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="DubaiOne.ae@SD" site_id="1173">Dubai One</channel>
+  <channel site="melita.com" lang="en" xmltv_id="DubaiOne.ae@SD" site_id="b41afdcb-2204-48ee-b40a-a0db64e4bd91">Dubai One</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DubaiRacing.ae@SD" site_id="1#38#دبي ريسينج 1">دبي ريسينج 1</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DubaiRacing2.ae@SD" site_id="1#38#دبي ريسينج 2">دبي ريسينج 2</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="DubaiRacing2.ae@SD" site_id="1#33#Dubai Racing 2">Dubai Racing 2</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DubaiRacing3.ae@SD" site_id="1#38#دبي ريسينج 3">دبي ريسينج 3</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DubaiSports1.ae@SD" site_id="1#38#دبي الرياضية 1">دبي الرياضية 1</channel>
+  <channel site="sky.com" lang="it" xmltv_id="DubaiSports1.ae@SD" site_id="IT#5158">Dubai Sports 1 HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DubaiSports2.ae@SD" site_id="1#38#دبي الرياضية 2">دبي الرياضية 2</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="DubaiSports2.ae@SD" site_id="1#33#Dubai Sports 2">Dubai Sports 2</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="DubaiSports3.ae@SD" site_id="1#38#دبي الرياضية 3">دبي الرياضية 3</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="DubaiTV.ae@SD" site_id="90502" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_dubaitv%2F20250404_151355%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">DUBAI TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DubaiTV.ae@SD" site_id="1169">دبي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="DubaiTV.ae@SD" site_id="1169">Dubai TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="DubaiTV.ae@SD" site_id="6603">Dubai TV HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="DubaiTV.ae@SD" site_id="6603">Dubai TV HD</channel>
+  <channel site="sky.com" lang="it" xmltv_id="DubaiTV.ae@SD" site_id="IT#5155">Dubai TV HD</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="DubaiTV.ae@SD" site_id="138">Dubai TV</channel>
+  <channel site="tv.magenta.at" lang="en" xmltv_id="DubaiTV.ae@SD" site_id="207381032394">Dubai TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="DubaiTV.ae@SD" site_id="589">Dubaï TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="DubaiZaman.ae@SD" site_id="1283">دبي زمان</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="DubaiZaman.ae@SD" site_id="1283">Dubai Zaman</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ERTU1.eg@SD" site_id="1101">قناة مصر الأولى</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ERTU1.eg@SD" site_id="1101">Aloula</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="ERTU1.eg@SD" site_id="1#38#المصرية الأولى">المصرية الأولى</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="EchoroukNews.dz@SD" site_id="90520" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_Echorouk_News%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ECHOROUK NEWS</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="EchoroukNews.dz@SD" site_id="1#38#الشروق الإخبارية">الشروق الإخبارية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="EchoroukNews.dz@SD" site_id="1#33#Echorouk News">Echorouk News</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="EchoroukNews.dz@SD" site_id="2832">Echorouk News</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="EchoroukTV.dz@SD" site_id="90511" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_echorouk_tv%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ECHOROUK TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="EchoroukTV.dz@SD" site_id="1315">الشروق الجزائرية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="EchoroukTV.dz@SD" site_id="1315">Echorouk TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="EchoroukTV.dz@SD" site_id="1#38#الشروق">الشروق</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="EchoroukTV.dz@SD" site_id="1550">Echorouk TV</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="EgyptianTV.eg@SD" site_id="1119">Egyptian TV</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="ElBiladTV.dz@SD" site_id="90527" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_el_bilad%2F20250804_155514%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">EL BILAD TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ElBiladTV.dz@SD" site_id="2957">El Bilad TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ElHayatTV.dz@SD" site_id="1#33#El Hayat TV">El Hayat TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ElMehwarChannel.eg@SD" site_id="1145">المحور</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ElMehwarChannel.eg@SD" site_id="1145">Mehwar</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="ElMehwarChannel.eg@SD" site_id="1#38#المحور تي في">المحور تي في</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ElMoled.eg@SD" site_id="1#33#El Moled">El Moled</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ElWatania1.tn@SD" site_id="1308">الوطنية 1</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ElWatania1.tn@SD" site_id="1308">Watania1</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="ElWatania1.tn@SD" site_id="1673">Tunisie Nationale</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ElWatania2.tn@SD" site_id="1334">الوطنية 2</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ElWatania2.tn@SD" site_id="1334">Watania 2</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ElWatania2.tn@SD" site_id="3728">Watania 2</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="ElhiwarEttounsiTV.tn@SD" site_id="90513" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_el_hiwar_ettounsi%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">EL HIWAR ETTOUNSI</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="ElhiwarEttounsiTV.tn@SD" site_id="1#50#الحوار التونسي">الحوار التونسي</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ElhiwarEttounsiTV.tn@SD" site_id="2064">El Hiwar Ettounsi</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="EnnaharTV.dz@SD" site_id="90510" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_ennahar_tv%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ENNAHAR TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="EnnaharTV.dz@SD" site_id="1#38#النهار تي في">النهار تي في</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="EnnaharTV.dz@SD" site_id="1#33#Ennahar TV">Ennahar TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="EnnaharTV.dz@SD" site_id="1551">Ennahar TV</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="EuronewsEnglish.fr@SD" site_id="entertainment#28">28</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ExtraLive.eg@SD" site_id="1#33#Extra live">Extra live</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="FIFAPlus.uk" site_id="49923446898171">FIFA+</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="Fairuz.sa@HD" site_id="49923172215352">فيروز</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="Fairuz.sa@HD" site_id="49923172215352">Fairuz</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="Fairuz.sa@HD" site_id="49923172215352">Fairuz</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="FalastiniTV.ps@SD" site_id="1#33#Falastini TV">Falastini TV</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="Fatafeat.ae@SD" site_id="entertainment#17">17</channel>
+  <channel site="bein.com" lang="en" xmltv_id="Fatafeat.ae@SD" site_id="entertainment#17">17</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="Fatafeat.ae@SD" site_id="4510">Fatafeat</channel>
+  <channel site="osn.com" lang="en" xmltv_id="Fatafeat.ae@SD" site_id="4510">Fatafeat</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="FixFoxi.de@SD" site_id="1792">Fix &amp; Foxi TV</channel>
+  <channel site="tv.magenta.at" lang="de" xmltv_id="FixFoxi.de@SD" site_id="207381032281">Fix &amp; Foxi</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="FixFoxi.de@SD" site_id="3381">Fix et Foxy</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="FoodNetworkEMEA.us@SD" site_id="entertainment#14">14</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="FoxActionMoviesMENA.hk@SD" site_id="entertainment#6">6</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="FoxActionMoviesMENA.hk@SD" site_id="1330">ستار أكشن</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="FoxArabia.ae@SD" site_id="entertainment#13">13</channel>
+  <channel site="bein.com" lang="en" xmltv_id="FoxArabia.ae@SD" site_id="entertainment#13">13</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="FoxMoviesMiddleEast.us@SD" site_id="entertainment#5">5</channel>
+  <channel site="france.tv" lang="fr" xmltv_id="France24.fr" site_id="france-24">France 24</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="France24.fr@Arabic" site_id="1#33#France 24 Arabic">France 24 Arabic</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="France24.fr@Arabic" site_id="161" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250528/0/1112466594665eb9542c_op_0_XL.webp">FRANCE 24 ARABIC</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="France24.fr@Arabic" site_id="ba/tvprogram#france-24-arabic">France24 Arabic</channel>
+  <channel site="airtelxstream.in" lang="en" xmltv_id="France24.fr@English" site_id="LIVETV_LIVETVCHANNEL_FRANCE_24">France 24</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="France24.fr@English" site_id="#311">FRANCE 24 ENG</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="France24.fr@English" site_id="671" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_france24_eng%2F20220922_114506%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">FRANCE 24 Anglais</channel>
+  <channel site="content.astro.com.my" lang="en" xmltv_id="France24.fr@English" site_id="289">France24</channel>
+  <channel site="cubmu.com" lang="id" xmltv_id="France24.fr@English" site_id="258">France 24</channel>
+  <channel site="dens.tv" lang="id" xmltv_id="France24.fr@English" site_id="69">France 24</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="France24.fr@English" site_id="159111">France 24</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="France24.fr@English" site_id="64257#16370">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="France24.fr@English" site_id="Flash/epg#france24">France24</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="France24.fr@English" site_id="Plex/au#697140a85d851f5e69414688-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="France24.fr@English" site_id="Plex/ca#647f8d22a2fc3fadb4721685-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="France24.fr@English" site_id="Plex/gb#64305451fc3be5947773c339-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="France24.fr@English" site_id="Plex/nz#5e20b730f2f8d5003d739db7-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="France24.fr@English" site_id="Plex/us#5e20b730f2f8d5003d739db7-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="es" xmltv_id="France24.fr@English" site_id="Plex/es#643054b1fc3be59477853717-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="es" xmltv_id="France24.fr@English" site_id="Plex/mx#608049aefa2b8ae93c2c3a63-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="i.mjh.nz" lang="fr" xmltv_id="France24.fr@English" site_id="Plex/fr#6430aa45fc3be5947780904e-678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="m.tv.sms.cz" lang="en" xmltv_id="France24.fr@English" site_id="France24+EN">France24 EN</channel>
+  <channel site="magticom.ge" lang="en" xmltv_id="France24.fr@English" site_id="161">France 24</channel>
+  <channel site="maxstream.tv" lang="id" xmltv_id="France24.fr@English" site_id="0_gvz1a46f">France 24</channel>
+  <channel site="melita.com" lang="en" xmltv_id="France24.fr@English" site_id="3e7cac2b-4039-4d6d-8be4-6305458a2798">France 24 in English</channel>
+  <channel site="meo.pt" lang="en" xmltv_id="France24.fr@English" site_id="FR24I">France 24 (I)</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="France24.fr@English" site_id="cl#france-24-ingles">France 24 (Inglés)</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="France24.fr@English" site_id="352">France 24 English</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="France24.fr@English" site_id="352">France 24 English</channel>
+  <channel site="mujtvprogram.cz" lang="en" xmltv_id="France24.fr@English" site_id="396">France 24 (EN)</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="France24.fr@English" site_id="1760/france-24-english">France 24 English</channel>
+  <channel site="mytvsuper.com" lang="en" xmltv_id="France24.fr@English" site_id="CF24">France 24</channel>
+  <channel site="mytvsuper.com" lang="zh" xmltv_id="France24.fr@English" site_id="CF24">France 24</channel>
+  <channel site="nostv.pt" lang="en" xmltv_id="France24.fr@English" site_id="109">France 24 (I)</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="France24.fr@English" site_id="327">France 24</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="France24.fr@English" site_id="327">France 24</channel>
+  <channel site="playtv.unifi.com.my" lang="en" xmltv_id="France24.fr@English" site_id="57622577">France 24</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="France24.fr@English" site_id="678fe7959407a53556d3e8eb">FRANCE 24</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="France24.fr@English" site_id="france-24-en">France 24 En</channel>
+  <channel site="programtv.onet.pl" lang="en" xmltv_id="France24.fr@English" site_id="france-24-en-70">France 24 - EN</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="France24.fr@English" site_id="1#33#France 24 English">France 24 English</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="France24.fr@English" site_id="5041">France 24 (English)</channel>
+  <channel site="sky.com" lang="de" xmltv_id="France24.fr@English" site_id="DE#6906">France 24 (in English)</channel>
+  <channel site="sky.com" lang="en" xmltv_id="France24.fr@English" site_id="GB#1121">FRANCE 24 HD</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="France24.fr@English" site_id="64864046-76a0-4de0-a65b-53fea57ee6bd">France24</channel>
+  <channel site="starhubtvplus.com" lang="zh" xmltv_id="France24.fr@English" site_id="64864046-76a0-4de0-a65b-53fea57ee6bd">France24</channel>
+  <channel site="superguidatv.it" lang="en" xmltv_id="France24.fr@English" site_id="france-24-english-/sky-news/124">France 24 English</channel>
+  <channel site="tataplay.com" lang="en" xmltv_id="France24.fr@English" site_id="131">France 24</channel>
+  <channel site="teleboy.ch" lang="en" xmltv_id="France24.fr@English" site_id="436">France 24 en</channel>
+  <channel site="teliatv.ee" lang="en" xmltv_id="France24.fr@English" site_id="en#143">France 24</channel>
+  <channel site="teliatv.ee" lang="ru" xmltv_id="France24.fr@English" site_id="ru#143">France 24</channel>
+  <channel site="tivu.tv" lang="it" xmltv_id="France24.fr@English" site_id="136" logo="https://services.tivulaguida.it/uploads/channel/bace5f5ecf515c5f85a9438d0e01bf9c8da627dd.png">Radio Italia Tv HD</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="France24.fr@English" site_id="1639">France 24 English</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="France24.fr@English" site_id="1204">France 24</channel>
+  <channel site="tv.post.lu" lang="en" xmltv_id="France24.fr@English" site_id="ce2f0390-8099-11e9-b5ca-f345a2ed0fbe">France 24 (EN)</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="France24.fr@English" site_id="671">France 24 ENG</channel>
+  <channel site="tv2go.t-2.net" lang="sl" xmltv_id="France24.fr@English" site_id="1000159">France 24 English</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="France24.fr@English" site_id="france-24-english/14114">France 24 English</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="France24.fr@English" site_id="16" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202505/20250528/40/1113421345165eb8f42a_op_0_XL.webp">FRANCE 24 ENGLISH</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="France24.fr@English" site_id="al/programacioni#france24">France24</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="France24.fr@English" site_id="70130">France 24 English</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="France24.fr@English" site_id="00000000000000000147">France 24</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="France24.fr@English" site_id="00000000000000000147">France 24</channel>
+  <channel site="watch.whaletvplus.com" lang="en" xmltv_id="France24.fr@English" site_id="925715003465143077">France 24 (EN)</channel>
+  <channel site="guidatv.sky.it" lang="en" xmltv_id="France24.fr@EnglishHD" site_id="DTH#7968">France 24 English HD</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="France24.fr@EnglishHD" site_id="2139/france-24-english-hd">France 24 English HD</channel>
+  <channel site="sky.com" lang="it" xmltv_id="France24.fr@EnglishHD" site_id="IT#5296">France 24 English HD</channel>
+  <channel site="tv.magenta.at" lang="de" xmltv_id="France24.fr@EnglishHD" site_id="206969384080">France 24 HD</channel>
+  <channel site="tv.nu" lang="en" xmltv_id="France24.fr@EnglishHD" site_id="france-24-english-hd">France 24 English HD</channel>
+  <channel site="tvireland.ie" lang="en" xmltv_id="France24.fr@EnglishHD" site_id="2139/france-24-english-hd">France 24 English HD</channel>
+  <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="France24.fr@EnglishHD" site_id="1722">France 24 English HD</channel>
+  <channel site="cableplus.com.uy" lang="es" xmltv_id="France24.fr@French" site_id="3431">FRANCE 24 FRANCES</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="France24.fr@French" site_id="#310">FRANCE 24</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="France24.fr@French" site_id="529" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_france24_fr%2F20220922_114506%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">FRANCE 24 Français</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="France24.fr@French" site_id="france-24">France 24</channel>
+  <channel site="horizon.tv" lang="fr" xmltv_id="France24.fr@French" site_id="10112">France 24</channel>
+  <channel site="m.tv.sms.cz" lang="fr" xmltv_id="France24.fr@French" site_id="France24">France24</channel>
+  <channel site="melita.com" lang="fr" xmltv_id="France24.fr@French" site_id="bce83c2d-b975-41cc-b863-ff53dc7fab9f">France 24 in French</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="France24.fr@French" site_id="FR24F">France 24 (F)</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="France24.fr@French" site_id="419/programme-television-france-24">FRANCE 24</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="France24.fr@French" site_id="FRANCE" logo="https://estatico.emisiondof6.com/recorte/m-DP/wpmos/FRANCE">FRANCE24 (FR)</channel>
+  <channel site="mujtvprogram.cz" lang="fr" xmltv_id="France24.fr@French" site_id="122">France 24 (FR)</channel>
+  <channel site="nostv.pt" lang="fr" xmltv_id="France24.fr@French" site_id="132">France 24 (F)</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="France24.fr@French" site_id="715">France 24 (French)</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="France24.fr@French" site_id="715">France 24 (French)</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="France24.fr@French" site_id="UID50073">France 24 F</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="France24.fr@French" site_id="france-24">France 24</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="France24.fr@French" site_id="france-24-142">France 24</channel>
+  <channel site="programtv.onet.pl" lang="fr" xmltv_id="France24.fr@French" site_id="france-24-491">France 24</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="France24.fr@French" site_id="5040">France 24 (French)</channel>
+  <channel site="sky.com" lang="de" xmltv_id="France24.fr@French" site_id="DE#6905">France 24 (en Français)</channel>
+  <channel site="sky.com" lang="de" xmltv_id="France24.fr@French" site_id="DE#7005">France 24 (en Francais)</channel>
+  <channel site="superguidatv.it" lang="fr" xmltv_id="France24.fr@French" site_id="france-24/sky-news/252">France 24</channel>
+  <channel site="teleboy.ch" lang="fr" xmltv_id="France24.fr@French" site_id="147">France 24 fr</channel>
+  <channel site="tivu.tv" lang="it" xmltv_id="France24.fr@French" site_id="137" logo="https://services.tivulaguida.it/uploads/channel/d4f264b4f5aaed7b3e812355e8aa02b13cff3cb5.png">TRT World HD</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="France24.fr@French" site_id="529">France 24</channel>
+  <channel site="tv.blue.ch" lang="fr" xmltv_id="France24.fr@French" site_id="183">France 24</channel>
+  <channel site="tv.dir.bg" lang="bg" xmltv_id="France24.fr@French" site_id="1">France 24</channel>
+  <channel site="tv.mail.ru" lang="ru" xmltv_id="France24.fr@French" site_id="1420">France 24 Francais</channel>
+  <channel site="tv.post.lu" lang="fr" xmltv_id="France24.fr@French" site_id="be922070-8099-11e9-b5ca-f345a2ed0fbe">France 24 (FR)</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="France24.fr@French" site_id="529">France 24</channel>
+  <channel site="tv24.se" lang="fr" xmltv_id="France24.fr@French" site_id="france-24">France 24</channel>
+  <channel site="tv2go.t-2.net" lang="sl" xmltv_id="France24.fr@French" site_id="1000158">France 24 French</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="France24.fr@French" site_id="705052/france-24">France 24</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="France24.fr@French" site_id="fr24/FR24">France 24</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="France24.fr@French" site_id="al/programacioni#france-24-franch">France 24 French</channel>
+  <channel site="watch.whaletvplus.com" lang="fr" xmltv_id="France24.fr@French" site_id="358377324066446721">France 24 (FR)</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="France24.fr@French" site_id="5316">France 24 francais</channel>
+  <channel site="webtv.delta.nl" lang="fr" xmltv_id="France24.fr@French" site_id="3021">France24</channel>
+  <channel site="zap.co.ao" lang="pt" xmltv_id="France24.fr@French" site_id="2132">France 24 Fr</channel>
+  <channel site="guidatv.sky.it" lang="fr" xmltv_id="France24.fr@FrenchHD" site_id="DTH#5119">France 24 Francais HD</channel>
+  <channel site="pickx.be" lang="fr" xmltv_id="France24.fr@FrenchHD" site_id="UID0149">France 24 HD</channel>
+  <channel site="sky.com" lang="it" xmltv_id="France24.fr@FrenchHD" site_id="IT#5119">France 24 Francais HD</channel>
+  <channel site="cableplus.com.uy" lang="es" xmltv_id="France24.fr@Spanish" site_id="4124">FRANCE 24 ESPAÑOL</channel>
+  <channel site="mi.tv" lang="es" xmltv_id="France24.fr@Spanish" site_id="ar#france-24-espanol">France 24 en Español</channel>
+  <channel site="programacion-tv.elpais.com" lang="fr" xmltv_id="France24.fr@Spanish" site_id="608">France 24</channel>
+  <channel site="programacion.tcc.com.uy" lang="es" xmltv_id="France24.fr@Spanish" site_id="270">France 24 HD</channel>
+  <channel site="watch.whaletvplus.com" lang="es" xmltv_id="France24.fr@Spanish" site_id="361587808315900572">France 24 (ES)</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="FujairahTV.ae@SD" site_id="1302">الفجيرة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="FujairahTV.ae@SD" site_id="1302">Fujairah</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="FujairahTV.ae@SD" site_id="1#38#الفجيرة">الفجيرة</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="GINXTV.uk@SD" site_id="6604">Ginx</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="Gametoon.nl@SD" site_id="6606">Gametoon</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="GoalZone.sa" site_id="49923639151416">Goal Zone</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="GoalZone.sa" site_id="49923639151416">Goal Zone</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="GoalZone.sa" site_id="49923639151416">Goal Zone</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="HGTVArabia.us@SD" site_id="entertainment#15">15</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="HadhramautTV.ye@SD" site_id="1374">تلفزيون حضرموت</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="HadhramautTV.ye@SD" site_id="1374">Hadhramaut TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="HalabTodayTV.sy@SD" site_id="1#33#Halab Today TV">Halab Today TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="HannibalTV.tn@SD" site_id="1#50#حنبعل">حنبعل</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="HannibalTV.tn@SD" site_id="3551">HANNIBAL TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="HebronSat.ps@SD" site_id="1#33#Hebron Sat">Hebron Sat</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="History2MiddleEast.us@SD" site_id="5667">H2 HD</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="HistoryMiddleEast.us@SD" site_id="5661">History HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ImamHusseinTV2.iq@SD" site_id="1#33#Imam Hussein TV 2">Imam Hussein TV 2</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="InvestigationDiscovery.uk@SD" site_id="5668">Discovery IDX HD</channel>
+  <channel site="dsmart.com.tr" lang="tr" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="58d29bb0eefad3db9c60628e">Discovery ID</channel>
+  <channel site="melita.com" lang="en" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="214cf4b1-2b21-4da7-90d1-a5bf2f288d7b">ID HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="ID">Investigation Discovery</channel>
+  <channel site="mujtvprogram.cz" lang="cs" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="384">Investigation Discovery</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="530">ID Investigation Discovery</channel>
+  <channel site="programetv.ro" lang="ro" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="id-investigation-discovery">ID Investigation Discovery</channel>
+  <channel site="tv.dir.bg" lang="bg" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="55">ID (Investigation Discovery)</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="al/programacioni#investigation-discovery">Investigation Discovery</channel>
+  <channel site="webtv.delta.nl" lang="nl" xmltv_id="InvestigationDiscoveryEurope.us@SD" site_id="16">ID</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="IqraaAfricaEurope.sa@SD" site_id="90516" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_iqraa_international%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">IQRAA INTERNATIONAL</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="IqraaAfricaEurope.sa@SD" site_id="3549">Iqraa International</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="IqraaArabic.sa" site_id="49923697660442">إقرأ</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="IqraaArabic.sa" site_id="49923697660442">Iqraa</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="IqraaArabic.sa" site_id="49923697660442">Iqraa</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="IqraaArabic.sa@SD" site_id="3550">Iqraa TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="IraqFuture.iq@SD" site_id="1#33#Iraq Future TV">Iraq Future TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="IraqNow.iq@SD" site_id="1#33#Iraq Now">Iraq Now</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="JeddahRadio.sa@SD" site_id="1#33#Jedda Radio">Jedda Radio</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="JeemTV.qa@SD" site_id="entertainment#29">29</channel>
+  <channel site="bein.com" lang="en" xmltv_id="JeemTV.qa@SD" site_id="entertainment#30">30</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="JordanTV.jo@SD" site_id="1314">الأردن</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="JordanTV.jo@SD" site_id="1314">Jordan TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="JordanTV.jo@SD" site_id="1#38#الأردني تي في">الأردني تي في</channel>
+  <channel site="sky.com" lang="it" xmltv_id="JordanTV.jo@SD" site_id="IT#5170">Jordan TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="JordanTV.jo@SD" site_id="603">Jordan Satellite Channel</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="KSASports1.sa@SD" site_id="9961">KSA Sports 1 HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="KSASports1.sa@SD" site_id="9961">KSA Sports 1 HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KSASports1.sa@SD" site_id="1#33#KSA sports 1">KSA sports 1</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="KTV1.kw@SD" site_id="1310">الكويت</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="KTV1.kw@SD" site_id="1310">Kuwait</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="KTV1.kw@SD" site_id="1#38#دولة الكويت - الأولى">دولة الكويت - الأولى</channel>
+  <channel site="sky.com" lang="it" xmltv_id="KTV1.kw@SD" site_id="IT#5172">KTV 1 HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="KTV2.kw@SD" site_id="1#38#دولة الكويت - الثانية">دولة الكويت - الثانية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KaifaTV.jo@SD" site_id="1#33#Kaifa TV">Kaifa TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Karameesh.jo@SD" site_id="1#33#Karameesh">Karameesh</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="KhartoumTV.sd@SD" site_id="1#38#الخرطوم">الخرطوم</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KhartoumTV.sd@SD" site_id="1#33#Khartoum TV">Khartoum TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KirkukTV.iq@SD" site_id="1#33#Kirkuk TV">Kirkuk TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KoogiTV.eg@SD" site_id="1#33#Koogi TV">Koogi TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Kurdistan24.iq@SD" site_id="1#33#Kurdistan 24">Kurdistan 24</channel>
+  <channel site="sky.com" lang="it" xmltv_id="Kurdistan24.iq@SD" site_id="IT#5151">Kurdistan 24 HD</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KurdistanTV.iq@SD" site_id="1#33#Kurdistan TV">Kurdistan TV</channel>
+  <channel site="tv.blue.ch" lang="ku" xmltv_id="KurdistanTV.iq@SD" site_id="235">Kurdistan TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Kurdsat.iq@SD" site_id="1#33#Kurdsat">Kurdsat</channel>
+  <channel site="tv.blue.ch" lang="ku" xmltv_id="Kurdsat.iq@SD" site_id="236">Kurdsat</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="LBC.sa@SD" site_id="1341">إل بي سي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="LBC.sa@SD" site_id="1341">LBC</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="LBC.sa@SD" site_id="434">إل بي سي</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="LBC.sa@SD" site_id="434">LBC</channel>
+  <channel site="melita.com" lang="en" xmltv_id="LBCEurope.lb@SD" site_id="4b3f81e6-066b-4764-9f2f-6d4444d27130">LBC Europe</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="LBCInternational.lb@SD" site_id="1168">إل بي سي آي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="LBCInternational.lb@SD" site_id="1168">LBCI</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="LaayouneTV.ma@SD" site_id="4069">Laâyoune</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="LanaTV.lb@SD" site_id="1313">ال تي في</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="LanaTV.lb@SD" site_id="1313">LTV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="LanaTV.lb@SD" site_id="3800">Lana TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="LibyaAlrasmiaChannel.ly@SD" site_id="1#33#Libya Alrasmia Channel">Libya Alrasmia Channel</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBC1.ae@SD" site_id="1127">إم بي سي</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBC1.ae@SD" site_id="9908">MBC 1</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBC1.ae@SD" site_id="9908">MBC 1</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="MBC1.ae@SD" site_id="1#38#ام بي سي 1">ام بي سي 1</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC1.ae@SD" site_id="387238">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC1.ae@SD" site_id="387238">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC1.ae@SD" site_id="387238">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC1Egypt.eg@HD" site_id="387248">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC1Egypt.eg@HD" site_id="387248">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC1Egypt.eg@HD" site_id="387248">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC1USA.us@SD" site_id="816764">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC1USA.us@SD" site_id="816764">MBC1</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC1USA.us@SD" site_id="816764">MBC1</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBC2.ae@SD" site_id="1128">إم بي سي 2</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="MBC2.ae@SD" site_id="1128">MBC 2</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="MBC2.ae@SD" site_id="1#38#ام بي سي 2">ام بي سي 2</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC2.ae@SD" site_id="400917">MBC2</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC2.ae@SD" site_id="400917">MBC2</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC2.ae@SD" site_id="400917">MBC2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBC3.ae@SD" site_id="1241">إم بي سي 3</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBC3.ae@SD" site_id="9971">MBC 3</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBC3.ae@SD" site_id="9971">MBC 3</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC3.ae@SD" site_id="409385">MBC3</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC3.ae@SD" site_id="409385">MBC3</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC3.ae@SD" site_id="409385">MBC3</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC3USA.us@SD" site_id="816771">MBC3</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC3USA.us@SD" site_id="816771">MBC3</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC3USA.us@SD" site_id="816771">MBC3</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBC4.ae@SD" site_id="1129">إم بي سي 4</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="MBC4.ae@SD" site_id="1#38#ام بي سي 4">ام بي سي 4</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC4.ae@SD" site_id="400919">MBC4</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC4.ae@SD" site_id="400919">MBC4</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC4.ae@SD" site_id="400919">MBC4</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBC5.ae@SD" site_id="1354">إم بي سي 5</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBC5.ae@SD" site_id="9995">MBC 5</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBC5.ae@SD" site_id="9995">MBC 5</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBC5.ae@SD" site_id="387937">MBC5</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBC5.ae@SD" site_id="387937">MBC5</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBC5.ae@SD" site_id="387937">MBC5</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCAction.ae@SD" site_id="1130">إم بي سي أكشن</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="MBCAction.ae@SD" site_id="1130">MBC Action</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MBCAction.ae@SD" site_id="1#33#MBC Action">MBC Action</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCAction.ae@SD" site_id="400921">MBC Action</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCAction.ae@SD" site_id="400921">MBC Action</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCAction.ae@SD" site_id="400921">MBC Action</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCBollywood.ae@SD" site_id="1259">إم بي سي بوليوود</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MBCBollywood.ae@SD" site_id="1#33#MBC Bollywood">MBC Bollywood</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCBollywood.ae@SD" site_id="409387">MBC Bollywood</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCBollywood.ae@SD" site_id="409387">MBC Bollywood</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCBollywood.ae@SD" site_id="409387">MBC Bollywood</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCDrama.ae@SD" site_id="1194">إم بي سي دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="MBCDrama.ae@SD" site_id="1194">MBC Drama</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBCDrama.ae@SD" site_id="9976">MBC Drama</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBCDrama.ae@SD" site_id="9976">MBC Drama</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MBCDrama.ae@SD" site_id="1#33#MBC Drama">MBC Drama</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCDrama.ae@SD" site_id="387251">MBC Drama</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCDrama.ae@SD" site_id="387251">MBC Drama</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCDrama.ae@SD" site_id="387251">MBC Drama</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCDramaUSA.us@SD" site_id="816781">MBC Drama</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCDramaUSA.us@SD" site_id="816781">MBC Drama</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCDramaUSA.us@SD" site_id="816781">MBC Drama</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MBCFM.ae@SD" site_id="1#33#MBC FM">MBC FM</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCFM.ae@SD" site_id="388567">MBC FM</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCFM.ae@SD" site_id="388567">MBC FM</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCFM.ae@SD" site_id="388567">MBC FM</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCIraq.iq@SD" site_id="1340">إم بي سي العراق</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBCIraq.iq@SD" site_id="9245">MBC Iraq</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBCIraq.iq@SD" site_id="9245">MBC Iraq</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCIraq.iq@SD" site_id="387294">MBC Iraq</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCIraq.iq@SD" site_id="387294">MBC Iraq</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCIraq.iq@SD" site_id="387294">MBC Iraq</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="MBCMasr.eg@SD" site_id="90530" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_mbc_5%2F20241104_185930%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">MBC 5</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCMasr.eg@SD" site_id="1239">إم بي سي مصر</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBCMasr.eg@SD" site_id="9933">MBC Masr</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBCMasr.eg@SD" site_id="9933">MBC Masr</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCMasr.eg@SD" site_id="387290">MBC Masr</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCMasr.eg@SD" site_id="387290">MBC Masr</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCMasr.eg@SD" site_id="387290">MBC Masr</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCMasr2.eg@SD" site_id="1278">إم بي سي مصر 2</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBCMasr2.eg@SD" site_id="9297">MBC Masr2</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBCMasr2.eg@SD" site_id="9297">MBC Masr2</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCMasr2.eg@SD" site_id="387293">MBC Masr2</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCMasr2.eg@SD" site_id="387293">MBC Masr2</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCMasr2.eg@SD" site_id="387293">MBC Masr2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCMasrDrama.sa@SD" site_id="1399">إم بي سي مصر دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="MBCMasrDrama.sa@SD" site_id="1399">MBC Masr Drama</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCMasrDrama.sa@SD" site_id="49923122575716">مصر دراما</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCMasrDrama.sa@SD" site_id="49923122575716">MBC Masr Drama</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCMasrDrama.sa@SD" site_id="49923122575716">MBC Masr Drama</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCMasrUSA.us@SD" site_id="816776">MBC Masr</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCMasrUSA.us@SD" site_id="816776">MBC Masr</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCMasrUSA.us@SD" site_id="816776">MBC Masr</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCMax.ae@SD" site_id="1132">إم بي سي ماكس</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCMax.ae@SD" site_id="400924">MBC MAX</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBCMood.sa@HD" site_id="411">MBC Mood</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBCMood.sa@HD" site_id="411">MBC Mood</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCPersia.ae@SD" site_id="418308">MBC Persia</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCPersia.ae@SD" site_id="418308">MBC Persia</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCPersia.ae@SD" site_id="418308">MBC Persia</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MBCPlusDrama.sa@SD" site_id="1131">إم بي سي دراما +</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MBCPlusDrama.sa@SD" site_id="9699">MBC+ Drama</channel>
+  <channel site="osn.com" lang="en" xmltv_id="MBCPlusDrama.sa@SD" site_id="9699">MBC+ Drama</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MBCPlusDrama.sa@SD" site_id="387296">MBC Plus Drama</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MBCPlusDrama.sa@SD" site_id="387296">MBC Plus Drama</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MBCPlusDrama.sa@SD" site_id="387296">MBC Plus Drama</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MCMTop.fr@SD" site_id="5664">MCM TOP</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="MPlus.sa@SD" site_id="3810">Rotana M+</channel>
+  <channel site="sky.com" lang="en" xmltv_id="MTA1World.uk@HD" site_id="GB#3202">MTA1 World HD</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MTV.lb@SD" site_id="1296">إم تي في</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MTV.lb@SD" site_id="49923518527492">MTV Lebanon</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="MTV80s.uk@SD" site_id="entertainment#18">18</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="MTV90s.uk@SD" site_id="entertainment#19">19</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MajidAlMohandis.sa@SD" site_id="49922763891977">ماجد المهندس</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MajidAlMohandis.sa@SD" site_id="49922763891977">Majid Almohandis</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MajidAlMohandis.sa@SD" site_id="49922763891977">Majid Almohandis</channel>
+  <channel site="freetv.tv" lang="ar" xmltv_id="Makan33.il@SD" site_id="3371021">مكان</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MakkahTV.sa@SD" site_id="1#33#Makkah TV">Makkah TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MakkahTV.sa@SD" site_id="6852">Makkah TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="ManuChat.iq@SD" site_id="1#33#Manu Chat">Manu Chat</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="Maraya.sa@HD" site_id="988045">قناة مرايا</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="Maraya.sa@HD" site_id="988045">Maraya Channel</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="Maraya.sa@HD" site_id="988045">Maraya Channel</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="Masah.sa@SD" site_id="1401">ماسة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="Masah.sa@SD" site_id="1401">Masah</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MasperoZaman.eg@SD" site_id="1336">ماسبيرو زمان</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="MasperoZaman.eg@SD" site_id="1336">Maspero Zaman</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MasperoZaman.eg@SD" site_id="1#33#Maspero Zaman">Maspero Zaman</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Mazzika.eg@SD" site_id="1#33#Mazzika">Mazzika</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Medi1TVAfrique.ma@SD" site_id="90242" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_medi1tv%2F20170314_120000%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">MEDI 1 TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="Medi1TVAfrique.ma@SD" site_id="665">Medi 1 TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MisrAlBalad.eg@SD" site_id="1#33#Misr AlBalad">Misr AlBalad</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MixBelAraby.eg@SD" site_id="1371">ميكس بالعربي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="MixBelAraby.eg@SD" site_id="1371">Mix Bel Araby</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="MixBelAraby.eg@SD" site_id="1#33#Mix bel Araby TV">Mix bel Araby TV</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MohammedAbdo.sa@SD" site_id="986346">محمد عبده</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MohammedAbdo.sa@SD" site_id="986346">Mohammed Abdu</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MohammedAbdo.sa@SD" site_id="986346">Mohammed Abdu</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MoonbugKids.uk@SD" site_id="310">Moonbug Kids</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="MotorvisionPlus.de@SD" site_id="305">MOTORVISION</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MoviesAction.sa@SD" site_id="986064">Movies Action</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MoviesAction.sa@SD" site_id="986064">Movies Action</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MoviesAction.sa@SD" site_id="986064">Movies Action</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="MoviesThriller.sa@SD" site_id="986069">Movies Thriller</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="MoviesThriller.sa@SD" site_id="986069">Movies Thriller</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="MoviesThriller.sa@SD" site_id="986069">Movies Thriller</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="NBN.lb@SD" site_id="1275">NBN</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NRT4.iq@SD" site_id="1#33#NRT 4">NRT 4</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NabaaTV.lb@SD" site_id="1#33#Nabaa TV">Nabaa TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="NationalGeographicAbuDhabi.ae@SD" site_id="1266">ناشونال جيوجراف...</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="NationalGeographicAbuDhabi.ae@SD" site_id="1266">National Geogra...</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="NationalGeographicMiddleEast.uk@SD" site_id="1275">ناشيونال جيوجرافيك</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="NationalGeographicMiddleEast.uk@SD" site_id="1275">National Geogra...</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="NessmaElJadida.tn@SD" site_id="90512" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_nessma%2F20250515_100242%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">NESSMA EL JADIDA</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="NessmaElJadida.tn@SD" site_id="1304">نسمة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="NessmaElJadida.tn@SD" site_id="1304">Nessma</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="NessmaElJadida.tn@SD" site_id="1#50#نسمة الجديدة">نسمة الجديدة</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="NessmaElJadida.tn@SD" site_id="1096">Nessma</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="NickJrArabia.ae@SD" site_id="5670">Nick Jr HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="NickJrArabia.ae@SD" site_id="5670">Nick Jr HD</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="NickelodeonArabia.ae@SD" site_id="5663">Nickelodeon HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="NickelodeonArabia.ae@SD" site_id="5663">Nickelodeon HD</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="NicktoonsArabia.ae@SD" site_id="5671">NickToons HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="NicktoonsArabia.ae@SD" site_id="5671">NickToons HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="NileCinema.eg@SD" site_id="1#38#نايل سينما">نايل سينما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileCinema.eg@SD" site_id="1#33#Nile Cinema">Nile Cinema</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="NileComedy.eg@SD" site_id="1#38#نايل كوميدي">نايل كوميدي</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileComedy.eg@SD" site_id="1#33#Nile Comedy">Nile Comedy</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileCulture.eg@SD" site_id="1#33#Nile Culture">Nile Culture</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="NileDrama.eg@SD" site_id="1156">نايل دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="NileDrama.eg@SD" site_id="1156">Nile Drama</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="NileDrama.eg@SD" site_id="1#38#نايل دراما">نايل دراما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileDrama.eg@SD" site_id="1#33#Nile Drama">Nile Drama</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileEducationChannel.eg@SD" site_id="1#33#Nile Education">Nile Education</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileFamily.eg@SD" site_id="1#33#Nile Family">Nile Family</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="NileLife.eg@SD" site_id="1159">نايل لايف</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="NileLife.eg@SD" site_id="1159">Nile Life</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="NileLife.eg@SD" site_id="1#38#نايل لايف">نايل لايف</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileLife.eg@SD" site_id="1#33#Nile Life">Nile Life</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileNews.eg@SD" site_id="1#33#Nile News">Nile News</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NileSport.eg@SD" site_id="1#33#Nile Sport">Nile Sport</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NogoumFMTV.eg@SD" site_id="1#33#Nogoum FM TV">Nogoum FM TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="NoorDubai.ae@SD" site_id="1#38#نور دبي تي في">نور دبي تي في</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NourAlKoddass.lb@SD" site_id="1#33#Nour Koddass">Nour Koddass</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NourMariam.lb@SD" site_id="1#33#Nour Mariam TV">Nour Mariam TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="ORTCTV.km@SD" site_id="1042">ORTC</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNComedy.ae@SD" site_id="4508">OSNtv Comedy</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNComedy.ae@SD" site_id="4508">OSNtv Comedy</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNKids.ae@SD" site_id="4506">OSNtv Kids</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNKids.ae@SD" site_id="4506">OSNtv Kids</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNMezze.ae@SD" site_id="4501">OSNtv Mezze</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNMezze.ae@SD" site_id="4501">OSNtv Mezze</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNMoviesAction.ae@SD" site_id="302">OSNtv Movies Action</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNMoviesAction.ae@SD" site_id="302">OSNtv Movies Action</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNMoviesHollywood.ae@SD" site_id="4503">OSNtv Movies Hollywood</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNMoviesHollywood.ae@SD" site_id="4503">OSNtv Movies Hollywood</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNMoviesPremiere.ae@SD" site_id="301">OSNtv Movies Premiere</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNShowcase.ae@SD" site_id="304">OSNtv Showcase</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNShowcase.ae@SD" site_id="304">OSNtv Showcase</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNYahala.ae@SD" site_id="4509">OSNtv Yahala</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNYahala.ae@SD" site_id="4509">OSNtv Yahala</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="OSNYahala.ae@SD" site_id="31538">OSN Ya Hala</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNYahalaAflam.ae@SD" site_id="306">OSNtv Yahala Aflam</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNYahalaAflam.ae@SD" site_id="306">OSNtv Yahala Aflam</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OSNYahalaBilArabi.ae@SD" site_id="309">OSNtv Yahala Bil Arabi</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OSNYahalaBilArabi.ae@SD" site_id="309">OSNtv Yahala Bil Arabi</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="OTV.lb@SD" site_id="1285">OTV</channel>
+  <channel site="ayn.om" lang="ar" xmltv_id="OmanSportsTV.om" site_id="159/قناة-عمان-الرياضية">قناة عمان الرياضية</channel>
+  <channel site="ayn.om" lang="ar" xmltv_id="OmanTV.om" site_id="158/قناة-عمان-العامة">قناة عمان العامة</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="OmanTV.om@SD" site_id="1317">عمان</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="OmanTV.om@SD" site_id="1317">Oman</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="OmanTV.om@SD" site_id="9983">Oman TV</channel>
+  <channel site="osn.com" lang="en" xmltv_id="OmanTV.om@SD" site_id="9983">Oman TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="OmanTV.om@SD" site_id="1#38#عُمان تي في">عُمان تي في</channel>
+  <channel site="tv.blue.ch" lang="ar" xmltv_id="OmanTV.om@SD" site_id="1698">Oman TV</channel>
+  <channel site="ayn.om" lang="ar" xmltv_id="OmanTVCultural.om" site_id="160/قناة-عمان-الثقافية">قناة عمان الثقافية</channel>
+  <channel site="ayn.om" lang="ar" xmltv_id="OmanTVMubashir.om" site_id="161/قناة-عمان-مباشر">قناة عمان مباشر</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="OnDrama.eg@SD" site_id="1134">أون دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="OnDrama.eg@SD" site_id="1134">ON Drama</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="OnE.eg@SD" site_id="1203">أون إي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="OnE.eg@SD" site_id="1203">ON E</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="OyounAlWatanTV.sa@SD" site_id="1#33#Oyoun Al Watan TV">Oyoun Al Watan TV</channel>
+  <channel site="epgshare01.online" lang="en" xmltv_id="PNCDrama.eg@SD" site_id="DISTROTV1#PNC.Drama.distro">PNC Drama</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="PNCFood.eg@SD" site_id="1#38#بانوراما فوود">بانوراما فوود</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="PalestineSport.ps@SD" site_id="1#33#Palestine Sport">Palestine Sport</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="PalestineToday.ps@SD" site_id="1#33#Palestine Today">Palestine Today</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="PanoramaFM.sa@SD" site_id="388566">Panorama FM</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="PanoramaFM.sa@SD" site_id="388566">Panorama FM</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="PanoramaFM.sa@SD" site_id="388566">Panorama FM</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="PayamTV.iq@SD" site_id="1#33#Payam TV">Payam TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="QatarTelevision.qa@SD" site_id="1319">قطر</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="QatarTelevision.qa@SD" site_id="1319">Qatar</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="QatarTelevision.qa@SD" site_id="1#38#قطر تي في">قطر تي في</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="QatarTelevision2.qa@SD" site_id="1#38#قطر 2">قطر 2</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="RFMTV.fr@SD" site_id="222">RFM TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="RT.ru@SD" site_id="7114">RT English</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="RTArabic.ru@SD" site_id="9396">RT Arabic</channel>
+  <channel site="osn.com" lang="en" xmltv_id="RTArabic.ru@SD" site_id="9396">RT Arabic</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="RabehSaqer.sa@HD" site_id="49923172117967">رابح صقر</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="RabehSaqer.sa@HD" site_id="49923172117967">Rabeh Saqer</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="RabehSaqer.sa@HD" site_id="49923172117967">Rabeh Saqer</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="RashidAlMajed.sa@SD" site_id="986024">راشد الماجد</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="RashidAlMajed.sa@SD" site_id="986024">Rashed Al-Majed</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="RashidAlMajed.sa@SD" site_id="986024">Rashed Al-Majed</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaAflamPlus.sa@SD" site_id="3540">Rotana Aflam+</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="90523" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_cinema%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA CINEMA</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="1148">روتانا سينما مصر</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="1148">Rotana Cinema Masr</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="439">روتانا سينما مصر</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="439">Rotana Cinema Masr</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="1#38#روتانا سينما مصر">روتانا سينما مصر</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaCinemaEgypt.eg@SD" site_id="1#33#Rotana Cinema Egypt">Rotana Cinema Egypt</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="1289">روتانا سينما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="1289">Rotana Cinema</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="431">روتانا سينما السعودية</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="431">Rotana Cinema KSA</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="1#38#روتانا سينما السعودية">روتانا سينما السعودية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="1#33#Rotana Cinema KSA">Rotana Cinema KSA</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaCinemaKSA.sa@SD" site_id="795">Rotana Cinema</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaClassic.sa@SD" site_id="90508" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_classic%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA CLASSIC</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RotanaClassic.sa@SD" site_id="1217">روتانا كلاسيك</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RotanaClassic.sa@SD" site_id="1217">Rotana Classic</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaClassic.sa@SD" site_id="438">روتانا كلاسيك</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaClassic.sa@SD" site_id="438">Rotana Classic</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RotanaClassic.sa@SD" site_id="1#38#روتانا كلاسيك">روتانا كلاسيك</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaClassic.sa@SD" site_id="1#33#Rotana Classic">Rotana Classic</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaClassic.sa@SD" site_id="2878">Rotana Classic</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="RotanaClassic.sa@SD" site_id="31977">Rotana Classic</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaClip.sa@SD" site_id="90509" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_clip%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA CLIP</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaClip.sa@SD" site_id="443">روتانا كليب</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaClip.sa@SD" site_id="443">Rotana Clip</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaClip.sa@SD" site_id="1#33#Rotana Clip">Rotana Clip</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaComedy.sa@SD" site_id="90524" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_aflam%2F20250407_090950%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA COMEDY</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RotanaComedy.sa@SD" site_id="1358">روتانا كوميدي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RotanaComedy.sa@SD" site_id="1358">Rotana Comedy</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaComedy.sa@SD" site_id="437">روتانا كوميدي</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaComedy.sa@SD" site_id="437">Rotana Comedy</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaComedy.sa@SD" site_id="3902">Rotana Comedy</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaDrama.sa@SD" site_id="90525" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_drama%2F20200130_100105%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA DRAMA</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RotanaDrama.sa@SD" site_id="1147">روتانا دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RotanaDrama.sa@SD" site_id="1147">Rotana Drama</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaDrama.sa@SD" site_id="436">روتانا دراما</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaDrama.sa@SD" site_id="436">Rotana Drama</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RotanaDrama.sa@SD" site_id="1#38#روتانا دراما">روتانا دراما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaDrama.sa@SD" site_id="1#33#Rotana Drama">Rotana Drama</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaDrama.sa@SD" site_id="1763">Rotana Drama</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaKhalijia.sa@SD" site_id="90522" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_khalijia%2F20200130_100105%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA KHALIJIA</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RotanaKhalijia.sa@SD" site_id="1149">روتانا خليجية</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RotanaKhalijia.sa@SD" site_id="1149">Rotana Khalejia</channel>
+  <channel site="rotana.net" lang="ar" xmltv_id="RotanaKhalijia.sa@SD" site_id="435">روتانا خليجية</channel>
+  <channel site="rotana.net" lang="en" xmltv_id="RotanaKhalijia.sa@SD" site_id="435">Rotana Khalijea HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RotanaKhalijia.sa@SD" site_id="1#38#روتانا خليجية">روتانا خليجية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaKhalijia.sa@SD" site_id="1#33#Rotana Khalijia">Rotana Khalijia</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="RotanaKhalijia.sa@SD" site_id="31973">Rotana Khalijia</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaKids.sa@SD" site_id="3548">Rotana Kids</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RotanaMusic.sa@SD" site_id="90519" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_rotana_musica%2F20200804_093352%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">ROTANA MOUSICA</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="RotanaMusic.sa@SD" site_id="1#33#Rotana Music">Rotana Music</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="RotanaMusic.sa@SD" site_id="1019">Rotana Music</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaComedy.jo@SD" site_id="3">Roya Comedy</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaDrama.jo@SD" site_id="2">Roya Drama</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaKids.jo@SD" site_id="14">Roya Kids</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaKids.jo@SD" site_id="42">Roya Kids Originals</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaKidsSongs.jo@SD" site_id="27">Roya Kids Songs</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaKitchen.jo@SD" site_id="4">Roya Kitchen</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaNews.jo@SD" site_id="21">Roya News</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="RoyaTV.jo@SD" site_id="1299">رؤيا</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="RoyaTV.jo@SD" site_id="1299">Roya</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="RoyaTV.jo@SD" site_id="9393">Roya TV HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="RoyaTV.jo@SD" site_id="9393">Roya TV HD</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaTV.jo@SD" site_id="1">Roya TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RoyaTV.jo@SD" site_id="1#38#رؤيا تي في">رؤيا تي في</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="RudawTV.iq@SD" site_id="372">Rudaw TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SBC.sa@SD" site_id="1297">إس بي سي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SBC.sa@SD" site_id="1297">SBC</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SBC.sa@SD" site_id="1#38#اس بي سي">اس بي سي</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="SBC.sa@SD" site_id="946940">SBC</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="SBC.sa@SD" site_id="946940">SBC</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="SBC.sa@SD" site_id="946940">SBC</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SadaElbalad.eg@SD" site_id="1226">صدى البلد</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SadaElbalad.eg@SD" site_id="1226">Sada El Balad</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SadaElbalad.eg@SD" site_id="1#38#صدى البلد">صدى البلد</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="SadaElbalad.eg@SD" site_id="1#33#Sada El Balad">Sada El Balad</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SadaElbalad2.eg@SD" site_id="1279">صدى البلد 2</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SadaElbalad2.eg@SD" site_id="1279">Sada El Balad 2</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SadaElbalad2.eg@SD" site_id="1#38#صدى البلد 2">صدى البلد 2</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="SadaElbalad2.eg@SD" site_id="1#33#Sada El Balad 2">Sada El Balad 2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SadaElbaladDrama.eg@SD" site_id="1227">صدى البلد دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SadaElbaladDrama.eg@SD" site_id="1227">Sada El Balad D...</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SadaElbaladDrama.eg@SD" site_id="1#38#صدى البلد دراما">صدى البلد دراما</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="SadaElbaladDrama.eg@SD" site_id="1#33#Sada El Balad Drama">Sada El Balad Drama</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="SalahalddinTV.iq@SD" site_id="1#33#Salahalddin TV">Salahalddin TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SalamTV.ly@SD" site_id="1360">سلام</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SalamTV.ly@SD" site_id="1360">Salam TV</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SamaDubai.ae@SD" site_id="1177">سما دبي</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SamaDubai.ae@SD" site_id="1177">Sama Dubai</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="SamiraTV.dz@SD" site_id="90517" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_samira_tv%2F20191107_103814%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">SAMIRA TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SamiraTV.dz@SD" site_id="1#38#سميرة">سميرة</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="SamiraTV.dz@SD" site_id="2299">Samira TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Sat7Arabic.cy@SD" site_id="1#33#Sat-7 Arabic">Sat-7 Arabic</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="Sat7Kids.cy@SD" site_id="1#33#Sat-7 Kids">Sat-7 Kids</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="SaudiThaqafiyaTV.sa@SD" site_id="9047">Al Thaqafeya</channel>
+  <channel site="osn.com" lang="en" xmltv_id="SaudiThaqafiyaTV.sa@SD" site_id="9047">Al Thaqafeya</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="SaudiThaqafiyaTV.sa@SD" site_id="995495">الثقافية</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="SaudiThaqafiyaTV.sa@SD" site_id="995495">AlThaqafeya</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="SaudiThaqafiyaTV.sa@SD" site_id="995495">AlThaqafeya</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SharjahSports.ae@SD" site_id="1#38#الشارقة الرياضية">الشارقة الرياضية</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="SharjahTV.ae@SD" site_id="1188">الشارقة</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="SharjahTV.ae@SD" site_id="1188">Sharjah TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SharjahTV.ae@SD" site_id="1#38#الشارقة تي في">الشارقة تي في</channel>
+  <channel site="sky.com" lang="it" xmltv_id="SkyNewsArabia.ae@HD" site_id="IT#5424">Sky News Arabia HD</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="SkyNewsArabia.ae@SD" site_id="2015">Sky News Arabia HD</channel>
+  <channel site="osn.com" lang="en" xmltv_id="SkyNewsArabia.ae@SD" site_id="2015">Sky News Arabia HD</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SkyNewsArabia.ae@SD" site_id="1#38#سكاي نيوز عربية">سكاي نيوز عربية</channel>
+  <channel site="sky.com" lang="en" xmltv_id="SkyNewsArabia.ae@SD" site_id="GB#4645">SkyNewsArabia</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="SkyNewsArabia.ae@SD" site_id="3725">Sky News Arabia</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="SkyNewsArabia.ae@SD" site_id="142" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250602/91/2132258447085eb88428_op_0_XL.webp">SKY NEWS ARABIA</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="SkyNewsArabia.ae@SD" site_id="99085">Sky News Arabia</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SpacetoonArabic.ae@SD" site_id="1#38#سبيس تون">سبيس تون</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="SpacetoonArabic.ae@SD" site_id="409390">Spacetoon</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="SpacetoonArabic.ae@SD" site_id="409390">Spacetoon</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="SpacetoonArabic.ae@SD" site_id="409390">Spacetoon</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="StarMoviesMiddleEast.ae@SD" site_id="entertainment#7">7</channel>
+  <channel site="bein.com" lang="en" xmltv_id="StarMoviesMiddleEast.ae@SD" site_id="entertainment#7">7</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="StarMoviesMiddleEast.ae@SD" site_id="1212">ستار موفيز</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="StarMoviesMiddleEast.ae@SD" site_id="1212">Star Movies</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="StarWorldMiddleEast.ae@SD" site_id="entertainment#16">16</channel>
+  <channel site="bein.com" lang="en" xmltv_id="StarWorldMiddleEast.ae@SD" site_id="entertainment#16">16</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="StarWorldMiddleEast.ae@SD" site_id="1329">ستار ورلد</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="StarWorldMiddleEast.ae@SD" site_id="1329">Star World</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SudanTV.sd@SD" site_id="1#38#السودان تي في">السودان تي في</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="SyriaTV.sy@SD" site_id="4141">Syria TV</channel>
+  <channel site="osn.com" lang="ar" xmltv_id="TLCArabia.us@SD" site_id="308">TLC HD</channel>
+  <channel site="digiturk.com.tr" lang="tr" xmltv_id="TRTArabi.tr@SD" site_id="262">TRT ARABI</channel>
+  <channel site="turksatkablo.com.tr" lang="tr" xmltv_id="TRTArabi.tr@SD" site_id="2108">TRT Arabi</channel>
+  <channel site="tvplus.com.tr" lang="tr" xmltv_id="TRTArabi.tr@SD" site_id="76" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/75/1019317040685eb88428_op_0_XL.webp">TRT ARABI</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="TRTArabi.tr@SD" site_id="ba/tvprogram#trt-arabic">TRT Arapça</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="TT1.tn@SD" site_id="371">Tunisia 1</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="TV2.dz@SD" site_id="90505" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_canalalgerie%2F20151026_092415%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">CANAL ALGERIE</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV2.dz@SD" site_id="1#38#الجزائر تي في">الجزائر تي في</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="TV2.dz@SD" site_id="346">Canal Algérie</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV3.dz@SD" site_id="1#38#الجزائرية الثالثة">الجزائرية الثالثة</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="TV3.dz@SD" site_id="1654">A3</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV4.dz@SD" site_id="1#38#الجزائرية الرابعة">الجزائرية الرابعة</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV5.dz@SD" site_id="1#38#الجزائرية الخامسة">الجزائرية الخامسة</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV6.dz@SD" site_id="1#38#الجزائرية السادسة">الجزائرية السادسة</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV7.dz@SD" site_id="1#38#الجزائرية السابعة">الجزائرية السابعة</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TV8.dz@SD" site_id="1#38#الجزائرية الثامنة">الجزائرية الثامنة</channel>
+  <channel site="sky.com" lang="en" xmltv_id="TakbeerTV.uk@SD" site_id="GB#4408">Takbeer TV</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="TamazightTV.ma@SD" site_id="90499" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_tamazight%2F20240524_192144%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">TAMAZIGHT TV</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TamazightTV.ma@SD" site_id="1#49#الأمازيغية">الأمازيغية</channel>
+  <channel site="snrt.ma" lang="ar" xmltv_id="TamazightTV.ma@SD" site_id="4075">Tamazight</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="Tarab.sa@SD" site_id="49922763510387">طرب</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="Tarab.sa@SD" site_id="49922763510387">Tarab</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="Tarab.sa@SD" site_id="49922763510387">Tarab</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="TeN.eg@SD" site_id="1280">تن</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="TeN.eg@SD" site_id="1280">TeN TV</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="TeleMaroc.ma@SD" site_id="3380">Télé Maroc</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TelvzaTV.tn@SD" site_id="1#50#تلفزة">تلفزة</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ThikrayatTV.sa@SD" site_id="1366">ذكريات</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ThikrayatTV.sa@SD" site_id="1366">Thikrayat Tv</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="ThikrayatTV.sa@SD" site_id="1#38#ذكريات">ذكريات</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="ThikrayatTV.sa@SD" site_id="946945">ذكريات</channel>
+  <channel site="shahid.mbc.net" lang="en" xmltv_id="ThikrayatTV.sa@SD" site_id="946945">Thikrayat</channel>
+  <channel site="shahid.mbc.net" lang="fr" xmltv_id="ThikrayatTV.sa@SD" site_id="946945">Thikrayat</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="TunisnaTV.tn@SD" site_id="1#50#تونسنا">تونسنا</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="UTV.iq@SD" site_id="1367">يو تي في</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="UTV.iq@SD" site_id="1367">Utv</channel>
+  <channel site="shahid.mbc.net" lang="ar" xmltv_id="Wanasah.ae@SD" site_id="414449">وناسه</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="YasTV.ae@SD" site_id="1#38#ياس تي في">ياس تي في</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="YemenShababChannel.ye@SD" site_id="1#38#يمن شباب">يمن شباب</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="YemenTV.ye@SD" site_id="1#38#اليمن تي في">اليمن تي في</channel>
+  <channel site="zee5.com" lang="en" xmltv_id="ZeeAflam.ae@HD" site_id="0-9-9z5817235">Zee Aflam HD</channel>
+  <channel site="zee5.com" lang="en" xmltv_id="ZeeAflam.ae@SD" site_id="0-9-zeeaflam">Zee Aflam</channel>
+  <channel site="zee5.com" lang="en" xmltv_id="ZeeAlwan.ae@Egypt" site_id="0-9-9z5817234">Zee Alwan HD</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="ZeeAlwan.ae@SD" site_id="1261">زي ألوان</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="ZeeAlwan.ae@SD" site_id="1261">Zee alwan</channel>
+  <channel site="zee5.com" lang="en" xmltv_id="ZeeAlwan.ae@SD" site_id="0-9-zeealwan">Zee Alwan</channel>
+  <channel site="zee5.com" lang="en" xmltv_id="ZeeTVMiddleEast.ae@SD" site_id="0-9-tvme">Zee TV ME</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beIN4K.qa@SD" site_id="67DD49E9-E3A2-4B3A-94B8-88C620A4DFB1">beIN 4K</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beIN4K.qa@SD" site_id="67DD49E9-E3A2-4B3A-94B8-88C620A4DFB1">beIN 4K</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="beINDrama1.qa@SD" site_id="1309">بي إن دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="beINDrama1.qa@SD" site_id="1309">beIN Drama</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINGourmet.qa@SD" site_id="entertainment#12">beINGOURMET</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINMovies1Premiere.qa@SD" site_id="entertainment#1">beINMOVIES1</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINMovies1Premiere.qa@SD" site_id="entertainment#1">beINMOVIES1</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="beINMovies1Premiere.qa@SD" site_id="1322">بي إن موفيز بريمير</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="beINMovies1Premiere.qa@SD" site_id="1322">BEIN MOVIES PRE...</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINMovies2Action.qa@SD" site_id="entertainment#2">beINMOVIES2</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINMovies2Action.qa@SD" site_id="entertainment#2">beINMOVIES2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="beINMovies2Action.qa@SD" site_id="1323">بي إن موفيز أكشن</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="beINMovies2Action.qa@SD" site_id="1323">BEIN MOVIES ACTION</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINMovies3Drama.qa@SD" site_id="entertainment#3">beINMOVIES3</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINMovies3Drama.qa@SD" site_id="entertainment#3">beINMOVIES3</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="beINMovies3Drama.qa@SD" site_id="1324">بي إن موفيز دراما</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="beINMovies3Drama.qa@SD" site_id="1324">BEIN MOVIES DRAMA</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINMovies4Family.qa@SD" site_id="entertainment#4">beINMOVIES4</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINMovies4Family.qa@SD" site_id="entertainment#4">beINMOVIES4</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSeries1.qa@SD" site_id="entertainment#9">beINSERIES1</channel>
+  <channel site="digiturk.com.tr" lang="tr" xmltv_id="beINSeries1.qa@SD" site_id="375">beIN SERIES 1</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="beINSeries1.qa@SD" site_id="1327">بي إن سيريس</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="beINSeries1.qa@SD" site_id="1327">BeIn Series HD 1</channel>
+  <channel site="digiturk.com.tr" lang="tr" xmltv_id="beINSeries2.qa@SD" site_id="326">beIN SERIES 2</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="beINSeries2.qa@SD" site_id="1328">بي إن سيريس إتش...</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="beINSeries2.qa@SD" site_id="1328">beIN Series HD 2</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="beINSports.qa@Canada" site_id="beis/BEIS">Be In Sports</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="beINSports.qa@Canada" site_id="bein-sport-canada-hd/13247">beIN Sport Canada HD</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports.qa@MENA" site_id="84F7E0C1-D47A-4444-BBA8-C50BB8D2C5A8">beIN SPORTS</channel>
+  <channel site="content.astro.com.my" lang="en" xmltv_id="beINSports.qa@MENA" site_id="236">beIN SPORTS 1</channel>
+  <channel site="playtv.unifi.com.my" lang="en" xmltv_id="beINSports.qa@MENA" site_id="55456338">beIN SPORTS</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="beINSports.qa@MENA" site_id="6126">beIN SPORTS 1 (HD)</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="beINSports.qa@MENA" site_id="9f3a21bb-b934-4147-bfb9-888057ec0657">beIN SPORTS HD</channel>
+  <channel site="starhubtvplus.com" lang="zh" xmltv_id="beINSports.qa@MENA" site_id="9f3a21bb-b934-4147-bfb9-888057ec0657">beIN Sports HD</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports1.qa@Australia" site_id="164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F">beIN SPORTS 1</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSports1.qa@France" site_id="66265DD1-D2AA-4A89-9412-2455186E90ED">beIN SPORTS 1</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSports1.qa@France" site_id="#381">BEIN SPORTS 1</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSports1.qa@France" site_id="1290" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsport1%2F20180417_151324%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS 1</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSports1.qa@France" site_id="bein-sports-1-183">beIN SPORTS 1</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSports1.qa@France" site_id="1290">beIN SPORTS 1</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSports1.qa@France" site_id="1290">beIN SPORTS 1</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSports1.qa@France" site_id="66834970/bein-sports-1">beIN SPORTS 1</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="beINSports1.qa@HongKong" site_id="638">beIN SPORTS 1</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="beINSports1.qa@HongKong" site_id="638">beIN SPORTS 1</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="beINSports1.qa@Indonesia" site_id="309">beIN Sports 1</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="beINSports1.qa@Indonesia" site_id="309">beIN Sports 1</channel>
+  <channel site="tivie.id" lang="id" xmltv_id="beINSports1.qa@Indonesia" site_id="beinsports1">beIN Sports 1</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="beINSports1.qa@Indonesia" site_id="6299">Bein 1</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="beINSports1.qa@Indonesia" site_id="00000000000000000122">beIN SPORTS</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="beINSports1.qa@Indonesia" site_id="00000000000000000122">beIN SPORTS</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports1.qa@MENA" site_id="7836FEA9-6B39-4A1A-8352-DC5FCB97A16C">beIN SPORTS 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports1.qa@MENA" site_id="bein-sport-1">beIN Sports 1</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports1.qa@Malaysia" site_id="0FA3DEF0-234B-4E25-934F-392DF2C3162C">beIN SPORTS 1</channel>
+  <channel site="tv.trueid.net" lang="th" xmltv_id="beINSports1.qa@Thailand" site_id="bein-sports-hd1" logo="https://cms.dmpcdn.com/livetv/2023/07/24/5f3c5240-29cc-11ee-b2f4-e9de482d866e_webp_original.webp">บีอินสปอตส์ 1 (617)</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports2.qa@Australia" site_id="63A30D9C-609D-4A30-8730-2CA391DF287A">beIN SPORTS 2</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSports2.qa@France" site_id="1E886E98-3104-4D8E-A97F-734B23108E8A">beIN SPORTS 2</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSports2.qa@France" site_id="#384">BEIN SPORTS 2</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSports2.qa@France" site_id="1304" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsport2%2F20180417_151448%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS 2</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSports2.qa@France" site_id="bein-sports-2-184">beIN SPORTS 2</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSports2.qa@France" site_id="1304">beIN SPORTS 2</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSports2.qa@France" site_id="1304">beIN SPORTS 2</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSports2.qa@France" site_id="66835070/bein-sports-2">beIN SPORTS 2</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="beINSports2.qa@HongKong" site_id="639">beIN SPORTS 2</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="beINSports2.qa@HongKong" site_id="639">beIN SPORTS 2</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports2.qa@MENA" site_id="sports#2">beINSPORTS2</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="sports#2">beINSPORTS2</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="FD1DD7DD-1E7B-4AA2-8682-BFA17338E653">beIN SPORTS 2</channel>
+  <channel site="content.astro.com.my" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="466">beIN SPORTS 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports2.qa@MENA" site_id="bein-sport-2">beIN Sports 2</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="310">beIN Sports 2</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="beINSports2.qa@MENA" site_id="310">beIN Sports 2</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="6127">beIN SPORTS 2 (HD)</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="6fb02848-2b74-4803-9661-ab4ff642764b">beIN SPORTS 2 HD</channel>
+  <channel site="starhubtvplus.com" lang="zh" xmltv_id="beINSports2.qa@MENA" site_id="6fb02848-2b74-4803-9661-ab4ff642764b">beIN Sports 2 HD</channel>
+  <channel site="tivie.id" lang="id" xmltv_id="beINSports2.qa@MENA" site_id="beinsports2">beIN Sports 2</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="beINSports2.qa@MENA" site_id="17875">Bein 2</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="beINSports2.qa@MENA" site_id="00000000000000000123">beIN SPORTS 2</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="beINSports2.qa@MENA" site_id="00000000000000000123">beIN SPORTS 2</channel>
+  <channel site="tv.trueid.net" lang="th" xmltv_id="beINSports2.qa@Thailand" site_id="bein-sports-hd2" logo="https://cms.dmpcdn.com/livetv/2023/07/24/5f346300-29cc-11ee-b2f4-e9de482d866e_webp_original.webp">บีอินสปอตส์ 2</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports3.qa@Australia" site_id="2E8A6222-8D90-4291-81E3-AF2F72557746">beIN SPORTS 3</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSports3.qa@France" site_id="6DB008B8-66DA-423E-805D-616211D4B174">beIN SPORTS 3</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSports3.qa@France" site_id="#516">BEIN SPORTS 3</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSports3.qa@France" site_id="1335" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax3%2F20180417_151549%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS 3</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSports3.qa@France" site_id="bein-sports-3-265">beIN SPORTS 3</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSports3.qa@France" site_id="1335">beIN SPORTS 3</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSports3.qa@France" site_id="1335">beIN SPORTS 3</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSports3.qa@France" site_id="66835170/bein-sports-3">beIN SPORTS 3</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="beINSports3.qa@Indonesia" site_id="311">beIN Sports 3</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="beINSports3.qa@Indonesia" site_id="311">beIN Sports 3</channel>
+  <channel site="tivie.id" lang="id" xmltv_id="beINSports3.qa@Indonesia" site_id="beinsports3">beIN Sports 3</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="beINSports3.qa@Indonesia" site_id="6317">Bein 3</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="beINSports3.qa@Indonesia" site_id="00000000000000000124">beIN SPORTS 3</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="beINSports3.qa@Indonesia" site_id="00000000000000000124">beIN SPORTS 3</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports3.qa@MENA" site_id="sports#3">beINSPORTS3</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports3.qa@MENA" site_id="sports#3">beINSPORTS3</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSports3.qa@MENA" site_id="8AEA2426-D451-4BA5-BF48-114A1F04B1A8">beIN SPORTS 3</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports3.qa@MENA" site_id="8AEA2426-D451-4BA5-BF48-114A1F04B1A8">beIN SPORTS 3</channel>
+  <channel site="content.astro.com.my" lang="en" xmltv_id="beINSports3.qa@MENA" site_id="313">beIN SPORTS 3</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports3.qa@MENA" site_id="bein-sport-3">beIN Sports 3</channel>
+  <channel site="playtv.unifi.com.my" lang="en" xmltv_id="beINSports3.qa@MENA" site_id="55456355">beIN SPORTS 3</channel>
+  <channel site="singtel.com" lang="en" xmltv_id="beINSports3.qa@MENA" site_id="6110">beIN SPORTS 3 (HD)</channel>
+  <channel site="starhubtvplus.com" lang="en" xmltv_id="beINSports3.qa@MENA" site_id="249f5236-ca5d-416d-98b2-7e6961f1bccd">beIN SPORTS 3 HD</channel>
+  <channel site="starhubtvplus.com" lang="zh" xmltv_id="beINSports3.qa@MENA" site_id="249f5236-ca5d-416d-98b2-7e6961f1bccd">beIN Sports 3</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports3.qa@USA" site_id="90E69FC7-AA8C-40F2-B35F-EBD174495F76">beIN SPORTS 3</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSports3.qa@USA" site_id="90E69FC7-AA8C-40F2-B35F-EBD174495F76">beIN SPORTS 3</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSports3.qa@USA" site_id="92442">beIN SPORTS 3</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports4.qa@MENA" site_id="sports#4">beINSPORT4</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports4.qa@MENA" site_id="sports#4">beINSPORT4</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports4.qa@MENA" site_id="DB9361E8-B3EB-4D6F-9A82-75B5F09E2F92">beIN SPORTS 4</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports4.qa@MENA" site_id="bein-sport-4">beIN Sports 4</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="beINSports4.qa@MENA" site_id="312">beIN SPORTS 4</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="beINSports4.qa@MENA" site_id="312">beIN SPORTS 4</channel>
+  <channel site="playtv.unifi.com.my" lang="en" xmltv_id="beINSports4.qa@MENA" site_id="57682031">beIN SPORTS 4</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="beINSports4.qa@MENA" site_id="00000000000000000125">beIN SPORTS 4</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="beINSports4.qa@MENA" site_id="00000000000000000125">beIN SPORTS 4</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports4.qa@USA" site_id="D0546ED7-9DB2-4924-9E32-C4F077E7BFC7">beIN SPORTS 4</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSports4.qa@USA" site_id="D0546ED7-9DB2-4924-9E32-C4F077E7BFC7">beIN SPORTS 4</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSports4.qa@USA" site_id="92443">beIN SPORTS 4</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports4KHDR.qa" site_id="sports#26">beINSPORTS4KHDR</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports4KHDR.qa" site_id="sports#26">beINSPORTS4KHDR</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports5.qa@MENA" site_id="sports#5">beINSPORTS5</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports5.qa@MENA" site_id="sports#5">beINSPORTS5</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports5.qa@MENA" site_id="964E6246-CA95-410B-82C4-EA75DD979435">beIN SPORTS 5</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports5.qa@MENA" site_id="bein-sport-5">beIN Sports 5</channel>
+  <channel site="mncvision.id" lang="en" xmltv_id="beINSports5.qa@MENA" site_id="313">beIN SPORTS 5</channel>
+  <channel site="mncvision.id" lang="id" xmltv_id="beINSports5.qa@MENA" site_id="313">beIN SPORTS 5</channel>
+  <channel site="visionplus.id" lang="en" xmltv_id="beINSports5.qa@MENA" site_id="00000000000000000126">beIN SPORTS 5</channel>
+  <channel site="visionplus.id" lang="id" xmltv_id="beINSports5.qa@MENA" site_id="00000000000000000126">beIN SPORTS 5</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports5.qa@USA" site_id="A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830">beIN SPORTS 5</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSports5.qa@USA" site_id="A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830">beIN SPORTS 5</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSports5.qa@USA" site_id="92439">beIN SPORTS 5</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports6.qa@MENA" site_id="sports#6">beINSPORTS6</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports6.qa@MENA" site_id="sports#6">beINSPORTS6</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports6.qa@MENA" site_id="E24D9C11-A8B4-4C7F-AD3E-B3364FB6D5A2">beIN SPORTS 6</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports6.qa@MENA" site_id="bein-sport-6">beIN Sports 6</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="beINSports6.qa@MENA" site_id="646">beIN SPORTS 6</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="beINSports6.qa@MENA" site_id="646">beIN SPORTS 6</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports6.qa@USA" site_id="E56B0905-F99F-4DB1-931E-E6002B530867">beIN SPORTS 6</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSports6.qa@USA" site_id="E56B0905-F99F-4DB1-931E-E6002B530867">beIN SPORTS 6</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSports6.qa@USA" site_id="92437">beIN SPORTS 6</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports7.qa@MENA" site_id="sports#7">beINSPORTS7</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports7.qa@MENA" site_id="sports#7">beINSPORTS7</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports7.qa@MENA" site_id="A892063B-A5D9-4199-95AC-6A214515FA6B">beIN SPORTS 7</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports7.qa@MENA" site_id="bein-sport-7">beIN Sports 7</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports7.qa@USA" site_id="831591C8-DA65-4528-B837-0E5A147887FB">beIN SPORTS 7</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSports7.qa@USA" site_id="831591C8-DA65-4528-B837-0E5A147887FB">beIN SPORTS 7</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSports7.qa@USA" site_id="92438">beIN SPORTS 7</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports8.qa@MENA" site_id="sports#8">beINSPORTS8</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports8.qa@MENA" site_id="sports#8">beINSPORTS8</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports8.qa@MENA" site_id="0F8D20A4-D46C-4B18-9242-8E7B3E978FF8">beIN SPORTS 8</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSports8.qa@USA" site_id="9A424246-EC89-43C3-9239-AA3A40540F94">beIN SPORTS 8</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSports8.qa@USA" site_id="9A424246-EC89-43C3-9239-AA3A40540F94">beIN SPORTS 8</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSports8.qa@USA" site_id="92436">beIN SPORTS 8</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSports9.qa@MENA" site_id="sports#9">beINSPORTS9</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports9.qa@MENA" site_id="sports#9">beINSPORTS9</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsAFC.qa@SD" site_id="10A2A142-F98C-4706-9FD0-2D3C36045D63">beIN SPORTS AFC</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC.qa@SD" site_id="10A2A142-F98C-4706-9FD0-2D3C36045D63">beIN SPORTS AFC</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsAFC.qa@SD" site_id="bein-sports-afc">beIN Sports AFC</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsAFC1.qa@SD" site_id="0CB3E227-4376-4545-AB64-D6C390F644D8">beIN SPORTS 1 AFC</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC1.qa@SD" site_id="0CB3E227-4376-4545-AB64-D6C390F644D8">beIN SPORTS 1 AFC</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsAFC2.qa@SD" site_id="EEB3E4E8-0F9D-4735-943C-AEA3E39C87DE">beIN SPORTS 2 AFC</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC2.qa@SD" site_id="EEB3E4E8-0F9D-4735-943C-AEA3E39C87DE">beIN SPORTS 2 AFC</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsAFC3.qa@SD" site_id="A2D36A21-00D5-4001-A443-81CF2C06553F">beIN SPORTS 3 AFC</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsAFC3.qa@SD" site_id="A2D36A21-00D5-4001-A443-81CF2C06553F">beIN SPORTS 3 AFC</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSportsMax1.qa@MENA" site_id="sports#27">beINSPORTSMAX1</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsMax1.qa@MENA" site_id="sports#27">beINSPORTSMAX1</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsMax1.qa@MENA" site_id="2FB43094-3598-43C1-A3BA-44BFB40092E0">beIN SPORTS MAX 1</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax1.qa@MENA" site_id="2FB43094-3598-43C1-A3BA-44BFB40092E0">beIN SPORTS MAX 1</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="beINSportsMax1.qa@MENA" site_id="643">beIN SPORTS 3</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="beINSportsMax1.qa@MENA" site_id="643">beIN SPORTS 3</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="6F425028-14F0-4E38-B776-71A9DB3F3493">beIN SPORTS MAX 10</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="#605">BEIN SPORTS MAX 10</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="1342" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax10%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 10</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="bein-sports-max-10-305">beIN SPORTS MAX 10</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="1342">beIN SPORTS MAX 10</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax10.qa@France" site_id="1342">beIN SPORTS MAX 10</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSportsMax2.qa@MENA" site_id="sports#28">beINSPORTSMAX2</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsMax2.qa@MENA" site_id="sports#28">beINSPORTSMAX2</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsMax2.qa@MENA" site_id="008F0EA9-FCD9-4E8C-849A-913979E7450A">beIN SPORTS MAX 2</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax2.qa@MENA" site_id="008F0EA9-FCD9-4E8C-849A-913979E7450A">beIN SPORTS MAX 2</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="beINSportsMax2.qa@MENA" site_id="644">beIN SPORTS 4</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="beINSportsMax2.qa@MENA" site_id="644">beIN SPORTS 4</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSportsMax3.qa@MENA" site_id="sports#29">beINSPORTSMAX3</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsMax3.qa@MENA" site_id="sports#29">beINSPORTSMAX3</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsMax3.qa@MENA" site_id="7783DC02-4527-4094-9EE3-CDA8E093E4EB">beIN SPORTS MAX 3</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax3.qa@MENA" site_id="7783DC02-4527-4094-9EE3-CDA8E093E4EB">beIN SPORTS MAX 3</channel>
+  <channel site="nowplayer.now.com" lang="en" xmltv_id="beINSportsMax3.qa@MENA" site_id="645">beIN SPORTS 5</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="beINSportsMax3.qa@MENA" site_id="645">beIN SPORTS 5</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="EF7E0369-CFD9-4607-9238-EC483E6D58A3">beIN SPORTS MAX 4</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="#596">BEIN SPORTS MAX 4</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="1336" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax4%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 4</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="bein-sports-max-4-300">beIN SPORTS MAX 4</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="1336">beIN SPORTS MAX 4</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="1336">beIN SPORTS MAX 4</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSportsMax4.qa@France" site_id="66835270/bein-sports-max-4">beIN SPORTS MAX 4</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSportsMax4.qa@MENA" site_id="sports#30">beINSPORTSMAX4</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsMax4.qa@MENA" site_id="sports#30">beINSPORTSMAX4</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsMax4.qa@MENA" site_id="5B15611A-5F9D-4EF0-89A6-677C9CA2BD5D">beIN SPORTS MAX 4</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax4.qa@MENA" site_id="5B15611A-5F9D-4EF0-89A6-677C9CA2BD5D">beIN SPORTS MAX 4</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="A4425E44-B004-4137-ACB4-458BA4D710F8">beIN SPORTS MAX 5</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="#597">BEIN SPORTS MAX 5</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="1337" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax5%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 5</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="bein-sports-max-5-301">beIN SPORTS MAX 5</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="1337">beIN SPORTS MAX 5</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="1337">beIN SPORTS MAX 5</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSportsMax5.qa@France" site_id="66835370/bein-sports-max-5">beIN SPORTS MAX 5</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSportsMax5.qa@MENA" site_id="sports#31">beINSPORTSMAX5</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsMax5.qa@MENA" site_id="sports#31">beINSPORTSMAX5</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsMax5.qa@MENA" site_id="F7215920-CCF9-4DBB-8B9D-152E232FA549">beIN SPORTS MAX 5</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax5.qa@MENA" site_id="F7215920-CCF9-4DBB-8B9D-152E232FA549">beIN SPORTS MAX 5</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="BBD26D71-897D-4799-87A1-A87120130D48">beIN SPORTS MAX 6</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="#598">BEIN SPORTS MAX 6</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="1338" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax6%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 6</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="bein-sports-max-6-302">beIN SPORTS MAX 6</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="1338">beIN SPORTS MAX 6</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="1338">beIN SPORTS MAX 6</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSportsMax6.qa@France" site_id="66835470/bein-sports-max-6">beIN SPORTS MAX 6</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINSportsMax6.qa@MENA" site_id="sports#32">beINSPORTSMAX6</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSportsMax6.qa@MENA" site_id="sports#32">beINSPORTSMAX6</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsMax6.qa@MENA" site_id="DC04009D-7E18-4D1C-BA7F-7269B8F8D065">beIN SPORTS MAX 6</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsMax6.qa@MENA" site_id="DC04009D-7E18-4D1C-BA7F-7269B8F8D065">beIN SPORTS MAX 6</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="9B4708C5-F5F0-452A-8157-4661C30FAE6A">beIN SPORTS MAX 7</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="#599">BEIN SPORTS MAX 7</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="1339" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax7%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 7</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="bein-sports-max-7-303">beIN SPORTS MAX 7</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="1339">beIN SPORTS MAX 7</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="1339">beIN SPORTS MAX 7</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSportsMax7.qa@France" site_id="66835570/bein-sports-max-7">beIN SPORTS MAX 7</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A">beIN SPORTS MAX 8</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="#603">BEIN SPORTS MAX 8</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="1340" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax8%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 8</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="bein-sports-max-8-304">beIN SPORTS MAX 8</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="1340">beIN SPORTS MAX 8</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="1340">beIN SPORTS MAX 8</channel>
+  <channel site="tvcesoir.fr" lang="fr" xmltv_id="beINSportsMax8.qa@France" site_id="66835670/bein-sports-max-8">beIN SPORTS MAX 8</channel>
+  <channel site="beinsports.com" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="FB208953-1C70-4D1E-B918-103AB02AB181">beIN SPORTS MAX 9</channel>
+  <channel site="canalplus.com" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="#604">BEIN SPORTS MAX 9</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="1341" logo="https://cdn-proxymedia-digicert.tv-fr-cdn.orange.net/api/v1/images/2090%2Flogos%2Fv2%2Flogos%2Flivetv_beinsportsmax9%2F20170109_093315%2FmobileAppliDark%2Flogo_183x183.png?service=LIVE&amp;amp;device=W_PC">BEIN SPORTS MAX 9</channel>
+  <channel site="programme-tv.net" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="bein-sports-max-9-306">beIN SPORTS MAX 9</channel>
+  <channel site="tv-programme.telecablesat.fr" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="1341">beIN SPORTS MAX 9</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="beINSportsMax9.qa@France" site_id="1341">beIN SPORTS MAX 9</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsNBA.qa@SD" site_id="2F518547-2269-4C07-93D5-2733397472BD">beIN SPORTS NBA</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsNBA.qa@SD" site_id="bein-sports-nba">beIN Sports NBA</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsNews.qa@SD" site_id="7B558284-F996-4123-9584-1E5D01844270">beIN SPORTS NEWS</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsNews.qa@SD" site_id="bein-sports-news">beIN Sports News</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsXtra1.qa@SD" site_id="E3B37FA0-E582-45B2-BB8E-516E1A714EF6">beIN SPORTS XTRA 1</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsXtra1.qa@SD" site_id="E3B37FA0-E582-45B2-BB8E-516E1A714EF6">beIN SPORTS XTRA 1</channel>
+  <channel site="beinsports.com" lang="ar" xmltv_id="beINSportsXtra2.qa@SD" site_id="27E67022-B943-4913-9AF3-AFD3DAC9854B">beIN SPORTS XTRA 2</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsXtra2.qa@SD" site_id="27E67022-B943-4913-9AF3-AFD3DAC9854B">beIN SPORTS XTRA 2</channel>
+  <channel site="beinsports.com" lang="en" xmltv_id="beINSportsenEspanol.qa@SD" site_id="4083661E-F588-4700-943C-8FDF65F1B5EB">beIN SPORTS Español</channel>
+  <channel site="beinsports.com" lang="es" xmltv_id="beINSportsenEspanol.qa@SD" site_id="4083661E-F588-4700-943C-8FDF65F1B5EB">beIN SPORTS Español</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="beINSportsenEspanol.qa@SD" site_id="bein_sport_en_espanol">Canal beIN Sport en Español</channel>
+  <channel site="programacion-tv.elpais.com" lang="es" xmltv_id="beINSportsenEspanol.qa@SD" site_id="840">BeIN Sports</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="beINSportsenEspanol.qa@SD" site_id="besp/BESP">BeIN Sports ESP SD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="beINSportsenEspanol.qa@SD" site_id="bein-sport-en-espanol-hd/10856">beIN Sport en Espanol HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="beINSportsenEspanol.qa@SD" site_id="bein-sport-en-espanol/10855">beIN Sport en Espanol</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="beINSportsenEspanol.qa@SD" site_id="76943">BeIn Sports en Español</channel>
+  <channel site="i24news.tv" lang="ar" xmltv_id="i24NEWSArabic.il@SD" site_id="ar">I24NEWS عربى</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="i24NEWSArabic.il@SD" site_id="1#33#I24 News Arabic">I24 News Arabic</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="iFilmArabic.ir@SD" site_id="1204">آي فيلم</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="iFilmArabic.ir@SD" site_id="1204">iFILM TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="iFilmArabic.ir@SD" site_id="1#33#iFilm Arabic">iFilm Arabic</channel>
+</channels>

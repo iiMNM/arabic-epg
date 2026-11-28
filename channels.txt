@@ -1,0 +1,486 @@
+# Arabic EPG - 484 channels
+# tvg-id | name | arabic name | country
+MBCMax.ae@SD | إم بي سي ماكس | إم بي سي ماكس | --
+MTV.lb@SD | إم تي في | إم تي في | --
+Wanasah.ae@SD | وناسه | وناسه | --
+AbuDhabiEmirates.ae@SD | Abu Dhabi Emirates | قناة الإمارات | AE
+AbuDhabiSports1.ae@SD | Abu Dhabi Sports 1 | أبو ظبي الرياضية 1 | AE
+AbuDhabiSports2.ae@SD | Abu Dhabi Sports 2 | أبو ظبي الرياضية 2 | AE
+AbuDhabiTV.ae@SD | Abu Dhabi TV | قناة أبوظبي | AE
+AlAanTV.ae@SD | Al Aan TV | تلفزيون الآن | AE
+Alarabiya.ae@SD | Alarabiya | العربية | AE
+AlArabiyaBusiness.ae@SD | Al Arabiya Business | العربية أسواق | AE
+AlarabiyaPortrait.ae@SD | Alarabiya Portrait | العربية عامودي | AE
+AlArabiyaPrograms.ae | Al Arabiya Programs | العربية برامج | AE
+AlDafrahTV.ae@SD | Al Dafrah TV | قناة الظفرة | AE
+AlQamarTV.ae@SD | Al Qamar TV |  | AE
+AlSharqiyaMinKabla.ae@SD | Al Sharqiya Min Kabla | الشرقية | AE
+CartoonNetworkArabic.ae@SD | Cartoon Network Arabic | كرتون نتورك بالعربية | AE
+ChinaArabTV.ae@SD | China Arab TV |  | AE
+CNBCArabiya.ae@SD | CNBC Arabiya | CNBC عربية | AE
+CNNArabic.ae@SD | CNN Arabic |  | AE
+DubaiOne.ae@SD | Dubai One | دبي وان | AE
+DubaiRacing.ae@SD | Dubai Racing | دبي ريسينج 1 | AE
+DubaiRacing2.ae@SD | Dubai Racing 2 | دبي ريسينج 2 | AE
+DubaiRacing3.ae@SD | Dubai Racing 3 | دبي ريسينج 3 | AE
+DubaiSports1.ae@SD | Dubai Sports 1 | دبي الرياضية 1 | AE
+DubaiSports2.ae@SD | Dubai Sports 2 | دبي الرياضية 2 | AE
+DubaiSports3.ae@SD | Dubai Sports 3 | دبي الرياضية 3 | AE
+DubaiTV.ae@SD | Dubai TV | دبي | AE
+DubaiZaman.ae@SD | Dubai Zaman | دبي زمان | AE
+Fatafeat.ae@SD | Fatafeat | فتافيت | AE
+FoxArabia.ae@SD | Fox Arabia |  | AE
+FujairahTV.ae@SD | Fujairah TV | الفجيرة | AE
+MBC1.ae@SD | MBC 1 | ام بي سي 1 | AE
+MBC2.ae@SD | MBC 2 | ام بي سي 2 | AE
+MBC3.ae@SD | MBC 3 | إم بي سي 3 | AE
+MBC4.ae@SD | MBC 4 | ام بي سي 4 | AE
+MBC5.ae@SD | MBC 5 | إم بي سي 5 | AE
+MBCAction.ae@SD | MBC Action | إم بي سي أكشن | AE
+MBCBollywood.ae@SD | MBC Bollywood | إم بي سي بوليوود | AE
+MBCDrama.ae@SD | MBC Drama | إم بي سي دراما | AE
+MBCFM.ae@SD | MBC FM |  | AE
+MBCPersia.ae@SD | MBC Persia |  | AE
+NationalGeographicAbuDhabi.ae@SD | National Geographic Abu Dhabi | ناشونال جيوجراف... | AE
+NickelodeonArabia.ae@SD | Nickelodeon Arabia |  | AE
+NickJrArabia.ae@SD | Nick Jr. Arabia |  | AE
+NicktoonsArabia.ae@SD | Nicktoons Arabia |  | AE
+NoorDubai.ae@SD | Noor Dubai | نور دبي تي في | AE
+OSNComedy.ae@SD | OSN Comedy |  | AE
+OSNKids.ae@SD | OSN Kids |  | AE
+OSNMezze.ae@SD | OSN Mezze |  | AE
+OSNMoviesAction.ae@SD | OSN Movies Action |  | AE
+OSNMoviesHollywood.ae@SD | OSN Movies Hollywood |  | AE
+OSNMoviesPremiere.ae@SD | OSN Movies Premiere |  | AE
+OSNShowcase.ae@SD | OSN Showcase |  | AE
+OSNYahala.ae@SD | OSN Yahala | أو أس أن ياهلا | AE
+OSNYahalaAflam.ae@SD | OSN Yahala Aflam |  | AE
+OSNYahalaBilArabi.ae@SD | OSN Yahala Bil Arabi |  | AE
+SamaDubai.ae@SD | Sama Dubai | سما دبي | AE
+SharjahSports.ae@SD | Sharjah Sports | الشارقة الرياضية | AE
+SharjahTV.ae@SD | Sharjah TV | الشارقة تي في | AE
+SkyNewsArabia.ae@HD | Sky News Arabia | سكاي نيوز عربية | AE
+SkyNewsArabia.ae@SD | Sky News Arabia | سكاي نيوز عربية | AE
+SpacetoonArabic.ae@SD | Spacetoon Arabic | سبيس تون | AE
+StarMoviesMiddleEast.ae@SD | Star Movies Middle East | ستار موفيز | AE
+StarWorldMiddleEast.ae@SD | Star World Middle East | ستار ورلد | AE
+YasTV.ae@SD | Yas TV | ياس تي في | AE
+ZeeAflam.ae@HD | Zee Aflam | زي أفلام | AE
+ZeeAflam.ae@SD | Zee Aflam | زي أفلام | AE
+ZeeAlwan.ae@Egypt | Zee Alwan | زي ألوان | AE
+ZeeAlwan.ae@SD | Zee Alwan | زي ألوان | AE
+ZeeTVMiddleEast.ae@SD | Zee TV Middle East |  | AE
+BahrainInternational.bh@SD | Bahrain International |  | BH
+BahrainTV.bh@SD | Bahrain TV | البحرين | BH
+DiasporaTVSwitzerland.ch@SD | Diaspora-TV Switzerland |  | CH
+CGTNArabic.cn@SD | CGTN Arabic | CGTN العربية | CN
+Sat7Arabic.cy@SD | Sat 7 Arabic |  | CY
+Sat7Kids.cy@SD | Sat 7 Kids |  | CY
+DW.de@Arabic | DW |  | DE
+DW.de@Deutsch | DW |  | DE
+DW.de@DeutschPlus | DW |  | DE
+DW.de@English | DW |  | DE
+DW.de@Espanol | DW |  | DE
+FixFoxi.de@SD | Fix & Foxi |  | DE
+MotorvisionPlus.de@SD | Motorvision+ |  | DE
+BahiaTV.dz@SD | Bahia TV | قناة الباهية | DZ
+EchoroukNews.dz@SD | Echorouk News | الشروق الإخبارية | DZ
+EchoroukTV.dz@SD | Echorouk TV | الشروق | DZ
+ElBiladTV.dz@SD | El Bilad TV | البلاد تيفي | DZ
+ElHayatTV.dz@SD | El Hayat TV | قناة الحياة | DZ
+EnnaharTV.dz@SD | Ennahar TV | النهار تي في | DZ
+SamiraTV.dz@SD | Samira TV | سميرة تي في | DZ
+TV2.dz@SD | TV2 | الجزائر تي في | DZ
+TV3.dz@SD | TV3 | الجزائرية الثالثة | DZ
+TV4.dz@SD | TV4 | الجزائرية الرابعة | DZ
+TV5.dz@SD | TV5 | الجزائرية الخامسة | DZ
+TV6.dz@SD | TV6 | الجزائرية السادسة | DZ
+TV7.dz@SD | TV7 | الجزائرية السابعة | DZ
+TV8.dz@SD | TV8 | الجزائرية الثامنة | DZ
+AghapyTV.eg@SD | Aghapy TV |  | EG
+AlfathTV.eg@SD | Alfath TV | قناة الفتح الفضائية | EG
+AlGhadTV.eg@SD | Al Ghad TV | قناة الغد | EG
+AlHadathAlyoum.eg@SD | AlHadath Alyoum | -الحدث اليوم | EG
+AlhayatDrama.eg@SD | Alhayat Drama | الحياة دراما | EG
+AlhayatTV.eg@SD | Alhayat TV | الحياة | EG
+AlKaheraWalNas.eg@SD | Al Kahera Wal Nas | القاهرة والناس | EG
+AlKaheraWalNas2.eg@SD | Al Kahera Wal Nas 2 | القاهرة والناس | EG
+AlMasriyah.eg@SD | Al Masriyah | المصرية | EG
+AlNadaTV.eg@SD | Al Nada TV |  | EG
+AlNahar.eg@SD | Al-Nahar | النهار | EG
+AlNaharDrama.eg@SD | Al-Nahar Drama | النهار دراما | EG
+AlQaheraNews.eg@SD | Al Qahera News | القاهرة الاخبارية | EG
+AlSaeedah.eg@SD | Al-Saeedah | قناة السعيدة الفضائية | EG
+AlShamsTV.eg@SD | Al Shams TV |  | EG
+CBC.eg@SD | CBC | سي بي سي | EG
+CBCDrama.eg@SD | CBC Drama | سي بي سي دراما | EG
+CBCSofra.eg@SD | CBC Sofra | سي بي سي سفرة | EG
+Cima.eg@SD | Cima | سيما | EG
+DMC.eg@SD | DMC | دي ام سي | EG
+DMCDrama.eg@SD | DMC Drama | دي ام سي دراما | EG
+EgyptianTV.eg@SD | Egyptian TV |  | EG
+ElMehwarChannel.eg@SD | El Mehwar Channel | المحور تي في | EG
+ElMoled.eg@SD | El Moled |  | EG
+ERTU1.eg@SD | ERTU 1 | المصرية الأولى | EG
+ExtraLive.eg@SD | Extra Live |  | EG
+KoogiTV.eg@SD | Koogi TV | قناة كوجى | EG
+MasperoZaman.eg@SD | Maspero Zaman | ماسبيرو زمان | EG
+Mazzika.eg@SD | Mazzika | مزيكا | EG
+MBC1Egypt.eg@HD | MBC 1 Egypt |  | EG
+MBCMasr.eg@SD | MBC Masr | إم بي سي مصر | EG
+MBCMasr2.eg@SD | MBC Masr 2 | إم بي سي مصر 2 | EG
+MisrAlBalad.eg@SD | Misr AlBalad |  | EG
+MixBelAraby.eg@SD | Mix Bel Araby | ميكس بالعربي | EG
+NileCinema.eg@SD | Nile Cinema | نايل سينما | EG
+NileComedy.eg@SD | Nile Comedy | نايل كوميدي | EG
+NileCulture.eg@SD | Nile Culture |  | EG
+NileDrama.eg@SD | Nile Drama | نايل دراما | EG
+NileEducationChannel.eg@SD | Nile Education Channel |  | EG
+NileFamily.eg@SD | Nile Family |  | EG
+NileLife.eg@SD | Nile Life | نايل لايف | EG
+NileNews.eg@SD | Nile News |  | EG
+NileSport.eg@SD | Nile Sport |  | EG
+NogoumFMTV.eg@SD | NogoumFMTV |  | EG
+OnDrama.eg@SD | On Drama | أون دراما | EG
+OnE.eg@SD | On E | أون إي | EG
+PNCDrama.eg@SD | PNC Drama |  | EG
+PNCFood.eg@SD | PNC Food | بانوراما فوود | EG
+RotanaCinemaEgypt.eg@SD | Rotana Cinema Egypt | روتانا سينما مصر | EG
+SadaElbalad.eg@SD | Sada Elbalad | صدى البلد | EG
+SadaElbalad2.eg@SD | Sada Elbalad 2 | صدى البلد 2 | EG
+SadaElbaladDrama.eg@SD | Sada Elbalad Drama | صدى البلد دراما | EG
+TeN.eg@SD | TeN | تن | EG
+AlRawda.fr@SD | Al Rawda |  | FR
+BerbereJeunesse.fr@SD | Berbere Jeunesse |  | FR
+BerbereMusic.fr@SD | Berbere Music |  | FR
+BerbereTV.fr@SD | Berbere TV |  | FR
+EuronewsEnglish.fr@SD | Euronews English |  | FR
+France24.fr | France 24 |  | FR
+France24.fr@Arabic | France 24 |  | FR
+France24.fr@English | France 24 |  | FR
+France24.fr@EnglishHD | France 24 |  | FR
+France24.fr@French | France 24 |  | FR
+France24.fr@FrenchHD | France 24 |  | FR
+France24.fr@Spanish | France 24 |  | FR
+MCMTop.fr@SD | MCM Top |  | FR
+RFMTV.fr@SD | RFM TV |  | FR
+FoxActionMoviesMENA.hk@SD | Fox Action Movies MENA | ستار أكشن | HK
+i24NEWSArabic.il@SD | i24NEWS Arabic | i24NEWS عربى | IL
+Makan33.il@SD | Makan 33 | مكان | IL
+AfaqTV.iq@SD | Afaq TV | قناة آفاق الفضائية | IQ
+AlAyyamTV.iq@SD | Al Ayyam TV |  | IQ
+AlEshraqTV.iq@SD | Al Eshraq TV |  | IQ
+AlFallujahTV.iq@SD | Al Fallujah TV |  | IQ
+AlForatTV.iq@SD | Al Forat TV | قناة الفرات الفضائية | IQ
+AlghadeerTV.iq@SD | Alghadeer TV | قناة الغدير الفضائية | IQ
+AlIraqia.iq@SD | Al Iraqia | العراقيّة | IQ
+AlIraqiaNews.iq@SD | Al Iraqia News |  | IQ
+AlNaeemTV.iq@SD | Al-Naeem TV | قناة النعيم | IQ
+AlNujabaTV.iq@SD | Al-Nujaba TV | قناة النجباء الفضائية | IQ
+AlRasheedTV.iq@SD | Al Rasheed TV | قناة الرشيد الفضائية | IQ
+AlSalamTV.iq@SD | Al Salam TV | السلام | IQ
+AlshaaerTV.iq@SD | Alshaaer TV |  | IQ
+AlSharqiya.iq@SD | Al Sharqiya | الشرقية | IQ
+AlSharqiyaNews.iq@SD | Al Sharqiya News | الشرقية للأخبار | IQ
+Alsumaria.iq@SD | Alsumaria | السومرية | IQ
+AltaleaaTV.iq@SD | Altaleaa TV |  | IQ
+AmozhgaryTV.iq@SD | Amozhgary TV | کەناڵی ئامۆژگاری | IQ
+AnwarTV2.iq@SD | Anwar TV2 | قناة الثانية الفضائية | IQ
+BangawazTV.iq@SD | Bangawaz TV |  | IQ
+DijlahTV.iq@SD | Dijlah TV | دجلة | IQ
+ImamHusseinTV2.iq@SD | Imam Hussein TV 2 |  | IQ
+IraqFuture.iq@SD | Iraq Future |  | IQ
+IraqNow.iq@SD | Iraq Now |  | IQ
+KirkukTV.iq@SD | Kirkuk TV |  | IQ
+Kurdistan24.iq@SD | Kurdistan 24 |  | IQ
+KurdistanTV.iq@SD | Kurdistan TV | کوردستان تیڤی | IQ
+Kurdsat.iq@SD | Kurdsat |  | IQ
+ManuChat.iq@SD | Manu Chat |  | IQ
+MBCIraq.iq@SD | MBC Iraq | إم بي سي العراق | IQ
+NRT4.iq@SD | NRT 4 |  | IQ
+PayamTV.iq@SD | Payam TV |  | IQ
+RudawTV.iq@SD | Rudaw TV |  | IQ
+SalahalddinTV.iq@SD | Salahalddin TV |  | IQ
+UTV.iq@SD | UTV | يو تي في | IQ
+AlAhvazTV.ir@SD | Al-Ahvaz TV | قناة الأهواز الفضائیة | IR
+AlAlam.ir@SD | Al Alam | العالم | IR
+AlKawtharTV.ir@SD | Al-Kawthar TV |  | IR
+AsilTV.ir@SD | Asil TV |  | IR
+iFilmArabic.ir@SD | iFilm Arabic | آي فيلم | IR
+AlerthAlnabawiChannel.jo@SD | Alerth Alnabawi Channel | قناة التنبيه النبوي | JO
+AlMamlakaTV.jo@SD | Al Mamlaka TV | المملكة تي في | JO
+AmmanTV.jo@SD | Amman TV | تلفزيون عمّان | JO
+AzhariTV.jo@SD | Azhari TV |  | JO
+JordanTV.jo@SD | Jordan TV | الأردني تي في | JO
+KaifaTV.jo@SD | Kaifa TV |  | JO
+Karameesh.jo@SD | Karameesh |  | JO
+RoyaComedy.jo@SD | Roya Comedy | رؤيا كوميديا | JO
+RoyaDrama.jo@SD | Roya Drama | الصدأ الدرامي | JO
+RoyaKids.jo@SD | Roya Kids | أطفال رؤيا | JO
+RoyaKidsSongs.jo@SD | Roya Kids Songs | أغاني رؤيا للأطفال | JO
+RoyaKitchen.jo@SD | Roya Kitchen | مطبخ رؤيا | JO
+RoyaNews.jo@SD | Roya News | أخبار رؤيا | JO
+RoyaTV.jo@SD | Roya TV | رؤيا تي في | JO
+ORTCTV.km@SD | ORTC TV |  | KM
+ArirangWorld.kr@SD | Arirang World |  | KR
+AlAnwarTV.kw@SD | Al Anwar TV | قناة ألانوار الفضائية | KW
+AlraiTV.kw@SD | Alrai TV |  | KW
+AlSabah.kw@SD | Al Sabah |  | KW
+ATV.kw@SD | ATV | إيه تي في | KW
+KTV1.kw@SD | KTV 1 | دولة الكويت - الأولى | KW
+KTV2.kw@SD | KTV 2 | دولة الكويت - الثانية | KW
+AlIttihadTV.lb@SD | Al Ittihad TV | قناة الاتحاد | LB
+AlJadeed.lb@SD | Al Jadeed | الجديد | LB
+AlManar.lb@SD | Al-Manar | المنار | LB
+AlMayadeenTV.lb@SD | Al Mayadeen TV | الميادين | LB
+LanaTV.lb@SD | Lana TV | ال تي في | LB
+LBCEurope.lb@SD | LBC Europe |  | LB
+LBCInternational.lb@SD | LBC International | المؤسسةللإرسال انترناسيونال اللبنانية | LB
+NabaaTV.lb@SD | Nabaa TV |  | LB
+NBN.lb@SD | NBN |  | LB
+NourAlKoddass.lb@SD | Nour Al Koddass | نور القداس | LB
+NourMariam.lb@SD | Nour Mariam | نور مريم | LB
+OTV.lb@SD | OTV | أو تي في | LB
+LibyaAlrasmiaChannel.ly@SD | Libya Alrasmia Channel | قناة ليبيا الرسمية‎ | LY
+SalamTV.ly@SD | Salam TV | شبكة سلام الإعلامية | LY
+2M.ma@SD | 2M | 2M وطني | MA
+2MMonde.ma@SD | 2M Monde | المغربية الثانية | MA
+AlAoula.ma@HD | Al Aoula | قناة الأولى | MA
+AlAoula.ma@MiddleEast | Al Aoula | قناة الأولى | MA
+AlAoula.ma@SD | Al Aoula | قناة الأولى | MA
+AlMaghribia.ma@SD | Al Maghribia | المغربية | MA
+AlOnsTV.ma@SD | Al Ons TV | قناة الأنس | MA
+Arryadia.ma@HD | Arryadia | قناة الرياضية | MA
+Assadissa.ma@SD | Assadissa | قناة السادسة | MA
+Athaqafia.ma@SD | Athaqafia | قناة الثقافية | MA
+ChadaTV.ma@SD | Chada TV | أول قناة فنية بالمغرب | MA
+LaayouneTV.ma@SD | Laayoune TV | قناة العيون الجهوية | MA
+Medi1TVAfrique.ma@SD | Medi1TV Afrique | مدي آن تي في | MA
+TamazightTV.ma@SD | Tamazight TV | قناة تمازيغت | MA
+TeleMaroc.ma@SD | Tele Maroc |  | MA
+Gametoon.nl@SD | Gametoon |  | NL
+AlistiqamaTV.om@SD | Alistiqama TV | قناة الاستقامة الفضائية | OM
+OmanSportsTV.om | Oman Sports TV | قناة عمان الرياضية | OM
+OmanTV.om | Oman TV | عُمان تي في | OM
+OmanTV.om@SD | Oman TV | عُمان تي في | OM
+OmanTVCultural.om | Oman TV Cultural | القناة الثقافية | OM
+OmanTVMubashir.om | Oman TV Mubashir | قناة عُمان مباشر | OM
+FalastiniTV.ps@SD | Falastini TV |  | PS
+HebronSat.ps@SD | Hebron Sat |  | PS
+PalestineSport.ps@SD | Palestine Sport |  | PS
+PalestineToday.ps@SD | Palestine Today |  | PS
+AlArabyTV.qa@SD | Al Araby TV | العربي | QA
+AlArabyTV2.qa@SD | Al Araby TV 2 | العربي 2 | QA
+AlJazeera.qa@Arabic | Al Jazeera | الجزيرة‎ | QA
+AlJazeera.qa@ArabicHD | Al Jazeera | الجزيرة‎ | QA
+AlJazeera.qa@English | Al Jazeera | الجزيرة‎ | QA
+AlJazeera.qa@EnglishHD | Al Jazeera | الجزيرة‎ | QA
+AlJazeera2.qa@HD | Al Jazeera 2 | الجزيرة 2 | QA
+AlJazeeraDocumentary.qa@SD | Al Jazeera Documentary | الجزيرة الوثائقية | QA
+AlJazeeraMubasher.qa@SD | Al Jazeera Mubasher | الجزيرة مباشر | QA
+AlkassEight.qa@SD | Alkass Eight | الكأس 8 | QA
+AlkassFive.qa@SD | Alkass Five | الكأس 5 | QA
+AlkassFour.qa@SD | Alkass Four | الكأس 4 | QA
+AlkassOne.qa@HD | Alkass One | الكأس 1 | QA
+AlkassOne.qa@SD | Alkass One | الكأس 1 | QA
+AlkassSeven.qa@SD | Alkass Seven | الكأس 7 | QA
+AlkassSix.qa@SD | Alkass Six | الكأس 6 | QA
+AlkassThree.qa@SD | Alkass Three | الكأس 3 | QA
+AlkassTwo.qa@HD | Alkass Two | الكأس 2 | QA
+AlkassTwo.qa@SD | Alkass Two | الكأس 2 | QA
+AlRayyanTV.qa@SD | Al Rayyan TV | الريان | QA
+Baraem.qa@SD | Baraem | براعم | QA
+beIN4K.qa@SD | beIN 4K |  | QA
+beINDrama1.qa@SD | beIN Drama 1 | بي إن دراما | QA
+beINGourmet.qa@SD | beIN Gourmet |  | QA
+beINMovies1Premiere.qa@SD | beIN Movies 1 Premiere | بي إن موفيز بريمير | QA
+beINMovies2Action.qa@SD | beIN Movies 2 Action | بي إن موفيز أكشن | QA
+beINMovies3Drama.qa@SD | beIN Movies 3 Drama | بي إن موفيز دراما | QA
+beINMovies4Family.qa@SD | beIN Movies 4 Family |  | QA
+beINSeries1.qa@SD | beIN Series 1 | بي إن سيريس | QA
+beINSeries2.qa@SD | beIN Series 2 | بي إن سيريس إتش... | QA
+beINSports.qa@Canada | beIN Sports |  | QA
+beINSports.qa@MENA | beIN Sports |  | QA
+beINSports1.qa@Australia | beIN Sports 1 |  | QA
+beINSports1.qa@France | beIN Sports 1 |  | QA
+beINSports1.qa@HongKong | beIN Sports 1 |  | QA
+beINSports1.qa@Indonesia | beIN Sports 1 |  | QA
+beINSports1.qa@Malaysia | beIN Sports 1 |  | QA
+beINSports1.qa@MENA | beIN Sports 1 |  | QA
+beINSports1.qa@Thailand | beIN Sports 1 |  | QA
+beINSports2.qa@Australia | beIN Sports 2 |  | QA
+beINSports2.qa@France | beIN Sports 2 |  | QA
+beINSports2.qa@HongKong | beIN Sports 2 |  | QA
+beINSports2.qa@MENA | beIN Sports 2 |  | QA
+beINSports2.qa@Thailand | beIN Sports 2 |  | QA
+beINSports3.qa@Australia | beIN Sports 3 |  | QA
+beINSports3.qa@France | beIN Sports 3 |  | QA
+beINSports3.qa@Indonesia | beIN Sports 3 |  | QA
+beINSports3.qa@MENA | beIN Sports 3 |  | QA
+beINSports3.qa@USA | beIN Sports 3 |  | QA
+beINSports4.qa@MENA | beIN Sports 4 |  | QA
+beINSports4.qa@USA | beIN Sports 4 |  | QA
+beINSports4KHDR.qa | beIN Sports 4K HDR |  | QA
+beINSports5.qa@MENA | beIN Sports 5 |  | QA
+beINSports5.qa@USA | beIN Sports 5 |  | QA
+beINSports6.qa@MENA | beIN Sports 6 |  | QA
+beINSports6.qa@USA | beIN Sports 6 |  | QA
+beINSports7.qa@MENA | beIN Sports 7 |  | QA
+beINSports7.qa@USA | beIN Sports 7 |  | QA
+beINSports8.qa@MENA | beIN Sports 8 |  | QA
+beINSports8.qa@USA | beIN Sports 8 |  | QA
+beINSports9.qa@MENA | beIN Sports 9 |  | QA
+beINSportsAFC.qa@SD | beIN Sports AFC |  | QA
+beINSportsAFC1.qa@SD | beIN Sports AFC 1 |  | QA
+beINSportsAFC2.qa@SD | beIN Sports AFC 2 |  | QA
+beINSportsAFC3.qa@SD | beIN Sports AFC 3 |  | QA
+beINSportsenEspanol.qa@SD | beIN Sports en Espanol |  | QA
+beINSportsMax1.qa@MENA | beIN Sports Max 1 |  | QA
+beINSportsMax10.qa@France | beIN Sports Max 10 |  | QA
+beINSportsMax2.qa@MENA | beIN Sports Max 2 |  | QA
+beINSportsMax3.qa@MENA | beIN Sports Max 3 |  | QA
+beINSportsMax4.qa@France | beIN Sports Max 4 |  | QA
+beINSportsMax4.qa@MENA | beIN Sports Max 4 |  | QA
+beINSportsMax5.qa@France | beIN Sports Max 5 |  | QA
+beINSportsMax5.qa@MENA | beIN Sports Max 5 |  | QA
+beINSportsMax6.qa@France | beIN Sports Max 6 |  | QA
+beINSportsMax6.qa@MENA | beIN Sports Max 6 |  | QA
+beINSportsMax7.qa@France | beIN Sports Max 7 |  | QA
+beINSportsMax8.qa@France | beIN Sports Max 8 |  | QA
+beINSportsMax9.qa@France | beIN Sports Max 9 |  | QA
+beINSportsNBA.qa@SD | beIN Sports NBA |  | QA
+beINSportsNews.qa@SD | beIN Sports News |  | QA
+beINSportsXtra1.qa@SD | beIN Sports Xtra 1 |  | QA
+beINSportsXtra2.qa@SD | beIN Sports Xtra 2 |  | QA
+BeJunior.qa@SD | Be Junior |  | QA
+JeemTV.qa@SD | JeemTV | تلفزيون جيم | QA
+QatarTelevision.qa@SD | Qatar Television | تلفزيون قطر | QA
+QatarTelevision2.qa@SD | Qatar Television 2 | قناة قطر 2 | QA
+RT.ru@SD | RT |  | RU
+RTArabic.ru@SD | RT Arabic | روسيا اليوم | RU
+AbdulmajeedAbdullah.sa@SD | Abdulmajeed Abdullah | عبدالمجيد عبدالله | SA
+Aflam.sa@SD | Aflam | أفلام | SA
+AlArabiyaEnglish.sa@SD | Al Arabiya English |  | SA
+AlEkhbariya.sa@SD | Al Ekhbariya | السعودية الإخبارية | SA
+AlHadath.sa@SD | Al Hadath | قناة الحدث | SA
+AlkhuzamaRadio.sa@SD | Alkhuzama Radio | خزامى راديو | SA
+AlMajdHolyQuran.sa@SD | Al-Majd Holy Quran |  | SA
+AlQuranAlKareemTV.sa@SD | Al Quran Al Kareem TV | القرآن الكريم | SA
+AlResalah.sa@SD | Al Resalah | الرساله | SA
+AlRiyadhRadio.sa@SD | Al Riyadh Radio | إذاعة الرياض | SA
+AlSahraaTV.sa@SD | Al Sahraa TV |  | SA
+AlSaudiya.sa@SD | Al Saudiya | السعودية | SA
+AlSaudiyaAlaan.sa@SD | Al Saudiya Alaan | السعودية الآن | SA
+AlSunnahAlNabawiyahTV.sa@SD | Al Sunnah Al Nabawiyah TV | السنة النبوية | SA
+ARTAflam1.sa@SD | ART Aflam 1 | افلام 1 | SA
+ARTAflam2.sa@SD | ART Aflam 2 | افلام 2 | SA
+ARTAmerica.sa@SD | ART America |  | SA
+ARTCinema.sa@SD | ART Cinema | سينما | SA
+ARTHekayat.sa@SD | ART Hekayat | حكايات | SA
+ARTHekayat2.sa@SD | ART Hekayat 2 | حكايات 2 | SA
+AsharqDiscovery.sa@SD | Asharq Discovery | الشرق ديسكفري | SA
+AsharqDocumentary.sa@SD | Asharq Documentary | الشرق الوثائقية | SA
+AsharqNews.sa@SD | Asharq News | الشرق للأخبار | SA
+BabAlHara.sa@SD | Bab Al Hara | باب الحارة | SA
+BigTimePlus.sa@SD | Big Time Plus |  | SA
+BinOthaimeen.sa@SD | Bin Othaimeen |  | SA
+Fairuz.sa@HD | Fairuz | فيروز | SA
+GoalZone.sa | Goal Zone |  | SA
+IqraaAfricaEurope.sa@SD | Iqraa Africa & Europe |  | SA
+IqraaArabic.sa | Iqraa Arabic | اقرأ | SA
+IqraaArabic.sa@SD | Iqraa Arabic | اقرأ | SA
+JeddahRadio.sa@SD | Jeddah Radio |  | SA
+KSASports1.sa@SD | KSA Sports 1 | القناة الرياضية السعودية | SA
+LBC.sa@SD | LBC | إل بي سي | SA
+MajidAlMohandis.sa@SD | Majid Al Mohandis | ماجد المهندس | SA
+MakkahTV.sa@SD | Makkah TV |  | SA
+Maraya.sa@HD | Maraya | مرايا‎ | SA
+Masah.sa@SD | Masah | ماسة | SA
+MBCMasrDrama.sa@SD | MBC Masr Drama | إم بي سي مصر دراما | SA
+MBCMood.sa@HD | MBC Mood |  | SA
+MBCPlusDrama.sa@SD | MBC+ Drama | إم بي سي دراما + | SA
+MohammedAbdo.sa@SD | Mohammed Abdo | محمد عبده | SA
+MoviesAction.sa@SD | Movies Action |  | SA
+MoviesThriller.sa@SD | Movies Thriller |  | SA
+MPlus.sa@SD | M+ |  | SA
+OyounAlWatanTV.sa@SD | Oyoun Al-Watan TV |  | SA
+PanoramaFM.sa@SD | Panorama FM |  | SA
+RabehSaqer.sa@HD | Rabeh Saqer | رابح صقر | SA
+RashidAlMajed.sa@SD | Rashid AlMajed | راشد الماجد | SA
+RotanaAflamPlus.sa@SD | Rotana Aflam+ |  | SA
+RotanaCinemaKSA.sa@SD | Rotana Cinema KSA | روتانا سينما السعودية | SA
+RotanaClassic.sa@SD | Rotana Classic | روتانا كلاسيك | SA
+RotanaClip.sa@SD | Rotana Clip | روتانا كليب | SA
+RotanaComedy.sa@SD | Rotana Comedy | روتانا كوميدي | SA
+RotanaDrama.sa@SD | Rotana Drama | روتانا دراما | SA
+RotanaKhalijia.sa@SD | Rotana Khalijia | روتانا خليجية | SA
+RotanaKids.sa@SD | Rotana Kids |  | SA
+RotanaMusic.sa@SD | Rotana Music |  | SA
+SaudiThaqafiyaTV.sa@SD | Saudi Thaqafiya TV | الثقافية السعودية | SA
+SBC.sa@SD | SBC | اس بي سي | SA
+Tarab.sa@SD | Tarab | طرب | SA
+ThikrayatTV.sa@SD | Thikrayat TV | قناة ذكريات | SA
+KhartoumTV.sd@SD | Khartoum TV | الخرطوم | SD
+SudanTV.sd@SD | Sudan TV | تلفزيون السودان | SD
+AlSouriyaTV.sy@HD | Al-Souriya TV | السورية | SY
+Althania.sy@SD | Althania | الثانية | SY
+HalabTodayTV.sy@SD | Halab Today TV | قناة حلب اليوم | SY
+SyriaTV.sy@SD | Syria TV |  | SY
+AlJanoubiyaTV.tn@SD | Al Janoubiya TV | قناة الجنوبية | TN
+AttessiaTV.tn@SD | Attessia TV | قناة الإنسان | TN
+CarthagePlus.tn@SD | Carthage+ |  | TN
+ElhiwarEttounsiTV.tn@SD | Elhiwar Ettounsi TV | الحوار التونسي | TN
+ElWatania1.tn@SD | El Watania 1 | الوطنية 1 | TN
+ElWatania2.tn@SD | El Watania 2 | الوطنية 2 | TN
+HannibalTV.tn@SD | Hannibal TV | قناة حنبعل | TN
+NessmaElJadida.tn@SD | Nessma El Jadida | الجديدة نسمة | TN
+TelvzaTV.tn@SD | Telvza TV | تلفزة تي في | TN
+TT1.tn@SD | TT1 |  | TN
+TunisnaTV.tn@SD | Tunisna TV | تونسنا | TN
+AlQanat9.tr@SD | Al Qanat 9 |  | TR
+TRTArabi.tr@SD | TRT Arabi |  | TR
+AlMustakillah.uk@SD | Al Mustakillah | المستقلة | UK
+AnimalPlanetEurope.uk@SD | Animal Planet Europe |  | UK
+BBCArabic.uk@SD | BBC Arabic | بي بي سي عربي | UK
+CartoonitoMENA.uk@SD | Cartoonito MENA |  | UK
+CartoonNetworkMENA.uk@SD | Cartoon Network MENA |  | UK
+CBeebiesMiddleEast.uk@SD | CBeebies Middle East |  | UK
+ClubMTVEurope.uk@SD | Club MTV Europe |  | UK
+DisneyChannelEMEA.uk@SD | Disney Channel EMEA |  | UK
+FIFAPlus.uk | FIFA+ |  | UK
+GINXTV.uk@SD | GINX TV |  | UK
+InvestigationDiscovery.uk@SD | Investigation Discovery |  | UK
+MoonbugKids.uk@SD | Moonbug Kids |  | UK
+MTA1World.uk@HD | MTA1 World |  | UK
+MTV80s.uk@SD | MTV 80s |  | UK
+MTV90s.uk@SD | MTV 90s |  | UK
+NationalGeographicMiddleEast.uk@SD | National Geographic Middle East | ناشيونال جيوجرافيك | UK
+TakbeerTV.uk@SD | Takbeer TV |  | UK
+AlHorreyaTV.us@SD | Al Horreya TV | قناة الحرية | US
+AlkarmaTVPraise.us@SD | Alkarma TV Praise |  | US
+AlmagdTV.us@SD | Almagd TV | قناة المجد | US
+BabyFirst.us@Brazil | BabyFirst |  | US
+BabyFirst.us@US | BabyFirst |  | US
+BloombergOriginals.us@SD | Bloomberg Originals |  | US
+BloombergTV.us@MiddleEast | Bloomberg TV |  | US
+CNNInternational.us@MENA | CNN International |  | US
+CrimePlusInvestigation.us@SD | Crime + Investigation |  | US
+DiscoveryChannelMiddleEastAfrica.us@SD | Discovery Channel Middle East & Africa | ديسكفري | US
+FoodNetworkEMEA.us@SD | Food Network EMEA |  | US
+FoxMoviesMiddleEast.us@SD | Fox Movies Middle East |  | US
+HGTVArabia.us@SD | HGTV Arabia |  | US
+History2MiddleEast.us@SD | History 2 Middle East |  | US
+HistoryMiddleEast.us@SD | History Middle East |  | US
+InvestigationDiscoveryEurope.us@SD | Investigation Discovery Europe |  | US
+MBC1USA.us@SD | MBC 1 USA |  | US
+MBC3USA.us@SD | MBC 3 USA |  | US
+MBCDramaUSA.us@SD | MBC Drama USA |  | US
+MBCMasrUSA.us@SD | MBC Masr USA |  | US
+TLCArabia.us@SD | TLC Arabia |  | US
+AdenTV.ye@SD | Aden TV | عدن | YE
+AlHawyah.ye@SD | Al-Hawyah | قناة الهوية | YE
+AllahdhahTV.ye@SD | Allahdhah TV |  | YE
+AlSahatTV.ye@SD | Al-Sahat TV | الساحات | YE
+HadhramautTV.ye@SD | Hadhramaut TV | تلفزيون حضرموت | YE
+YemenShababChannel.ye@SD | Yemen Shabab Channel | يمن شباب | YE
+YemenTV.ye@SD | Yemen TV | اليمن تي في | YE
